@@ -1,0 +1,33 @@
+<header class="header">
+  <div class="filter">
+    <app-navigation></app-navigation>
+    <h1 class="header__title">Attractions in Baku</h1>
+  </div>
+</header>
+<div class="attractions__nav">
+  <span>Baku Guide</span>
+  <span>></span>
+  <span>Attractions</span>
+  <span>></span>
+  <span>Top must see places</span>
+  <span>Associated Venues</span>
+</div>
+<main class="main">
+  <h1 class="top__attr">Top 10 must see places</h1>
+  <div class="attractions__slider">
+    <ng-image-slider
+      [images]="imageObject"
+      [infinite]="true"
+      [imageSize]="{ width: '420px', height: '300px' }"
+      [autoSlide]="{interval: 2, stopOnHover: true}"
+      #nav
+    ></ng-image-slider>
+  </div>
+  <h2 class="attractions__title">Associated Venues</h2>
+  <app-attraction [attr]="attr" *ngFor="let attr of attrs"></app-attraction>
+  <div class="paging">
+    <button class="page">1</button>
+    <button class="page">2</button>
+    <button class="page">3</button>
+  </div>
+</main>

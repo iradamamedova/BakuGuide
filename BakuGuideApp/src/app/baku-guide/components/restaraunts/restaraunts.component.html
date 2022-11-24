@@ -1,0 +1,28 @@
+<header class="header">
+  <div class="filter">
+    <app-navigation></app-navigation>
+    <h1 class="header__title">Restaurants in Baku</h1>
+  </div>
+</header>
+<div class="restaurants__nav">
+  <span>Baku Guide</span>
+  <span>></span>
+  <span>Food and Drink</span>
+  <span>></span>
+  <span>Restaurants</span>
+</div>
+<main class="main">
+  <div class="restaurant__slider">
+    <ng-image-slider
+      [images]="imageObject"
+      [infinite]="true"
+      [imageSize]="{ width: '420px', height: '300px' }"
+      [autoSlide]="{interval: 2, stopOnHover: true}"
+      #nav
+    ></ng-image-slider>
+  </div>
+</main>
+
+<div class="restaraunt-list">
+  <app-restaraunt [restaraunt]="restaraunt" *ngFor="let restaraunt of restaraunts"></app-restaraunt>
+</div>

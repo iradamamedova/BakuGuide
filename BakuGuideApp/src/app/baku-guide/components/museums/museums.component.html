@@ -1,0 +1,8 @@
+<h3>{{ pageName }}</h3>
+<div class="museum-list">
+  <ng-container *ngFor="let museum of museums; let i = index">
+    <div class="museum" *ngIf="museum">
+      <app-museum [museum]="museum" ></app-museum>
+    </div>
+  </ng-container>
+</div>

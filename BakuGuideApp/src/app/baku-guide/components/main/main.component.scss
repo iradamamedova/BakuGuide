@@ -1,0 +1,378 @@
+
+$grey: #333;
+$light-grey: #666;
+$beige: #f1f1f1;
+$white: #fff;
+%halfWidth {
+  display: inline-block;
+  width: 50%;
+}
+%uppercase {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+%position-center {
+  position: absolute;
+  right: 50%;
+  bottom: 50%;
+  transform: translate(50%, 50%);
+}
+@mixin fontSize($size, $weight) {
+  font-size: $size;
+  font-weight: $weight;
+}
+
+.header {
+  height: 100vh;
+  position: relative;
+  color: $white;
+  text-align: center;
+  background: url("../../../../assets/images/home-header.jpg") center/cover;
+  overflow: hidden;
+  &__filter {
+    width: 100%;
+    height: 100vh;
+    background-color: #020107c2;
+  }
+  &__title {
+    @extend %position-center;
+    .title {
+      &__content {
+        width: 100%;
+      }
+      &__h1 {
+        text-transform: capitalize;
+        @include fontSize(5em, 700);
+        transform: translate(-100%, 0);
+        transition: all 0.8s ease 0s;
+      }
+      &__quote {
+        @include fontSize(0.9em, 500);
+        font-style: italic;
+        margin-top: 10px;
+        color: #d1d1d1;
+        transform: translate(100%, 0);
+        transition: all 0.8s ease 0s;
+      }
+    }
+  }
+}
+.about {
+  padding: 50px;
+  height: 80vh;
+  text-align: center;
+  background-color: #f1f1f1;
+  &__title {
+    @include fontSize(2.5em, 200);
+    color: #444;
+    margin: 20px 0;
+  }
+  &__text {
+    @include fontSize(1.2em, 200);
+    letter-spacing: 1px;
+    color: #888;
+    width: 60%;
+    margin: auto;
+    padding: 10px 0;
+  }
+}
+
+.cloud1,
+.cloud2,
+.cloud3,
+.cloud4,
+.cloud5 {
+  position: absolute;
+  height: 500px;
+  background: url("../../../../assets/images/clouds.png") top left/500px;
+  background-repeat: no-repeat;
+}
+.cloud1 {
+  opacity: 0.05;
+  width: 700px;
+  top: 100px;
+  background-size: 800px;
+  animation: cloud1 55s linear -25s infinite;
+}
+.cloud2 {
+  opacity: 0.06;
+  width: 700px;
+  top: 70px;
+  background-size: 700px;
+  animation: cloud2 50s linear -10s infinite;
+}
+
+.cloud3 {
+  opacity: 0.07;
+  width: 700px;
+  top: 20px;
+  background-size: 800px;
+  animation: cloud1 35s linear -20s infinite;
+}
+.cloud4 {
+  opacity: 0.09;
+  width: 700px;
+  top: 0;
+  background-size: 800px;
+  animation: cloud1 40s linear -30s infinite;
+}
+.cloud5 {
+  opacity: 0.04;
+  width: 700px;
+  top: 120px;
+  background-size: 800px;
+  animation: cloud1 45s linear -40s infinite;
+}
+@keyframes cloud1 {
+  from {
+    left: 100%;
+  }
+  to {
+    left: -700px;
+  }
+}
+@keyframes cloud2 {
+  from {
+    left: 100%;
+  }
+  to {
+    left: -700px;
+  }
+}
+@keyframes cloud3 {
+  from {
+    left: 100%;
+  }
+  to {
+    left: -700px;
+  }
+}
+@keyframes cloud4 {
+  from {
+    left: 100%;
+  }
+  to {
+    left: -700px;
+  }
+}
+@keyframes cloud5 {
+  from {
+    left: 100%;
+  }
+  to {
+    left: -700px;
+  }
+}
+
+.reasons-to-visit {
+  color: #666;
+  height: 65vh;
+  padding: 50px 200px;
+  &__flex {
+    display: flex;
+    justify-content: space-between;
+    div {
+      width: 50%;
+      height: 65vh;
+    }
+  }
+  &__title {
+    @include fontSize(2.4em, 200);
+    hr {
+      border: 0;
+      border-top: 1px solid #ddd;
+      width: 80%;
+      float: left;
+      margin-bottom: 50px;
+    }
+  }
+  .slider {
+    width: 500px;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  .top__stuff {
+    display: inline-block;
+    width: 250px;
+    height: 140px;
+    background: #d1d1d1;
+    margin: 0 15px 15px 0;
+    position: relative;
+    cursor: pointer;
+    img {
+      width: 250px;
+      height: 140px;
+      position: absolute;
+      z-index: 0;
+    }
+    p {
+      position: absolute;
+      z-index: 1;
+      bottom: 0;
+      margin: 0;
+      color: #fff;
+      @include fontSize(1.3em, 500);
+      background-color: #00000064;
+      width: 100%;
+      padding: 8px;
+      box-sizing: border-box;
+    }
+  }
+  .top__stuff:hover {
+    p {
+     background-color: #000000be;
+     transition: .3s;
+     padding: 15px 8px;
+    }
+  }
+}
+.categories {
+  margin-top: 100px;
+  .category-list {
+    display: flex;
+    justify-content: center;
+    .category {
+      @include fontSize(1em, 600);
+      cursor: pointer;
+      border-radius: 10px;
+      background-color: #ec7c21;
+      color: #fff;
+      padding: 20px 35px;
+      margin: 20px;
+      img {
+        width: 40px;
+        vertical-align: middle;
+        margin: 0 7px;
+      }
+    }
+  }
+}
+.map {
+  display: inline-block;
+  background-color: #0f0f13;
+  width: 100%;
+  text-align: center;
+  padding: 40px 0;
+  .map-div {
+    display: inline-block;
+    width: 70%;
+    height: 70vh;
+  }
+  &__title {
+    display: block;
+    color: #fff;
+    @include fontSize(2.4em, 200);
+  }
+  hr {
+    border: 0;
+    border-top: 1px solid #444;
+    width: 60%;
+    margin-bottom: 50px;
+  }
+}
+.contact {
+  height: 80vh;
+  padding: 50px;
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  input {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px 0 15px 0;
+    font-size: 1em;
+    padding: 10px 12px 10px 50px;
+    box-sizing: border-box;
+    background-size: 20px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    outline: none;
+  }
+  input:focus {
+    border: 1px solid #666;
+    transition: all .4s linear;
+  }
+  input::placeholder {
+    color: #ddd;
+  }
+  button {
+    padding: 15px 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ec7c21;
+    text-transform: uppercase;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 20px;
+  }
+  button:hover {
+    background-color: #ec5a21;
+    transition: all .2s linear;
+  }
+  button:active {
+    box-shadow: 0 0 10px #020107c2;
+    background-color: #ec3521;
+  }
+  &__title {
+    @include fontSize(2.4em, 200);
+    color: #666;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  &__form {
+    @extend %position-center;
+    width: 45%;
+    transition: all .3s linear;
+    textarea {
+      font-size: 1em;
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      resize: vertical;
+      margin: 10px 0;
+      box-sizing: border-box;
+      outline: none;
+      font-family: "Manrope", sans-serif;
+    }
+    textarea:focus {
+      border: 1px solid #666;
+      transition: all .4s linear;
+    }
+    textarea::placeholder {
+      color: #ddd;
+    }
+  }
+  .form {
+    &__flex-inputs {
+      display: flex;
+      justify-content: space-between;
+      div {
+        width: 320px;
+        text-align: left;
+      }     
+    }
+    &__message {
+      text-align: left;
+    }
+    &__name { 
+      input {
+        background-image: url('../../../../assets/images/icon.png');
+      }
+    }
+    &__email {
+      input {
+        background-image: url('../../../../assets/images/envelope.png');
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1290px) {
+  .reasons-to-visit {
+    padding: 50px;
+  }
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "image": "./assets/images/nizamistreet.jpg",
+    "thumbImage": "./assets/images/nizamistreet.jpg",
+    "alt": "Nizami Street",
+    "title": "Nizami Street"
+  },
+  {
+    "image": "./assets/images/oldcity.jpg",
+    "thumbImage": "./assets/images/oldcity.jpg",
+    "alt": "Icheri Sheher",
+    "title": "Icheri Sheher"
+  },
+  {
+    "image": "./assets/images/shirvanshahs-palace.jpg",
+    "thumbImage": "./assets/images/shirvanshahs-palace.jpg",
+    "alt": "Shirvanshahs Palace",
+    "title": "Shirvanshahs Palace"
+  },
+  {
+    "image": "./assets/images/maidentower.jpg",
+    "thumbImage": "./assets/images/maidentower.jpg",
+    "alt": "Maiden Tower",
+    "title": "Maiden Tower"
+  },
+  {
+    "image": "./assets/images/highland.jpg",
+    "thumbImage": "./assets/images/highland.jpg",
+    "alt": "Highland Park",
+    "title": "Highland Park"
+  },
+  {
+    "image": "./assets/images/little-venice.jpg",
+    "thumbImage": "./assets/images/little-venice.jpg",
+    "alt": "Little Venice",
+    "title": "Little Venice"
+  },
+  {
+    "image": "./assets/images/boulevard.jpg",
+    "thumbImage": "./assets/images/boulevard.jpg",
+    "alt": "Boulevard",
+    "title": "Boulevard"
+  },
+  {
+    "image": "./assets/images/heydar-aliyev-centre.jpg",
+    "thumbImage": "./assets/images/heydar-aliyev-centre.jpg",
+    "alt": "Heydar Aliyev Center",
+    "title": "Heydar Aliyev Center"
+  },
+  {
+    "image": "./assets/images/ateshgah.jpg",
+    "thumbImage": "./assets/images/ateshgah.jpg",
+    "alt": "Ateshgah",
+    "title": "Ateshgah"
+  },
+  {
+    "image": "./assets/images/yanardag.jpg",
+    "thumbImage": "./assets/images/yanardag.jpg",
+    "alt": "Yanardag",
+    "titel": "Yanardag"
+  }
+]

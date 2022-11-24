@@ -1,0 +1,8 @@
+<h3>{{ pageName }}</h3>
+<div class="park-list">
+  <ng-container *ngFor="let park of parks; let i = index">
+    <div class="park" *ngIf="park">
+      <app-park [park]="park" ></app-park>
+    </div>
+  </ng-container>
+</div>

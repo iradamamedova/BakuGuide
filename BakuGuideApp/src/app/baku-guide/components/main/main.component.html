@@ -1,0 +1,157 @@
+<header class="header">
+  <div class="clouds">
+    <div class="cloud1"></div>
+    <div class="cloud2"></div>
+    <div class="cloud3"></div>
+    <div class="cloud4"></div>
+    <div class="cloud5"></div>
+  </div>
+  <div class="header__filter">
+    <app-navigation></app-navigation>
+    <div class="header__title">
+      <div class="title__content">
+        <h1 class="title__h1" [@title]="titleState">baku guide</h1>
+        <p class="title__p">Baku Tourism | Baku Guide</p>
+        <p class="title__quote" [@quote]="quoteState">
+          <span>&#10077;</span>
+          The fire of true enthusiasm is like the fires of Baku, which no water
+          can ever quench…
+          <span>&#10078;</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</header>
+<main>
+  <section class="about">
+    <h3 class="about__title">About Us</h3>
+    <p class="about__text">
+      Planning to visit Baku? Discover what are the best attractions in the
+      city, what you can do there, where you can hang out, where to eat and
+      more, in the best guide to Baku, from Baku Guide.
+    </p>
+    <p class="about__text">
+      On the fault line between East and West, Baku is unlike anywhere else on
+      earth. Azerbaijan's capital offers a fascinating Soviet legacy, soaring
+      towers that could have been transplanted from Shanghai, along with a
+      beautiful ancient center. Contradictory it may be, but Baku is always a
+      delight.
+    </p>
+    <div class="categories">
+      <div class="category-list">
+        <div class="category" [@pulse]="trigger">
+          <img src="../../../../assets/images/foodanddrink.png" alt="" />
+          Food & Drink
+        </div>
+        <div class="category" [@pulse]="trigger">
+          <img src="../../../../assets/images/stickers.png" alt="" />
+          Things to do
+        </div>
+        <div class="category" [@pulse]="trigger">
+          <img src="../../../../assets/images/suitcase (1).png" alt="" />
+          Popular tours
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="reasons-to-visit">
+    <div class="reasons-to-visit__flex">
+      <div class="reasons-to-visit__slider">
+        <h3 class="reasons-to-visit__title">
+          Explore Baku
+          <hr />
+        </h3>
+        <div class="slider">
+          <ng-image-slider
+            [images]="imageObject"
+            [infinite]="true"
+            [imageSize]="{ width: '500px', height: '300px' }"
+            [autoSlide]="{ interval: 1, stopOnHover: true }"
+            #nav
+          ></ng-image-slider>
+        </div>
+      </div>
+      <div class="reasons-to-visit__top">
+        <h3 class="reasons-to-visit__title">
+          Things To See In Baku
+          <hr />
+        </h3>
+        <div class="top__stuff">
+          <img
+            src="../../../../assets/images/flameTowers.jpg"
+            alt=""
+            srcset=""
+          />
+          <p>Top attractions</p>
+        </div>
+        <div class="top__stuff">
+          <img
+            src="../../../../assets/images/heydar-aliyev-centre.jpg"
+            alt=""
+            srcset=""
+          />
+          <p>Top museums</p>
+        </div>
+        <div class="top__stuff">
+          <img
+            src="../../../../assets/images/centralpark.jpg"
+            alt=""
+            srcset=""
+          />
+          <p>Top parks</p>
+        </div>
+        <div class="top__stuff">
+          <img src="../../../../assets/images/theatre.jpg" alt="" srcset="" />
+          <p>Top theatres</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="map">
+    <h3 class="map__title">Welcome to Baku!</h3>
+    <hr />
+    <div class="map-div">
+      <google-map
+        width="100%"
+        [center]="center"
+        [zoom]="zoom"
+        (mapClick)="moveMap($event)"
+        (mapMousemove)="move($event)"
+      >
+        <map-info-window></map-info-window>
+        <map-marker
+          #marker="mapMarker"
+          *ngFor="let markerPosition of markerPositions"
+          [position]="markerPosition"
+          (mapClick)="openInfoWindow(marker)"
+        ></map-marker>
+      </google-map>
+    </div>
+  </section>
+  <section class="contact">
+    <h3 class="contact__title">Keep in touch</h3>
+    <form class="contact__form" action="">
+      <div class="form__flex-inputs">
+        <div class="form__name">
+          <label class="label" for="name">Name</label>
+          <input type="text" name="name" id="name" placeholder="Name" />
+        </div>
+        <div class="form__email">
+          <label class="label" for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="Email" />
+        </div>
+      </div> 
+      <div class="form__message">
+        <label class="label" for="textarea">Message</label>
+        <textarea
+          name="message"
+          id="textarea"
+          cols="30"
+          rows="5"
+          placeholder="Tell us your thoughts..."
+        ></textarea>
+      </div> 
+      <button type="submit">send message</button>
+    </form>
+  </section>
+</main>

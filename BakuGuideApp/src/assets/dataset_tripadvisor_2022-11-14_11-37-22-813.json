@@ -1,0 +1,7694 @@
+[{
+  "id": "4167147",
+  "type": "RESTAURANT",
+  "name": "Zest Lifestyle Cafe",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/07/e0/82/d3/zest-lifestyle-cafe.jpg",
+  "awards": [],
+  "rankingPosition": "52",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 499 88 88",
+  "address": "674 Azadliq Square JW Marriott Hotel Absheron Baku, Baku AZ1010 Azerbaijan",
+  "email": "zest@marriott.com",
+  "cuisine": [
+    "Mediterranean",
+    "Cafe",
+    "European",
+    "Healthy",
+    "Middle Eastern",
+    "Azerbaijani",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options",
+    "Halal"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options",
+    "Halal"
+  ],
+  "hours": [
+    [
+      {
+        "open": 360,
+        "close": 900
+      }
+    ],
+    [
+      {
+        "open": 360,
+        "close": 900
+      }
+    ],
+    [
+      {
+        "open": 360,
+        "close": 900
+      }
+    ],
+    [
+      {
+        "open": 360,
+        "close": 900
+      }
+    ],
+    [
+      {
+        "open": 360,
+        "close": 900
+      }
+    ],
+    [
+      {
+        "open": 360,
+        "close": 900
+      }
+    ],
+    [
+      {
+        "open": 360,
+        "close": 900
+      }
+    ]
+  ],
+  "latitude": "40.37512",
+  "longitude": "49.85395",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d4167147-Reviews-Zest_Lifestyle_Cafe-Baku_Absheron_Region.html",
+  "website": "http://absherondining.com/zest_lifestyle_cafe",
+  "rankingDenominator": "841",
+  "rankingString": "#50 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "138",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "5281540",
+  "type": "RESTAURANT",
+  "name": "Cay Evi 145",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/10/4a/25/13/cay-evi.jpg",
+  "awards": [],
+  "rankingPosition": "54",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 480 00 19",
+  "address": "Neftchiler Avenue 115, Baku 1000 Azerbaijan",
+  "email": "info@145group.com",
+  "cuisine": [
+    "Middle Eastern",
+    "Azerbaijani",
+    "Fast Food",
+    "Grill"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [],
+  "hours": [
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ]
+  ],
+  "latitude": "40.374462",
+  "longitude": "49.85888",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d5281540-Reviews-Cay_Evi_145-Baku_Absheron_Region.html",
+  "website": "http://145group.com/",
+  "rankingDenominator": "841",
+  "rankingString": "#52 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "118",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "14000843",
+  "type": "RESTAURANT",
+  "name": "People Livebar",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/1a/e9/2f/94/pre-party-time.jpg",
+  "awards": [],
+  "rankingPosition": "56",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "5.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 50 710 00 11",
+  "address": "Nizami 69, ISR Plaza ISR Plaza, 1st Floor, Baku AZ 1005 Azerbaijan",
+  "email": "people.livebar@gmail.com",
+  "cuisine": [
+    "European",
+    "Azerbaijani",
+    "Cafe",
+    "Bar",
+    "Pub",
+    "Central European"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [],
+  "hours": [
+    [
+      {
+        "open": 540,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1680
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1680
+      }
+    ]
+  ],
+  "latitude": "40.372128",
+  "longitude": "49.83656",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d14000843-Reviews-People_Livebar-Baku_Absheron_Region.html",
+  "website": "https://www.facebook.com/people.livebar/",
+  "rankingDenominator": "841",
+  "rankingString": "#54 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "50",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "7945721",
+  "type": "RESTAURANT",
+  "name": "GATE 25",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/0e/3b/f3/88/caption.jpg",
+  "awards": [],
+  "rankingPosition": "55",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 50 299 25 25",
+  "address": "Khojaly Avenue, 37B Demirchi Tower, Baku Azerbaijan",
+  "cuisine": [
+    "Asian",
+    "Mediterranean",
+    "European",
+    "Azerbaijani",
+    "International",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 720,
+        "close": 1500
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1500
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1500
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1500
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1500
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1500
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1500
+      }
+    ]
+  ],
+  "latitude": "40.38288",
+  "longitude": "49.87156",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d7945721-Reviews-GATE_25-Baku_Absheron_Region.html",
+  "website": "http://www.facebook.com/gate25.az",
+  "rankingDenominator": "841",
+  "rankingString": "#53 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "206",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "12814136",
+  "type": "RESTAURANT",
+  "name": "Central Baku",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/15/c1/4f/23/central-baku.jpg",
+  "awards": [],
+  "rankingPosition": "58",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 50 502 45 55",
+  "address": "Nizami St., 75, Baku 1005 Azerbaijan",
+  "cuisine": [
+    "Cafe",
+    "European",
+    "Central European",
+    "Azerbaijani",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 480,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1560
+      }
+    ]
+  ],
+  "latitude": "40.372486",
+  "longitude": "49.838585",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d12814136-Reviews-Central_Baku-Baku_Absheron_Region.html",
+  "website": "http://www.centralbaku.az",
+  "rankingDenominator": "841",
+  "rankingString": "#56 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "168",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "16783670",
+  "type": "RESTAURANT",
+  "name": "Agora Club Restaurant & Wine Bar",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-w/19/7d/b9/d2/love-to-be-here.jpg",
+  "awards": [],
+  "rankingPosition": "59",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 50 246 72 00",
+  "address": "Neftchiler ave., 87, Baku Azerbaijan",
+  "email": "agoraclubwine@gmail.com",
+  "cuisine": [
+    "Mediterranean",
+    "Turkish",
+    "Wine Bar",
+    "Azerbaijani",
+    "Seafood"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [],
+  "hours": [
+    [
+      {
+        "open": 600,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1440
+      }
+    ]
+  ],
+  "latitude": "40.364376",
+  "longitude": "49.835846",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d16783670-Reviews-Agora_Club_Restaurant_Wine_Bar-Baku_Absheron_Region.html",
+  "website": "http://agoraclubrestaurant.business.site",
+  "rankingDenominator": "841",
+  "rankingString": "#57 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "107",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "4299457",
+  "type": "RESTAURANT",
+  "name": "Tongal",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/0c/d1/14/40/tongal.jpg",
+  "awards": [],
+  "rankingPosition": "51",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 50 210 35 53",
+  "address": "82, Acad. Hasan Aliyev Street, Baku Azerbaijan",
+  "email": "restaurant@tonqal.az",
+  "cuisine": [
+    "Azerbaijani",
+    "Barbecue",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 600,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1440
+      }
+    ]
+  ],
+  "latitude": "40.401424",
+  "longitude": "49.84655",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d4299457-Reviews-Tongal-Baku_Absheron_Region.html",
+  "website": "http://www.tonqal.az",
+  "rankingDenominator": "841",
+  "rankingString": "#49 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "207",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "19932515",
+  "type": "RESTAURANT",
+  "name": "Green House Asian Kitchen",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1b/98/ef/9c/green-house-asian-white.jpg",
+  "awards": [],
+  "rankingPosition": "57",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "5.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 310 00 10",
+  "address": "Khagani Rustamov Street, 4C, Baku 1010 Azerbaijan",
+  "cuisine": [
+    "Asian",
+    "Vegetarian Friendly",
+    "Vegan Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 840,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 840,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 840,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 840,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 840,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 840,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 840,
+        "close": 1380
+      }
+    ]
+  ],
+  "latitude": "40.37491",
+  "longitude": "49.88399",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d19932515-Reviews-Green_House_Asian_Kitchen-Baku_Absheron_Region.html",
+  "website": "http://www.facebook.com/greenhouseasiankitchen",
+  "rankingDenominator": "841",
+  "rankingString": "#55 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "58",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "11662701",
+  "type": "RESTAURANT",
+  "name": "White City Restaurant & Bar",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/0d/8d/f0/2a/white-city-bar.jpg",
+  "awards": [],
+  "rankingPosition": "53",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 50 229 22 28",
+  "address": "Khagani Rustamov Street 4C, Baku 1010 Azerbaijan",
+  "email": "info.boulevard@absheronhotelgroup.com",
+  "cuisine": [
+    "Bar",
+    "International",
+    "Mediterranean",
+    "European",
+    "Asian",
+    "Azerbaijani",
+    "Vegetarian Friendly",
+    "Vegan Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 480,
+        "close": 1425
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1425
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1425
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1425
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1425
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1425
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1425
+      }
+    ]
+  ],
+  "latitude": "40.375103",
+  "longitude": "49.88333",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d11662701-Reviews-White_City_Restaurant_Bar-Baku_Absheron_Region.html",
+  "website": "https://www.marriott.com/hotels/hotel-information/restaurant/gydak-boulevard-hotel-baku-autograph-collection/?scid=45f93f1b-bd77-45c9-8dab-83b6a417f6fe&y_source=1_MTM3MDgxODItNzY5LWxvY2F0aW9uLndlYnNpdGU%3D",
+  "rankingDenominator": "841",
+  "rankingString": "#51 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "79",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "15123663",
+  "type": "RESTAURANT",
+  "name": "Partizan Restaurant",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/15/00/68/1f/caption.jpg",
+  "awards": [],
+  "rankingPosition": "60",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 77 619 41 45",
+  "address": "Bashir Safar-Oghlu 199, Baku 1000 Azerbaijan",
+  "email": "partizanbaku@mail.ru",
+  "cuisine": [
+    "Eastern European",
+    "Healthy",
+    "Caucasian",
+    "Azerbaijani"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [],
+  "hours": [
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ]
+  ],
+  "latitude": "40.375134",
+  "longitude": "49.84066",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d15123663-Reviews-Partizan_Restaurant-Baku_Absheron_Region.html",
+  "website": "http://www.facebook.com/partizanrestaurant",
+  "rankingDenominator": "841",
+  "rankingString": "#58 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "68",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "4353675",
+  "type": "RESTAURANT",
+  "name": "Sirvansah Musey Restaurant",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/07/6a/d3/d6/caption.jpg",
+  "awards": [],
+  "rankingPosition": "62",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 595 09 01",
+  "address": "Salatin Asgerova, 86, Baku Azerbaijan",
+  "email": "shrestoran@gmail.com",
+  "cuisine": [
+    "European",
+    "Georgian",
+    "Azerbaijani",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "hours": [],
+  "latitude": "40.379543",
+  "longitude": "49.83372",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d4353675-Reviews-Sirvansah_Musey_Restaurant-Baku_Absheron_Region.html",
+  "website": "http://www.facebook.com/shirvanshahmuzeyrestoran",
+  "rankingDenominator": "841",
+  "rankingString": "#60 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "570",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "17432969",
+  "type": "RESTAURANT",
+  "name": "Sushi Room Baku",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/18/9b/f9/bb/caption.jpg",
+  "awards": [],
+  "rankingPosition": "65",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "5.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 55 587 90 30",
+  "address": "91 Nizami Street, Baku 1010 Azerbaijan",
+  "email": "akhundov@live.com",
+  "cuisine": [
+    "Japanese",
+    "Seafood",
+    "Sushi",
+    "Asian",
+    "Cafe",
+    "Vegetarian Friendly"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly"
+  ],
+  "hours": [
+    [
+      {
+        "open": 660,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1380
+      }
+    ]
+  ],
+  "latitude": "40.373165",
+  "longitude": "49.840622",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d17432969-Reviews-Sushi_Room_Baku-Baku_Absheron_Region.html",
+  "website": "http://sushiroom.az/",
+  "rankingDenominator": "841",
+  "rankingString": "#63 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "64",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "3387096",
+  "type": "RESTAURANT",
+  "name": "Terrace 145",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/25/60/bd/98/2.jpg",
+  "awards": [],
+  "rankingPosition": "64",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 70 700 01 45",
+  "address": "Boyuk Gala, Icheri Sheher 20 Sultan Inn Boutique Hotel, Baku 1000 Azerbaijan",
+  "email": "info@sultaninn.com",
+  "cuisine": [
+    "European",
+    "Mexican",
+    "Grill",
+    "Azerbaijani",
+    "Vegetarian Friendly"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly"
+  ],
+  "hours": [
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ]
+  ],
+  "latitude": "40.366432",
+  "longitude": "49.836273",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d3387096-Reviews-Terrace_145-Baku_Absheron_Region.html",
+  "website": "http://sultaninn.com/en/index.php/rests/2-uncategorised/8-terrace-garden",
+  "rankingDenominator": "841",
+  "rankingString": "#62 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "127",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "18935786",
+  "type": "RESTAURANT",
+  "name": "Meatadore",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/19/3f/f5/96/burgers-and-philly-cheesesteak.jpg",
+  "awards": [],
+  "rankingPosition": "61",
+  "priceLevel": "$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 50 770 99 66",
+  "address": "Haji Zeynalabdin Tahiyev St., 6A, Baku Azerbaijan",
+  "email": "azar.alakbarli@gmail.com",
+  "cuisine": [
+    "American",
+    "Fast Food",
+    "Vegetarian Friendly"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly"
+  ],
+  "hours": [
+    [
+      {
+        "open": 720,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1380
+      }
+    ]
+  ],
+  "latitude": "40.369827",
+  "longitude": "49.839424",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d18935786-Reviews-Meatadore-Baku_Absheron_Region.html",
+  "website": "http://www.facebook.com/meatadore",
+  "rankingDenominator": "841",
+  "rankingString": "#59 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "76",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "9562869",
+  "type": "RESTAURANT",
+  "name": "Manqal Restaurant",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/09/c2/74/86/getlstd-property-photo.jpg",
+  "awards": [],
+  "rankingPosition": "67",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 55 920 10 15",
+  "address": "Kichik Gala Street 19, Baku Azerbaijan",
+  "cuisine": [
+    "Barbecue",
+    "Middle Eastern",
+    "Halal"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Halal"
+  ],
+  "hours": [
+    [
+      {
+        "open": 0,
+        "close": 180
+      },
+      {
+        "open": 540,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1380
+      }
+    ]
+  ],
+  "latitude": "40.36866",
+  "longitude": "49.835632",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d9562869-Reviews-Manqal_Restaurant-Baku_Absheron_Region.html",
+  "website": "http://www.facebook.com/restoranmanqal/",
+  "rankingDenominator": "841",
+  "rankingString": "#65 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "287",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "6695016",
+  "type": "RESTAURANT",
+  "name": "GunaydIn",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-s/06/c8/fb/96/the-superb-kebabs.jpg",
+  "awards": [],
+  "rankingPosition": "69",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 50 290 06 06",
+  "address": "Khatai Ave 51, Baku Azerbaijan",
+  "email": "gunaydin.baku@gmail.com",
+  "cuisine": [
+    "Barbecue",
+    "Turkish",
+    "Middle Eastern",
+    "Vegetarian Friendly",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "hours": [
+    [],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    []
+  ],
+  "latitude": "40.39221",
+  "longitude": "49.863617",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d6695016-Reviews-GunaydIn-Baku_Absheron_Region.html",
+  "website": "http://www.gunaydinet.com",
+  "rankingDenominator": "841",
+  "rankingString": "#67 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "209",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "21281256",
+  "type": "RESTAURANT",
+  "name": "Latitude & Longitude Bar Lounge",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1c/2a/23/06/latitude-longitude-bar.jpg",
+  "awards": [],
+  "rankingPosition": "68",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "5.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 51 206 85 81",
+  "address": "4/6 Aziz Aliyev Street The Merchant Baku Hotel, Baku 1000 Azerbaijan",
+  "email": "info@themerchantbaku.com",
+  "cuisine": [
+    "International",
+    "Azerbaijani",
+    "Fusion",
+    "Healthy"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [],
+  "hours": [
+    [
+      {
+        "open": 450,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 450,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 450,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 450,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 450,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 450,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 450,
+        "close": 1440
+      }
+    ]
+  ],
+  "latitude": "40.368866",
+  "longitude": "49.837738",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d21281256-Reviews-Latitude_Longitude_Bar_Lounge-Baku_Absheron_Region.html",
+  "website": "http://themerchantbaku.com/dining/",
+  "rankingDenominator": "841",
+  "rankingString": "#66 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "46",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "20207274",
+  "type": "RESTAURANT",
+  "name": "City Pub",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/25/44/a2/7c/beer-sets.jpg",
+  "awards": [],
+  "rankingPosition": "63",
+  "priceLevel": "$$$$",
+  "category": "restaurant",
+  "rating": "5.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 51 598 47 27",
+  "address": "Abdulla Saiq 241B, Baku 1000 Azerbaijan",
+  "email": "citypub@cafecity.az",
+  "cuisine": [
+    "European",
+    "Eastern European",
+    "Azerbaijani"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [],
+  "hours": [
+    [
+      {
+        "open": 960,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 960,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 960,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 960,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 960,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 960,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 960,
+        "close": 1560
+      }
+    ]
+  ],
+  "latitude": "40.383034",
+  "longitude": "49.823483",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d20207274-Reviews-City_Pub-Baku_Absheron_Region.html",
+  "website": "https://cafecity.az/restaurant/city-pub",
+  "rankingDenominator": "841",
+  "rankingString": "#61 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "42",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "14052122",
+  "type": "RESTAURANT",
+  "name": "Dolce Vita",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/12/8e/15/30/getlstd-property-photo.jpg",
+  "awards": [],
+  "rankingPosition": "66",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 70 490 40 22",
+  "address": "Aziz Aliyev St., 19, Baku 1005 Azerbaijan",
+  "cuisine": [
+    "Italian",
+    "European",
+    "Wine Bar",
+    "Pizza",
+    "Mediterranean",
+    "Vegetarian Friendly"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly"
+  ],
+  "hours": [
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ]
+  ],
+  "latitude": "40.36862",
+  "longitude": "49.837326",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d14052122-Reviews-Dolce_Vita-Baku_Absheron_Region.html",
+  "website": "https://www.facebook.com/dolcevitabaku",
+  "rankingDenominator": "841",
+  "rankingString": "#64 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "108",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "6522592",
+  "type": "RESTAURANT",
+  "name": "PAUL",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/07/6e/f9/93/paul-azerbaijan.jpg",
+  "awards": [],
+  "rankingPosition": "70",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 50 464 07 70",
+  "address": "Neftchiler Ave., 153, Baku AZ1010 Azerbaijan",
+  "cuisine": [
+    "European",
+    "French",
+    "Cafe",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ]
+  ],
+  "latitude": "40.375874",
+  "longitude": "49.861073",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d6522592-Reviews-PAUL-Baku_Absheron_Region.html",
+  "website": "https://www.facebook.com/PAUL.Azerbaijan/?hc_ref=PAGES_TIMELINE&fref=nf",
+  "rankingDenominator": "841",
+  "rankingString": "#1 of 7 Bakeries in Baku",
+  "numberOfReviews": "244",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "7693410",
+  "type": "RESTAURANT",
+  "name": "Mangal Steak House",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/09/3f/18/72/mangal-steak-house.jpg",
+  "awards": [],
+  "rankingPosition": "73",
+  "priceLevel": "$$$$",
+  "category": "restaurant",
+  "rating": "4.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 50 228 10 11",
+  "address": "Mirza Mustafayev st., 3, Baku Azerbaijan",
+  "cuisine": [
+    "Steakhouse",
+    "Barbecue",
+    "Turkish",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "hours": [],
+  "latitude": "40.343143",
+  "longitude": "49.841743",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d7693410-Reviews-Mangal_Steak_House-Baku_Absheron_Region.html",
+  "website": "http://www.facebook.com/Mangal.Steak.House1",
+  "rankingDenominator": "841",
+  "rankingString": "#70 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "340",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "6847850",
+  "type": "RESTAURANT",
+  "name": "Elvet Steakhouse",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/06/22/d4/09/getlstd-property-photo.jpg",
+  "awards": [],
+  "rankingPosition": "71",
+  "priceLevel": "$$$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 567 64 64",
+  "address": "Hasanoglu Kucesi No: 6 Nerimanov, Baku Azerbaijan",
+  "email": "info@elvetsteakhouse.com",
+  "cuisine": [
+    "Steakhouse",
+    "Barbecue",
+    "European",
+    "Gluten Free Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Gluten Free Options"
+  ],
+  "hours": [],
+  "latitude": "40.397038",
+  "longitude": "49.869827",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d6847850-Reviews-Elvet_Steakhouse-Baku_Absheron_Region.html",
+  "website": "http://www.elvetsteakhouse.com/index",
+  "rankingDenominator": "841",
+  "rankingString": "#68 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "219",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "2524034",
+  "type": "RESTAURANT",
+  "name": "Fillet House",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/05/57/0e/4c/caption.jpg",
+  "awards": [],
+  "rankingPosition": "78",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 50 222 27 70",
+  "address": "145 Neftchilar avenue, Baku Azerbaijan",
+  "email": "fillethousebaku@gmail.com",
+  "cuisine": [
+    "Steakhouse",
+    "European"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [],
+  "hours": [
+    [
+      {
+        "open": 0,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1380
+      }
+    ]
+  ],
+  "latitude": "40.374542",
+  "longitude": "49.85944",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d2524034-Reviews-Fillet_House-Baku_Absheron_Region.html",
+  "website": "http://www.facebook.com/FilletHouseBaku/",
+  "rankingDenominator": "841",
+  "rankingString": "#75 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "102",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "10431000",
+  "type": "RESTAURANT",
+  "name": "KEFLI Local Wine & Snacks",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/12/a4/e7/1c/welcome-to-kefli-local.jpg",
+  "awards": [],
+  "rankingPosition": "72",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 51 308 99 09",
+  "address": "Terlan Eliyarbeyov St., 4 A, Baku 1005 Azerbaijan",
+  "email": "kefliwinebar@gmail.com",
+  "cuisine": [
+    "Bar",
+    "Wine Bar",
+    "Gastropub",
+    "Azerbaijani"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [],
+  "hours": [
+    [
+      {
+        "open": 900,
+        "close": 1500
+      }
+    ],
+    [
+      {
+        "open": 900,
+        "close": 1500
+      }
+    ],
+    [
+      {
+        "open": 900,
+        "close": 1500
+      }
+    ],
+    [
+      {
+        "open": 900,
+        "close": 1500
+      }
+    ],
+    [
+      {
+        "open": 900,
+        "close": 1500
+      }
+    ],
+    [
+      {
+        "open": 900,
+        "close": 1620
+      }
+    ],
+    [
+      {
+        "open": 900,
+        "close": 1620
+      }
+    ]
+  ],
+  "latitude": "40.36819",
+  "longitude": "49.839928",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d10431000-Reviews-KEFLI_Local_Wine_Snacks-Baku_Absheron_Region.html",
+  "website": "http://www.facebook.com/kefliwinebar/",
+  "rankingDenominator": "841",
+  "rankingString": "#69 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "64",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "3397227",
+  "type": "RESTAURANT",
+  "name": "Namaste",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/11/c8/3d/0a/welcome-to-namaste-where.jpg",
+  "awards": [],
+  "rankingPosition": "80",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 55 288 24 08",
+  "address": "Terlan Eliyarbeyov 12, Baku 1005 Azerbaijan",
+  "email": "namastebaku@gmail.com",
+  "cuisine": [
+    "Indian",
+    "Arabic",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ]
+  ],
+  "latitude": "40.3701",
+  "longitude": "49.838093",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d3397227-Reviews-Namaste-Baku_Absheron_Region.html",
+  "website": "http://website-namaste-restaurant.business.site/",
+  "rankingDenominator": "841",
+  "rankingString": "#76 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "118",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "23405207",
+  "type": "RESTAURANT",
+  "name": "BESH Gastropub",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1d/01/d5/3d/besh-gastropub.jpg",
+  "awards": [],
+  "rankingPosition": "76",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "5.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 310 40 40",
+  "address": "29 M.Fuzuli Street Intersection of M. Fuzuli And A. Topchubashov Streets, Baku AZ1009 Azerbaijan",
+  "email": "info@courtyardbaku.com",
+  "cuisine": [
+    "International",
+    "Contemporary",
+    "Azerbaijani",
+    "European",
+    "Italian",
+    "Bar",
+    "Pub"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [],
+  "hours": [
+    [
+      {
+        "open": 390,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 390,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 390,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 390,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 390,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 390,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 390,
+        "close": 1440
+      }
+    ]
+  ],
+  "latitude": "40.376713",
+  "longitude": "49.835472",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d23405207-Reviews-BESH_Gastropub-Baku_Absheron_Region.html",
+  "website": "http://www.marriott.com/hotels/hotel-information/restaurant/gydcy-courtyard-baku/",
+  "rankingDenominator": "841",
+  "rankingString": "#73 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "25",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "7116764",
+  "type": "RESTAURANT",
+  "name": "Entree Az",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/07/52/79/62/desserts.jpg",
+  "awards": [],
+  "rankingPosition": "79",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 55 505 95 91",
+  "address": "Nigar Refibeyli Kucesi 26G Kecmis Torqovi, Baku Azerbaijan",
+  "cuisine": [
+    "French",
+    "Cafe",
+    "European",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 480,
+        "close": 1320
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1320
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1320
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1320
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1320
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1320
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1320
+      }
+    ]
+  ],
+  "latitude": "40.37772",
+  "longitude": "49.847668",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d7116764-Reviews-Entree_Az-Baku_Absheron_Region.html",
+  "website": "https://www.facebook.com/pages/Entree-Az/583385821788652?fref=ts",
+  "rankingDenominator": "841",
+  "rankingString": "#1 of 17 Quick Bites in Baku",
+  "numberOfReviews": "135",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "24057072",
+  "type": "RESTAURANT",
+  "name": "Black City Lounge & Terrace",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/25/19/a3/1f/food.jpg",
+  "awards": [],
+  "rankingPosition": "75",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "5.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 50 229 22 28",
+  "address": "Khagani Rustamov 4c, Baku 1010 Azerbaijan",
+  "cuisine": [
+    "Bar",
+    "Azerbaijani",
+    "Beer restaurants",
+    "Grill"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [],
+  "hours": [
+    [
+      {
+        "open": 1080,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 1080,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 1080,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 1080,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 1080,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 1080,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 1080,
+        "close": 1560
+      }
+    ]
+  ],
+  "latitude": "40.37476",
+  "longitude": "49.882984",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d24057072-Reviews-Black_City_Lounge_Terrace-Baku_Absheron_Region.html",
+  "rankingDenominator": "841",
+  "rankingString": "#72 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "23",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "11443863",
+  "type": "RESTAURANT",
+  "name": "Fisincan Restaurant",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/0d/28/48/65/admin.jpg",
+  "awards": [],
+  "rankingPosition": "77",
+  "priceLevel": "$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 70 877 87 27",
+  "address": "Azadliq St., 116, Baku Azerbaijan",
+  "cuisine": [
+    "European",
+    "Georgian",
+    "Azerbaijani",
+    "Vegetarian Friendly"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly"
+  ],
+  "hours": [
+    [
+      {
+        "open": 660,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1440
+      }
+    ]
+  ],
+  "latitude": "40.40005",
+  "longitude": "49.838642",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d11443863-Reviews-Fisincan_Restaurant-Baku_Absheron_Region.html",
+  "website": "https://www.facebook.com/Fisincan-Restoran-1462515390705609/",
+  "rankingDenominator": "841",
+  "rankingString": "#74 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "65",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "6276889",
+  "type": "RESTAURANT",
+  "name": "Vapiano",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/05/96/dd/1d/timofey.jpg",
+  "awards": [],
+  "rankingPosition": "74",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 598 81 18",
+  "address": "U. Hajibeyov St. 8, Baku 1000 Azerbaijan",
+  "email": "info@vapiano.az",
+  "cuisine": [
+    "Italian",
+    "Pizza",
+    "Mediterranean",
+    "European",
+    "Vegetarian Friendly",
+    "Vegan Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 660,
+        "close": 1440
+      },
+      {
+        "open": 660,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1440
+      },
+      {
+        "open": 660,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1440
+      },
+      {
+        "open": 660,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1440
+      },
+      {
+        "open": 660,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1440
+      },
+      {
+        "open": 660,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1440
+      },
+      {
+        "open": 660,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1440
+      },
+      {
+        "open": 660,
+        "close": 1380
+      }
+    ]
+  ],
+  "latitude": "40.370937",
+  "longitude": "49.84092",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d6276889-Reviews-Vapiano-Baku_Absheron_Region.html",
+  "website": "http://www.vapiano.com",
+  "rankingDenominator": "841",
+  "rankingString": "#71 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "274",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "17528540",
+  "type": "RESTAURANT",
+  "name": "Bool Bool Dog",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/18/13/ab/2e/bool-bool-dog.jpg",
+  "awards": [],
+  "rankingPosition": "87",
+  "priceLevel": "$",
+  "category": "restaurant",
+  "rating": "5.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 51 422 22 62",
+  "address": "Xocali Avenue, 14, Baku 1035 Azerbaijan",
+  "cuisine": [
+    "Gastropub",
+    "Cafe"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [],
+  "hours": [
+    [
+      {
+        "open": 960,
+        "close": 1500
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1500
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1500
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1500
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 960,
+        "close": 1440
+      }
+    ]
+  ],
+  "latitude": "40.382088",
+  "longitude": "49.8668",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d17528540-Reviews-Bool_Bool_Dog-Baku_Absheron_Region.html",
+  "website": "https://www.facebook.com/boolbooldog/?ref=page_internal",
+  "rankingDenominator": "841",
+  "rankingString": "#3 of 36 Bars & Pubs in Baku",
+  "numberOfReviews": "30",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "15087600",
+  "type": "RESTAURANT",
+  "name": "CraZzy Bear - Conceptual Pub",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/15/09/5e/ca/crazzy-bear.jpg",
+  "awards": [],
+  "rankingPosition": "84",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 50 250 80 50",
+  "address": "Bashir Safaroglu 170, Baku 1000 Azerbaijan",
+  "email": "crazzybear.az@gmail.com",
+  "cuisine": [
+    "European",
+    "Azerbaijani",
+    "Bar",
+    "Pub",
+    "Gastropub"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [],
+  "hours": [],
+  "latitude": "40.37509",
+  "longitude": "49.840157",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d15087600-Reviews-CraZzy_Bear_Conceptual_Pub-Baku_Absheron_Region.html",
+  "website": "http://www.facebook.com/crazzybear.az",
+  "rankingDenominator": "841",
+  "rankingString": "#80 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "90",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "11719696",
+  "type": "RESTAURANT",
+  "name": "Coffee Moffie",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/11/91/04/6c/local-wines-and-cheese.jpg",
+  "awards": [],
+  "rankingPosition": "85",
+  "priceLevel": "$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 50 964 18 80",
+  "address": "09 Islam Safarli Street, Baku 1005 Azerbaijan",
+  "email": "info@coffeemoffie.com",
+  "cuisine": [
+    "Cafe",
+    "Azerbaijani",
+    "Vegan Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegan Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ]
+  ],
+  "latitude": "40.371704",
+  "longitude": "49.835316",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d11719696-Reviews-Coffee_Moffie-Baku_Absheron_Region.html",
+  "website": "http://www.coffeemoffie.com",
+  "rankingDenominator": "841",
+  "rankingString": "#2 of 17 Quick Bites in Baku",
+  "numberOfReviews": "52",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "7844727",
+  "type": "RESTAURANT",
+  "name": "Kosebasi Baku",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/07/92/6b/07/getlstd-property-photo.jpg",
+  "awards": [],
+  "rankingPosition": "90",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 564 85 00",
+  "address": "15/A Hasanoglu Street, N. Narimanov Divan Express Baku, Baku 1025 Azerbaijan",
+  "email": "baku@kosebasi.com",
+  "cuisine": [
+    "Mediterranean",
+    "Turkish",
+    "Barbecue",
+    "Grill",
+    "Middle Eastern",
+    "Halal",
+    "Kosher",
+    "Vegetarian Friendly"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Halal",
+    "Kosher",
+    "Vegetarian Friendly"
+  ],
+  "hours": [
+    [
+      {
+        "open": 660,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1380
+      }
+    ]
+  ],
+  "latitude": "40.402287",
+  "longitude": "49.86308",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d7844727-Reviews-Kosebasi_Baku-Baku_Absheron_Region.html",
+  "website": "http://www.kosebasi.com",
+  "rankingDenominator": "841",
+  "rankingString": "#84 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "51",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "7938535",
+  "type": "RESTAURANT",
+  "name": "Shaki Gala",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/08/2b/6c/3e/caption.jpg",
+  "awards": [],
+  "rankingPosition": "81",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 50 333 20 81",
+  "address": "Akhmed Radzhabli, 144, Baku 1052 Azerbaijan",
+  "email": "gonagovhazrat@gmail.com",
+  "cuisine": [
+    "Barbecue",
+    "Middle Eastern",
+    "Eastern European",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal"
+  ],
+  "hours": [
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ]
+  ],
+  "latitude": "40.408592",
+  "longitude": "49.86475",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d7938535-Reviews-Shaki_Gala-Baku_Absheron_Region.html",
+  "website": "https://www.facebook.com/ShekiQala1/",
+  "rankingDenominator": "841",
+  "rankingString": "#77 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "174",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "13171812",
+  "type": "RESTAURANT",
+  "name": "Ayintap Kebap",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/11/6b/0e/98/ayintap-kebap.jpg",
+  "awards": [],
+  "rankingPosition": "82",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "5.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 598 77 78",
+  "address": "Pushkin St., 4b, Baku Azerbaijan",
+  "cuisine": [
+    "Turkish",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ]
+  ],
+  "latitude": "40.375587",
+  "longitude": "49.853924",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d13171812-Reviews-Ayintap_Kebap-Baku_Absheron_Region.html",
+  "website": "http://www.facebook.com/Ayintapkebab/",
+  "rankingDenominator": "841",
+  "rankingString": "#78 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "44",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "8297898",
+  "type": "RESTAURANT",
+  "name": "The Tea Lounge",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/25/88/0f/59/interior.jpg",
+  "awards": [],
+  "rankingPosition": "89",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "5.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 499 88 88",
+  "address": "674 Azadliq Square JW Marriott Absheron Baku, Baku 1010 Azerbaijan",
+  "email": "tealounge@marriott.com",
+  "cuisine": [
+    "Cafe",
+    "European",
+    "Middle Eastern"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [],
+  "hours": [
+    [
+      {
+        "open": 480,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1440
+      }
+    ]
+  ],
+  "latitude": "40.373356",
+  "longitude": "49.85581",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d8297898-Reviews-The_Tea_Lounge-Baku_Absheron_Region.html",
+  "website": "http://absherondining.com/the_tea_lounge_menu",
+  "rankingDenominator": "841",
+  "rankingString": "#3 of 48 Coffee & Tea in Baku",
+  "numberOfReviews": "42",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "8409140",
+  "type": "RESTAURANT",
+  "name": "Nakhchivan Restaurant",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1d/26/2d/c2/nakhchivan-restaurant.jpg",
+  "awards": [],
+  "rankingPosition": "86",
+  "priceLevel": "$$$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 55 500 85 58",
+  "address": "8A Parliament Avenue, Baku Azerbaijan",
+  "email": "e.shahverdiyeva@agalarovrest.com",
+  "cuisine": [
+    "Azerbaijani",
+    "Vegetarian Friendly"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly"
+  ],
+  "hours": [
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ]
+  ],
+  "latitude": "40.36376",
+  "longitude": "49.819454",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d8409140-Reviews-Nakhchivan_Restaurant-Baku_Absheron_Region.html",
+  "website": "http://agalarovrest.com/restorany/nakhchivan/",
+  "rankingDenominator": "841",
+  "rankingString": "#82 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "66",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "7610214",
+  "type": "RESTAURANT",
+  "name": "Zakura Bar & Restaurant",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/6a/e2/49/sushi-rolls.jpg",
+  "awards": [],
+  "rankingPosition": "88",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 498 18 18",
+  "address": "A. Alizade Street 9 Opposite the main building of Azerenergy, Baku Azerbaijan",
+  "email": "info@zakura.az",
+  "cuisine": [
+    "Japanese",
+    "Seafood",
+    "Sushi",
+    "Asian",
+    "Vegetarian Friendly"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly"
+  ],
+  "hours": [
+    [
+      {
+        "open": 720,
+        "close": 1320
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1320
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1320
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1320
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1320
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1320
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1320
+      }
+    ]
+  ],
+  "latitude": "40.36949",
+  "longitude": "49.83917",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d7610214-Reviews-Zakura_Bar_Restaurant-Baku_Absheron_Region.html",
+  "website": "http://www.zakura.az/?lang=en",
+  "rankingDenominator": "841",
+  "rankingString": "#83 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "65",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "4045920",
+  "type": "RESTAURANT",
+  "name": "Zafferano Restaurant",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/13/03/9c/23/beautiful-classy-atmosphere.jpg",
+  "awards": [],
+  "rankingPosition": "83",
+  "priceLevel": "$$$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 404 24 24",
+  "address": "1 Neftchilar Avenue Four Seasons Hotel Baku, Baku 1095 Azerbaijan",
+  "email": "Zafferano.Bku@fourseasons.com",
+  "cuisine": [
+    "Italian",
+    "European",
+    "Diner",
+    "Vegetarian Friendly",
+    "Vegan Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 390,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 390,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 390,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 390,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 390,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 390,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 390,
+        "close": 1380
+      }
+    ]
+  ],
+  "latitude": "40.36296",
+  "longitude": "49.834995",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d4045920-Reviews-Zafferano_Restaurant-Baku_Absheron_Region.html",
+  "website": "http://www.fourseasons.com/baku/dining/restaurants/zafferano/",
+  "rankingDenominator": "841",
+  "rankingString": "#79 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "87",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "8564998",
+  "type": "RESTAURANT",
+  "name": "Bir Iki Doner Shop",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/17/af/75/ca/bir-iki.jpg",
+  "awards": [],
+  "rankingPosition": "100",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 498 91 49",
+  "address": "Yusif Mammadaliyev 27A, Baku 1005 Azerbaijan",
+  "cuisine": [
+    "Fast Food"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [],
+  "hours": [],
+  "latitude": "40.371555",
+  "longitude": "49.838524",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d8564998-Reviews-Bir_Iki_Doner_Shop-Baku_Absheron_Region.html",
+  "rankingDenominator": "841",
+  "rankingString": "#92 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "55",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "8016829",
+  "type": "RESTAURANT",
+  "name": "Scalini Port Baku Tower",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/07/d0/c1/45/scalini-port-baku.jpg",
+  "awards": [],
+  "rankingPosition": "93",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 404 82 07",
+  "address": "153 Neftchiler Avenue, Baku Azerbaijan",
+  "cuisine": [
+    "Italian",
+    "Mediterranean",
+    "European",
+    "Pizza",
+    "Vegetarian Friendly",
+    "Gluten Free Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Gluten Free Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 0,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1380
+      }
+    ]
+  ],
+  "latitude": "40.375263",
+  "longitude": "49.86154",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d8016829-Reviews-Scalini_Port_Baku_Tower-Baku_Absheron_Region.html",
+  "website": "http://www.scalini.az",
+  "rankingDenominator": "841",
+  "rankingString": "#87 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "125",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "4309427",
+  "type": "RESTAURANT",
+  "name": "Casual Brasserie",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/04/0b/93/3f/second-floor.jpg",
+  "awards": [],
+  "rankingPosition": "98",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 498 81 20",
+  "address": "Nizami St. 62C, Baku 1000 Azerbaijan",
+  "email": "info@casualbrasserie.com",
+  "cuisine": [
+    "French",
+    "Bar",
+    "Cafe",
+    "International",
+    "European",
+    "Pub",
+    "Vegetarian Friendly",
+    "Vegan Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 600,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1560
+      }
+    ]
+  ],
+  "latitude": "40.372395",
+  "longitude": "49.838005",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d4309427-Reviews-Casual_Brasserie-Baku_Absheron_Region.html",
+  "website": "http://www.casualbrasserie.com",
+  "rankingDenominator": "841",
+  "rankingString": "#90 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "64",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "13374176",
+  "type": "RESTAURANT",
+  "name": "United Coffee Beans",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/11/c6/63/3e/united-coffee-beans.jpg",
+  "awards": [],
+  "rankingPosition": "96",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 50 505 11 25",
+  "address": "Yusif Mammadaliyev St. 6, Baku 1000 Azerbaijan",
+  "email": "hello@ucb.az",
+  "cuisine": [
+    "European",
+    "Eastern European",
+    "Cafe",
+    "Vegetarian Friendly",
+    "Vegan Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 600,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 510,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 510,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 510,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 510,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 510,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 510,
+        "close": 1380
+      }
+    ]
+  ],
+  "latitude": "40.369907",
+  "longitude": "49.84023",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d13374176-Reviews-United_Coffee_Beans-Baku_Absheron_Region.html",
+  "website": "https://www.facebook.com/pg/unitedcoffeebeans/about/?ref=page_internal",
+  "rankingDenominator": "841",
+  "rankingString": "#4 of 48 Coffee & Tea in Baku",
+  "numberOfReviews": "47",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "20812289",
+  "type": "RESTAURANT",
+  "name": "Greenwich Tavern",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1b/4a/35/d6/pizza-with-pear-and-gorgonzola.jpg",
+  "awards": [],
+  "rankingPosition": "95",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "5.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994993300208",
+  "address": "Nizami Street 195a, Baku 1000 Azerbaijan",
+  "email": "vusala_a@icloud.com",
+  "cuisine": [
+    "Italian",
+    "French",
+    "American",
+    "Spanish",
+    "Central American"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [],
+  "hours": [
+    [
+      {
+        "open": 660,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1380
+      }
+    ]
+  ],
+  "latitude": "40.377075",
+  "longitude": "49.85379",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d20812289-Reviews-Greenwich_Tavern-Baku_Absheron_Region.html",
+  "website": "https://www.facebook.com/Greenwich-Tavern-103429851237545/",
+  "rankingDenominator": "841",
+  "rankingString": "#88 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "22",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "1812488",
+  "type": "RESTAURANT",
+  "name": "Sunset Cafe",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-s/03/fb/9e/9c/red-and-white-blue-burger.jpg",
+  "awards": [],
+  "rankingPosition": "99",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 492 22 92",
+  "address": "Mirza Ibrahimov Street, 1 Right on Fontain Square, Baku Azerbaijan",
+  "email": "sunsetbaku@gmail.com",
+  "cuisine": [
+    "Cafe",
+    "American"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [],
+  "hours": [
+    [
+      {
+        "open": 600,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1380
+      }
+    ]
+  ],
+  "latitude": "40.37",
+  "longitude": "49.838947",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d1812488-Reviews-Sunset_Cafe-Baku_Absheron_Region.html",
+  "website": "http://fb.com/sunsetcafebaku",
+  "rankingDenominator": "841",
+  "rankingString": "#91 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "119",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "17640106",
+  "type": "RESTAURANT",
+  "name": "Portofino Lounge & Cafe",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/19/5c/42/69/7-xidmntinizdndir.jpg",
+  "awards": [],
+  "rankingPosition": "97",
+  "priceLevel": "$",
+  "category": "restaurant",
+  "rating": "5.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 50 200 07 37",
+  "address": "Mammad Rahim st. Between AZMIU and BDU universities., Baku 1073 Azerbaijan",
+  "cuisine": [
+    "European",
+    "Azerbaijani",
+    "Cafe",
+    "Turkish",
+    "Healthy",
+    "Eastern European",
+    "Fusion",
+    "Vegetarian Friendly"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly"
+  ],
+  "hours": [
+    [
+      {
+        "open": 0,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1440
+      }
+    ]
+  ],
+  "latitude": "40.37087",
+  "longitude": "49.81169",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d17640106-Reviews-Portofino_Lounge_Cafe-Baku_Absheron_Region.html",
+  "website": "http://www.facebook.com/portofinoazerbaijan/",
+  "rankingDenominator": "841",
+  "rankingString": "#89 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "24",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "4167039",
+  "type": "RESTAURANT",
+  "name": "Razzmatazz Cocktail Bar & Lounge",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/06/fc/22/4b/razzmatazz-cocktail-bar.jpg",
+  "awards": [],
+  "rankingPosition": "91",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 499 88 88",
+  "address": "674, Azadliq Square JW Marriott Hotel Absheron Baku, Baku AZ1010 Azerbaijan",
+  "cuisine": [
+    "Bar",
+    "European"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [],
+  "hours": [
+    [],
+    [],
+    [
+      {
+        "open": 1080,
+        "close": 1620
+      }
+    ],
+    [
+      {
+        "open": 1080,
+        "close": 1620
+      }
+    ],
+    [
+      {
+        "open": 1080,
+        "close": 1620
+      }
+    ],
+    [
+      {
+        "open": 1080,
+        "close": 1620
+      }
+    ],
+    [
+      {
+        "open": 1080,
+        "close": 1620
+      }
+    ]
+  ],
+  "latitude": "40.374706",
+  "longitude": "49.85689",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d4167039-Reviews-Razzmatazz_Cocktail_Bar_Lounge-Baku_Absheron_Region.html",
+  "website": "http://www.facebook.com/AbsheronDining/",
+  "rankingDenominator": "841",
+  "rankingString": "#85 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "55",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "11810207",
+  "type": "RESTAURANT",
+  "name": "Fryday Burger & Fries",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-w/23/69/44/ee/fryday-burger-fries.jpg",
+  "awards": [],
+  "rankingPosition": "94",
+  "priceLevel": "$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 565 25 25",
+  "address": "Yusif Mammadaliyev 25D, Baku 1005 Azerbaijan",
+  "email": "info@fryday.az",
+  "cuisine": [
+    "Fast Food",
+    "American"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [],
+  "hours": [
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1500
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1500
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1500
+      }
+    ]
+  ],
+  "latitude": "40.36845",
+  "longitude": "49.83821",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d11810207-Reviews-Fryday_Burger_Fries-Baku_Absheron_Region.html",
+  "website": "https://www.facebook.com/FRYDAY-652834698248123/",
+  "rankingDenominator": "841",
+  "rankingString": "#3 of 17 Quick Bites in Baku",
+  "numberOfReviews": "57",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "6379951",
+  "type": "RESTAURANT",
+  "name": "Trattoria L'Oliva",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/0a/58/62/8c/trattoria-l-oliva.jpg",
+  "awards": [],
+  "rankingPosition": "92",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 493 09 54",
+  "address": "H. Z. Tagiyev, 14, Baku Azerbaijan",
+  "email": "ilkin.trattoria@alka.az",
+  "cuisine": [
+    "Italian",
+    "Mediterranean",
+    "European",
+    "Vegetarian Friendly",
+    "Gluten Free Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Gluten Free Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 720,
+        "close": 1410
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1410
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1410
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1410
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1410
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1410
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1410
+      }
+    ]
+  ],
+  "latitude": "40.370525",
+  "longitude": "49.838543",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d6379951-Reviews-Trattoria_L_Oliva-Baku_Absheron_Region.html",
+  "rankingDenominator": "841",
+  "rankingString": "#86 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "82",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "21073549",
+  "type": "RESTAURANT",
+  "name": "Pendir & Chorek",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1c/a9/81/3d/3.jpg",
+  "awards": [],
+  "rankingPosition": "5",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "5.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 51 555 50 10",
+  "address": "IcNrisNhNr,Boyuk Qala 50, Baku 1000 Azerbaijan",
+  "email": "pendirchorekrestoran@gmail.com",
+  "cuisine": [
+    "Azerbaijani",
+    "Eastern European",
+    "Barbecue",
+    "European",
+    "Vegetarian Friendly",
+    "Vegan Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ]
+  ],
+  "latitude": "40.368435",
+  "longitude": "49.836525",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d21073549-Reviews-Pendir_Chorek-Baku_Absheron_Region.html",
+  "website": "http://www.facebook.com/pendirchorek-104260391465089",
+  "rankingDenominator": "841",
+  "rankingString": "#5 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "222",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "9870722",
+  "type": "RESTAURANT",
+  "name": "Qala Divari",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/19/8a/72/77/42.jpg",
+  "awards": [],
+  "rankingPosition": "6",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 50 555 50 51",
+  "address": "Baku 1000 Azerbaijan",
+  "email": "qaladivari@gmail.com",
+  "cuisine": [
+    "Middle Eastern",
+    "Eastern European",
+    "Azerbaijani",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 480,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1410
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1425
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1425
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1439
+      }
+    ]
+  ],
+  "latitude": "40.368618",
+  "longitude": "49.835506",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d9870722-Reviews-Qala_Divari-Baku_Absheron_Region.html",
+  "website": "http://www.facebook.com/QalaDivari",
+  "rankingDenominator": "841",
+  "rankingString": "#6 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "498",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "13002756",
+  "type": "RESTAURANT",
+  "name": "Passage 145",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/18/b6/e4/25/terrace.jpg",
+  "awards": [],
+  "rankingPosition": "4",
+  "priceLevel": "$",
+  "category": "restaurant",
+  "rating": "5.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 51 700 01 45",
+  "address": "Nigar Rafibeyli St., b37 145 Group, Baku Azerbaijan",
+  "email": "info@145group.com",
+  "cuisine": [
+    "Barbecue",
+    "European",
+    "Romana",
+    "Lazio",
+    "Central-Italian",
+    "Contemporary",
+    "Azerbaijani",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ]
+  ],
+  "latitude": "40.371964",
+  "longitude": "49.838684",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d13002756-Reviews-Passage_145-Baku_Absheron_Region.html",
+  "website": "http://145group.com/",
+  "rankingDenominator": "841",
+  "rankingString": "#4 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "1306",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "4268581",
+  "type": "RESTAURANT",
+  "name": "SAHiL bar & restaurant",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/14/b3/4b/38/rack-of-lamb.jpg",
+  "awards": [],
+  "rankingPosition": "3",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "5.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 50 285 00 22",
+  "address": "Neftchilar avenue, 34 Seaside Boulevard, Baku 1010 Azerbaijan",
+  "email": "table@sahilbaku.az",
+  "cuisine": [
+    "Azerbaijani",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 600,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1440
+      }
+    ]
+  ],
+  "latitude": "40.36964",
+  "longitude": "49.845802",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d4268581-Reviews-SAHiL_bar_restaurant-Baku_Absheron_Region.html",
+  "website": "http://sahilbaku.az",
+  "rankingDenominator": "841",
+  "rankingString": "#3 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "1130",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "12352410",
+  "type": "RESTAURANT",
+  "name": "Cafecity Ganjlik",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/0f/14/ca/be/genclik-mall.jpg",
+  "awards": [],
+  "rankingPosition": "8",
+  "priceLevel": "$",
+  "category": "restaurant",
+  "rating": "5.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 51 599 15 14",
+  "address": "Ganjlik AVM, Baku Azerbaijan",
+  "cuisine": [
+    "Cafe",
+    "European",
+    "Soups",
+    "Eastern European",
+    "Central European",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 600,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1440
+      }
+    ]
+  ],
+  "latitude": "40.40013",
+  "longitude": "49.85189",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d12352410-Reviews-Cafecity_Ganjlik-Baku_Absheron_Region.html",
+  "website": "http://www.cafecity.az",
+  "rankingDenominator": "841",
+  "rankingString": "#8 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "486",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "10630657",
+  "type": "RESTAURANT",
+  "name": "Cay Bagi 145 (Tea Garden 145)",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/18/b6/e4/e7/terrace.jpg",
+  "awards": [],
+  "rankingPosition": "2",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "5.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 50 600 01 45",
+  "address": "4 Boyuk Gala Dongesi 3 Maiden Tower, Baku 1000 Azerbaijan",
+  "cuisine": [
+    "Cafe",
+    "Eastern European",
+    "Azerbaijani",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ]
+  ],
+  "latitude": "40.36645",
+  "longitude": "49.836765",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d10630657-Reviews-Cay_Bagi_145_Tea_Garden_145-Baku_Absheron_Region.html",
+  "website": "http://www.facebook.com/caybagi145/",
+  "rankingDenominator": "841",
+  "rankingString": "#2 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "1508",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "23396723",
+  "type": "RESTAURANT",
+  "name": "Cali Beach Club",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1d/1e/b8/62/sky-above-sand-below.jpg",
+  "awards": [],
+  "rankingPosition": "9",
+  "priceLevel": "$$$$",
+  "category": "restaurant",
+  "rating": "5.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 310 39 00",
+  "address": "Bilgah district, 94 Gelebe Street, Baku 1122 Azerbaijan",
+  "email": "info.bilgahbeach@absheronhotelgroup.com",
+  "cuisine": [
+    "Japanese",
+    "Azerbaijani",
+    "Sushi",
+    "Healthy",
+    "Asian",
+    "Vegan Options",
+    "Vegetarian Friendly"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegan Options",
+    "Vegetarian Friendly"
+  ],
+  "hours": [
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ]
+  ],
+  "latitude": "40.5772",
+  "longitude": "50.06399",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d23396723-Reviews-Cali_Beach_Club-Baku_Absheron_Region.html",
+  "website": "http://bilgahbeachhotel.com/en/cali-beach-club",
+  "rankingDenominator": "841",
+  "rankingString": "#9 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "110",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "3245837",
+  "type": "RESTAURANT",
+  "name": "Pasifico Lounge & Dining",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/21/cd/1a/e6/pasifico-new-panasian.jpg",
+  "awards": [],
+  "rankingPosition": "7",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "5.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 50 285 00 21",
+  "address": "Neftchilar Avenue, 34 Seaside Boulevard, Baku 1010 Azerbaijan",
+  "email": "guest@pasifico.az",
+  "cuisine": [
+    "International",
+    "Asian",
+    "Latin",
+    "Spanish",
+    "Thai"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [],
+  "hours": [],
+  "latitude": "40.369846",
+  "longitude": "49.84565",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d3245837-Reviews-Pasifico_Lounge_Dining-Baku_Absheron_Region.html",
+  "website": "http://www.pasifico.az",
+  "rankingDenominator": "841",
+  "rankingString": "#7 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "652",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "19823365",
+  "type": "RESTAURANT",
+  "name": "LaQuzu",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/1a/82/0f/24/menu.jpg",
+  "awards": [],
+  "rankingPosition": "10",
+  "priceLevel": "$$$$",
+  "category": "restaurant",
+  "rating": "5.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 50 695 93 35",
+  "address": "Boyuk Qala 41, Baku 1095 Azerbaijan",
+  "cuisine": [
+    "Azerbaijani",
+    "Vegan Options",
+    "Vegetarian Friendly"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegan Options",
+    "Vegetarian Friendly"
+  ],
+  "hours": [
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ]
+  ],
+  "latitude": "40.367805",
+  "longitude": "49.836395",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d19823365-Reviews-LaQuzu-Baku_Absheron_Region.html",
+  "website": "https://cafecity.az/en/restaurant/laquzu",
+  "rankingDenominator": "841",
+  "rankingString": "#10 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "103",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "12115277",
+  "type": "RESTAURANT",
+  "name": "Malacannes 145",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/19/73/7e/59/exclusive-shisha.jpg",
+  "awards": [],
+  "rankingPosition": "1",
+  "priceLevel": "$$$$",
+  "category": "restaurant",
+  "rating": "5.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 51 500 01 45",
+  "address": "Rasul Rza 11, Baku 1000 Azerbaijan",
+  "email": "info@145group.com",
+  "cuisine": [
+    "Cafe",
+    "European",
+    "Deli",
+    "Healthy",
+    "Romana",
+    "Lazio",
+    "Central-Italian",
+    "Contemporary",
+    "Azerbaijani",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ]
+  ],
+  "latitude": "40.37095",
+  "longitude": "49.840126",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d12115277-Reviews-Malacannes_145-Baku_Absheron_Region.html",
+  "website": "http://www.facebook.com/pg/malacannes/about/?ref=page_internal",
+  "rankingDenominator": "841",
+  "rankingString": "#1 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "738",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "8523293",
+  "type": "RESTAURANT",
+  "name": "Fisincan Cafe",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/0c/ec/43/da/fisincan.jpg",
+  "awards": [],
+  "rankingPosition": "17",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 594 99 90",
+  "address": "Mirza Ibrahimov st., 1, Baku 1005 Azerbaijan",
+  "cuisine": [
+    "European",
+    "Middle Eastern",
+    "Soups",
+    "Azerbaijani",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal"
+  ],
+  "hours": [
+    [
+      {
+        "open": 600,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1560
+      }
+    ]
+  ],
+  "latitude": "40.37221",
+  "longitude": "49.833805",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d8523293-Reviews-Fisincan_Cafe-Baku_Absheron_Region.html",
+  "website": "http://instagram.com/fisincancafe?utm_medium=copy_link",
+  "rankingDenominator": "841",
+  "rankingString": "#17 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "282",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "7619383",
+  "type": "RESTAURANT",
+  "name": "Pivnaya Apteka",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/23/62/23/5c/pivnaya-apteka-logo.jpg",
+  "awards": [],
+  "rankingPosition": "18",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 50 254 54 43",
+  "address": "Neftchilar Avenue,147 Port Baku Residence, Baku 1010 Azerbaijan",
+  "email": "info@saffron.az",
+  "cuisine": [
+    "Bar",
+    "International",
+    "European",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 720,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1620
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1620
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1560
+      }
+    ]
+  ],
+  "latitude": "40.37588",
+  "longitude": "49.8592",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d7619383-Reviews-Pivnaya_Apteka-Baku_Absheron_Region.html",
+  "website": "http://www.pivnayaapteka.az/",
+  "rankingDenominator": "841",
+  "rankingString": "#18 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "914",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "15690732",
+  "type": "RESTAURANT",
+  "name": "Metropol 145",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/1a/ac/45/7a/winter-metropol-2020.jpg",
+  "awards": [],
+  "rankingPosition": "20",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "5.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 51 900 01 45",
+  "address": "A. Aliyev Street 11, Baku 1000 Azerbaijan",
+  "email": "info@145group.az",
+  "cuisine": [
+    "European",
+    "Azerbaijani",
+    "Fast Food",
+    "Healthy",
+    "Italian",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal"
+  ],
+  "hours": [
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ]
+  ],
+  "latitude": "40.36901",
+  "longitude": "49.837086",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d15690732-Reviews-Metropol_145-Baku_Absheron_Region.html",
+  "website": "http://145group.com/",
+  "rankingDenominator": "841",
+  "rankingString": "#20 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "422",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "12352374",
+  "type": "RESTAURANT",
+  "name": "Cafecity 28",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/18/19/68/7e/28-mall.jpg",
+  "awards": [],
+  "rankingPosition": "16",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 499 87 35",
+  "address": "Mall 28, Baku 1000 Azerbaijan",
+  "cuisine": [
+    "Cafe",
+    "European",
+    "Soups",
+    "Eastern European",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "hours": [],
+  "latitude": "40.37888",
+  "longitude": "49.847256",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d12352374-Reviews-Cafecity_28-Baku_Absheron_Region.html",
+  "website": "http://www.cafecity.az",
+  "rankingDenominator": "841",
+  "rankingString": "#16 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "342",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "12569972",
+  "type": "RESTAURANT",
+  "name": "Art Club Restaurant",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/22/b3/e0/77/caption.jpg",
+  "awards": [],
+  "rankingPosition": "12",
+  "priceLevel": "$$$$",
+  "category": "restaurant",
+  "rating": "5.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 492 20 13",
+  "address": "11 Asaf Zeynalli Icherisheher, Baku Azerbaijan",
+  "email": "info@artclub.az",
+  "cuisine": [
+    "Azerbaijani",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 480,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1380
+      }
+    ]
+  ],
+  "latitude": "40.36423",
+  "longitude": "49.833878",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d12569972-Reviews-Art_Club_Restaurant-Baku_Absheron_Region.html",
+  "website": "http://artclub.az",
+  "rankingDenominator": "841",
+  "rankingString": "#12 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "341",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "2622103",
+  "type": "RESTAURANT",
+  "name": "CafeCity Fountain",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/07/26/84/58/cafe-city.jpg",
+  "awards": [],
+  "rankingPosition": "15",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 598 86 86",
+  "address": "3 Islam Safarli Street, Baku 1005 Azerbaijan",
+  "email": "fontan@cafecity.az",
+  "cuisine": [
+    "Cafe",
+    "European",
+    "Eastern European",
+    "Central European",
+    "Azerbaijani",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1560
+      }
+    ]
+  ],
+  "latitude": "40.370373",
+  "longitude": "49.835773",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d2622103-Reviews-CafeCity_Fountain-Baku_Absheron_Region.html",
+  "website": "http://www.cafecity.az",
+  "rankingDenominator": "841",
+  "rankingString": "#15 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "1131",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "3192785",
+  "type": "RESTAURANT",
+  "name": "Araz Cafe",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/19/e2/0b/b5/994-50-318-02-07-994.jpg",
+  "awards": [],
+  "rankingPosition": "14",
+  "priceLevel": "$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 492 48 46",
+  "address": "Islam Seferli st. 3 Fountain Square, Baku 1000 Azerbaijan",
+  "cuisine": [
+    "Cafe",
+    "Healthy",
+    "Middle Eastern",
+    "Eastern European",
+    "Azerbaijani",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ]
+  ],
+  "latitude": "40.370834",
+  "longitude": "49.83565",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d3192785-Reviews-Araz_Cafe-Baku_Absheron_Region.html",
+  "website": "http://arazkafe.az/",
+  "rankingDenominator": "841",
+  "rankingString": "#14 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "1098",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "13349930",
+  "type": "RESTAURANT",
+  "name": "Maharani Indian Restaurant",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/9e/ea/b0/our-latest-cover-photo.jpg",
+  "awards": [],
+  "rankingPosition": "19",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "5.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 70 311 11 84",
+  "address": "Shamsi Badalbayli St., 100A, Baku 1145 Azerbaijan",
+  "email": "info@maharani.az",
+  "cuisine": [
+    "Indian",
+    "Asian",
+    "Healthy",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 0,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1380
+      }
+    ]
+  ],
+  "latitude": "40.377743",
+  "longitude": "49.84602",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d13349930-Reviews-Maharani_Indian_Restaurant-Baku_Absheron_Region.html",
+  "website": "http://www.maharani.az",
+  "rankingDenominator": "841",
+  "rankingString": "#19 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "408",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "4188325",
+  "type": "RESTAURANT",
+  "name": "Nergiz Restaurant",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/76/97/74/our-signature-maiden.jpg",
+  "awards": [],
+  "rankingPosition": "11",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 493 98 86",
+  "address": "T. Aliyarbeyov St. 9 Fountain Square, Baku 1000 Azerbaijan",
+  "cuisine": [
+    "European",
+    "Healthy",
+    "Georgian",
+    "Azerbaijani",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ]
+  ],
+  "latitude": "40.370483",
+  "longitude": "49.837097",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d4188325-Reviews-Nergiz_Restaurant-Baku_Absheron_Region.html",
+  "website": "http://nergizrestoran.az/",
+  "rankingDenominator": "841",
+  "rankingString": "#11 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "1310",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "12296283",
+  "type": "RESTAURANT",
+  "name": "Dolma Restaurant",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/15/9c/91/60/baki-snh-m-rnsulzadn.jpg",
+  "awards": [],
+  "rankingPosition": "13",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 498 19 38",
+  "address": "Mamed Emin Rasulzade, 8, Baku Azerbaijan",
+  "email": "mahammad.orujov@mail.com",
+  "cuisine": [
+    "Eastern European",
+    "Azerbaijani",
+    "European",
+    "Middle Eastern",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 660,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1560
+      }
+    ]
+  ],
+  "latitude": "40.37003",
+  "longitude": "49.836792",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d12296283-Reviews-Dolma_Restaurant-Baku_Absheron_Region.html",
+  "website": "http://www.facebook.com/dolmarestaurant1/",
+  "rankingDenominator": "841",
+  "rankingString": "#13 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "1706",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "12336258",
+  "type": "RESTAURANT",
+  "name": "Cafecity Five",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/0f/0b/2b/b4/cafecity-five.jpg",
+  "awards": [],
+  "rankingPosition": "21",
+  "priceLevel": "$",
+  "category": "restaurant",
+  "rating": "5.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 50 436 78 25",
+  "address": "IInshaatchilar Ave., 112A, Baku Azerbaijan",
+  "email": "cafecity@cafecity.az",
+  "cuisine": [
+    "International",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ]
+  ],
+  "latitude": "40.38416",
+  "longitude": "49.823593",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d12336258-Reviews-Cafecity_Five-Baku_Absheron_Region.html",
+  "website": "http://www.cafecity.az",
+  "rankingDenominator": "841",
+  "rankingString": "#21 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "305",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "4167164",
+  "type": "RESTAURANT",
+  "name": "Fireworks Urban Kitchen",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/10/64/16/48/fireworks-urban-kitchen.jpg",
+  "awards": [],
+  "rankingPosition": "22",
+  "priceLevel": "$$$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 499 88 88",
+  "address": "674, Azadliq Square JW Marriott Absheron Baku, Baku AZ1010 Azerbaijan",
+  "email": "fireworks@marriott.com",
+  "cuisine": [
+    "Steakhouse",
+    "European",
+    "Bar",
+    "Middle Eastern",
+    "Azerbaijani",
+    "Gluten Free Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Gluten Free Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 720,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1380
+      }
+    ]
+  ],
+  "latitude": "40.373375",
+  "longitude": "49.855877",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d4167164-Reviews-Fireworks_Urban_Kitchen-Baku_Absheron_Region.html",
+  "website": "http://www.fireworks.az/en/",
+  "rankingDenominator": "841",
+  "rankingString": "#22 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "300",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "14201421",
+  "type": "RESTAURANT",
+  "name": "Flavors Fusion Cuisine",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-w/13/30/94/e9/getlstd-property-photo.jpg",
+  "awards": [],
+  "rankingPosition": "25",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "5.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 492 54 56",
+  "address": "Niyazi st., 5, Baku Azerbaijan",
+  "email": "flavorscuisine@outlook.com",
+  "cuisine": [
+    "Indian",
+    "International",
+    "Arabic",
+    "Asian",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ]
+  ],
+  "latitude": "40.362488",
+  "longitude": "49.832897",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d14201421-Reviews-Flavors_Fusion_Cuisine-Baku_Absheron_Region.html",
+  "website": "http://flavorscuisine.az",
+  "rankingDenominator": "841",
+  "rankingString": "#25 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "161",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "11887638",
+  "type": "RESTAURANT",
+  "name": "Green Garden 145",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/18/bf/87/10/terrace-view.jpg",
+  "awards": [],
+  "rankingPosition": "26",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "5.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 51 400 01 45",
+  "address": "F. Bayramov St., 1130/33, Baku Azerbaijan",
+  "email": "greengarden145group@gmail.com",
+  "cuisine": [
+    "European",
+    "Azerbaijani",
+    "Turkish",
+    "Middle Eastern",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ]
+  ],
+  "latitude": "40.38556",
+  "longitude": "49.868736",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d11887638-Reviews-Green_Garden_145-Baku_Absheron_Region.html",
+  "website": "http://www.facebook.com/greengarden145/",
+  "rankingDenominator": "841",
+  "rankingString": "#26 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "133",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "6857017",
+  "type": "RESTAURANT",
+  "name": "Qazmaq Cafe & Restaurant",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1a/b0/da/cf/qazmaq-oldtown-oldtownbaku.jpg",
+  "awards": [],
+  "rankingPosition": "28",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 505 22 26",
+  "address": "Kicik Qala, 124 ( Old Town), Baku 100 Azerbaijan",
+  "cuisine": [
+    "Middle Eastern",
+    "Eastern European",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal"
+  ],
+  "hours": [
+    [
+      {
+        "open": 480,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1500
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1500
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1500
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1500
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1500
+      }
+    ],
+    [
+      {
+        "open": 480,
+        "close": 1500
+      }
+    ]
+  ],
+  "latitude": "40.36858",
+  "longitude": "49.835175",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d6857017-Reviews-Qazmaq_Cafe_Restaurant-Baku_Absheron_Region.html",
+  "website": "http://www.facebook.com/qazmaq/",
+  "rankingDenominator": "841",
+  "rankingString": "#28 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "736",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "3343664",
+  "type": "RESTAURANT",
+  "name": "OroNero Bar & Ristorante",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1d/1d/5d/b4/the-main-hall-of-the.jpg",
+  "awards": [],
+  "rankingPosition": "23",
+  "priceLevel": "$$$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 499 88 88",
+  "address": "674 Azadliq Square JW Marriott Hotel Absheron Baku, Baku AZ1010 Azerbaijan",
+  "email": "oronero@marriott.com",
+  "cuisine": [
+    "Italian",
+    "Seafood",
+    "Mediterranean",
+    "European",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 1020,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 1020,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 1020,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 1020,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 1020,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 1020,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 1020,
+        "close": 1380
+      }
+    ]
+  ],
+  "latitude": "40.373432",
+  "longitude": "49.855843",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d3343664-Reviews-OroNero_Bar_Ristorante-Baku_Absheron_Region.html",
+  "website": "http://www.oronero.az/",
+  "rankingDenominator": "841",
+  "rankingString": "#23 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "233",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "8279222",
+  "type": "RESTAURANT",
+  "name": "MariVanna Baku",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/09/04/78/82/mari-vanna.jpg",
+  "awards": [],
+  "rankingPosition": "30",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 404 95 95",
+  "address": "Zarifa Aliyeva St., 93, Baku 1005 Azerbaijan",
+  "email": "a.zarubina@ginzaproject.com",
+  "cuisine": [
+    "Russian",
+    "International",
+    "Grill",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 600,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1440
+      }
+    ]
+  ],
+  "latitude": "40.372818",
+  "longitude": "49.849457",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d8279222-Reviews-MariVanna_Baku-Baku_Absheron_Region.html",
+  "website": "http://www.marivanna.az",
+  "rankingDenominator": "841",
+  "rankingString": "#29 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "579",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "11920862",
+  "type": "RESTAURANT",
+  "name": "Pushkin Pub",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/15/3a/27/41/pork-ribs.jpg",
+  "awards": [],
+  "rankingPosition": "29",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "5.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 55 554 00 40",
+  "address": "Pushkin 13A, Baku 1000 Azerbaijan",
+  "email": "vusala_a@icloud.com",
+  "cuisine": [
+    "Bar",
+    "European",
+    "Pub",
+    "Barbecue",
+    "Vegetarian Friendly"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly"
+  ],
+  "hours": [
+    [
+      {
+        "open": 0,
+        "close": 60
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1500
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1500
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1500
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1500
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1500
+      }
+    ],
+    []
+  ],
+  "latitude": "40.376595",
+  "longitude": "49.85315",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d11920862-Reviews-Pushkin_Pub-Baku_Absheron_Region.html",
+  "website": "http://www.facebook.com/PushkinPub/",
+  "rankingDenominator": "841",
+  "rankingString": "#1 of 36 Bars & Pubs in Baku",
+  "numberOfReviews": "121",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "2704158",
+  "type": "RESTAURANT",
+  "name": "Firuze Restaurant",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/0a/1d/5f/85/firuza.jpg",
+  "awards": [],
+  "rankingPosition": "27",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 493 96 34",
+  "address": "T. Aliyarbeyov St. 14 Fountain square, Baku 1000 Azerbaijan",
+  "email": "firuzerestoran@mail.ru",
+  "cuisine": [
+    "Healthy",
+    "Azerbaijani",
+    "Arabic",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal"
+  ],
+  "hours": [
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ]
+  ],
+  "latitude": "40.370426",
+  "longitude": "49.837708",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d2704158-Reviews-Firuze_Restaurant-Baku_Absheron_Region.html",
+  "website": "http://www.firuzerestoran.az/",
+  "rankingDenominator": "841",
+  "rankingString": "#27 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "2793",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "10354430",
+  "type": "RESTAURANT",
+  "name": "Shah Restaurant & Gallery",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/21/76/31/97/zal2.jpg",
+  "awards": [],
+  "rankingPosition": "24",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 55 772 38 33",
+  "address": "25A N.Rafiyev, Baku Azerbaijan",
+  "email": "shah.azerbaijan@gmail.com",
+  "cuisine": [
+    "Azerbaijani",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal",
+    "Gluten Free Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 630,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 630,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 630,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 630,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 630,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 630,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 630,
+        "close": 1440
+      }
+    ]
+  ],
+  "latitude": "40.385",
+  "longitude": "49.87621",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d10354430-Reviews-Shah_Restaurant_Gallery-Baku_Absheron_Region.html",
+  "website": "http://www.shah.az",
+  "rankingDenominator": "841",
+  "rankingString": "#24 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "436",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "4212667",
+  "type": "RESTAURANT",
+  "name": "360 Bar",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/10/2c/b8/e8/360-bar.jpg",
+  "awards": [],
+  "rankingPosition": "34",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 464 50 00",
+  "address": "Azadlig Avenue 1B Hilton Baku, Baku 1000 Azerbaijan",
+  "cuisine": [
+    "Bar",
+    "European",
+    "Vegetarian Friendly"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly"
+  ],
+  "hours": [
+    [
+      {
+        "open": 1080,
+        "close": 1620
+      }
+    ],
+    [
+      {
+        "open": 1080,
+        "close": 1620
+      }
+    ],
+    [
+      {
+        "open": 1080,
+        "close": 1620
+      }
+    ],
+    [
+      {
+        "open": 1080,
+        "close": 1620
+      }
+    ],
+    [
+      {
+        "open": 1080,
+        "close": 1620
+      }
+    ],
+    [
+      {
+        "open": 1080,
+        "close": 1620
+      }
+    ],
+    [
+      {
+        "open": 1080,
+        "close": 1620
+      }
+    ]
+  ],
+  "latitude": "40.372177",
+  "longitude": "49.849678",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d4212667-Reviews-360_Bar-Baku_Absheron_Region.html",
+  "website": "https://www.hilton.com/en/hotels/gydhbhi-hilton-baku/dining/",
+  "rankingDenominator": "841",
+  "rankingString": "#2 of 36 Bars & Pubs in Baku",
+  "numberOfReviews": "406",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "3637027",
+  "type": "RESTAURANT",
+  "name": "Anadolu Restaurant & Catering",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/18/f7/e1/20/open-24-hours.jpg",
+  "awards": [],
+  "rankingPosition": "33",
+  "priceLevel": "$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 498 01 02",
+  "address": "Pushkin str., 5, Baku 1010 Azerbaijan",
+  "email": "office@anadolu.az",
+  "cuisine": [
+    "Barbecue",
+    "European",
+    "Turkish",
+    "Healthy",
+    "Middle Eastern",
+    "Azerbaijani",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal"
+  ],
+  "hours": [
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ]
+  ],
+  "latitude": "40.375698",
+  "longitude": "49.853825",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d3637027-Reviews-Anadolu_Restaurant_Catering-Baku_Absheron_Region.html",
+  "website": "http://anadolu.az",
+  "rankingDenominator": "841",
+  "rankingString": "#32 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "422",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "1904885",
+  "type": "RESTAURANT",
+  "name": "CHiNAR",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/0d/87/1d/52/chinar.jpg",
+  "awards": [],
+  "rankingPosition": "32",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 51 404 82 11",
+  "address": "Shovket Alakbarova Str.1, Baku 1095 Azerbaijan",
+  "email": "reservations@chinar-dining.az",
+  "cuisine": [
+    "Chinese",
+    "Japanese",
+    "Sushi",
+    "Asian",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 720,
+        "close": 1500
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1500
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1500
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1500
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1560
+      }
+    ]
+  ],
+  "latitude": "40.360535",
+  "longitude": "49.83324",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d1904885-Reviews-CHiNAR-Baku_Absheron_Region.html",
+  "website": "https://www.facebook.com/CHINARBAKU/",
+  "rankingDenominator": "841",
+  "rankingString": "#31 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "972",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "10791676",
+  "type": "RESTAURANT",
+  "name": "Hard Rock Cafe",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/0d/11/05/da/hard-rock-cafe-baku.jpg",
+  "awards": [],
+  "rankingPosition": "31",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 404 82 28",
+  "address": "Aziz Aliyev 8, Fountain Square Fountain Square, Baku 1000 Azerbaijan",
+  "email": "info@hrcafebaku.com",
+  "cuisine": [
+    "American",
+    "Bar",
+    "Cafe",
+    "Barbecue",
+    "European",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1560
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1560
+      }
+    ]
+  ],
+  "latitude": "40.36907",
+  "longitude": "49.837315",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d10791676-Reviews-Hard_Rock_Cafe-Baku_Absheron_Region.html",
+  "website": "https://www.hardrockcafe.com/location/baku/",
+  "rankingDenominator": "841",
+  "rankingString": "#30 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "1305",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "12570080",
+  "type": "RESTAURANT",
+  "name": "Bake&Roll Sushi Bar",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/18/9b/ed/b9/caption.jpg",
+  "awards": [],
+  "rankingPosition": "36",
+  "priceLevel": "$",
+  "category": "restaurant",
+  "rating": "5.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 70 362 49 49",
+  "address": "Mammad Efandiyev 8A, Baku 1001 Azerbaijan",
+  "email": "info@bakenroll.az",
+  "cuisine": [
+    "Japanese",
+    "Sushi",
+    "Seafood",
+    "Asian",
+    "Vegetarian Friendly"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly"
+  ],
+  "hours": [
+    [
+      {
+        "open": 660,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 660,
+        "close": 1380
+      }
+    ]
+  ],
+  "latitude": "40.36821",
+  "longitude": "49.83022",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d12570080-Reviews-Bake_Roll_Sushi_Bar-Baku_Absheron_Region.html",
+  "website": "http://www.bakenroll.az",
+  "rankingDenominator": "841",
+  "rankingString": "#34 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "97",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "2288687",
+  "type": "RESTAURANT",
+  "name": "Paul's Baku Steakhouse & Rock Bar",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-s/02/72/e4/d3/paul-s-baku-biergarten.jpg",
+  "awards": [],
+  "rankingPosition": "39",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 55 520 00 92",
+  "address": "Nigar Rafibayli, 10, Baku 1001 Azerbaijan",
+  "email": "pauls.baku@yahoo.de",
+  "cuisine": [
+    "Steakhouse",
+    "German",
+    "Barbecue",
+    "European",
+    "Vegetarian Friendly",
+    "Gluten Free Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Gluten Free Options"
+  ],
+  "hours": [
+    [],
+    [
+      {
+        "open": 1020,
+        "close": 1320
+      }
+    ],
+    [
+      {
+        "open": 1020,
+        "close": 1320
+      }
+    ],
+    [
+      {
+        "open": 1020,
+        "close": 1320
+      }
+    ],
+    [
+      {
+        "open": 1020,
+        "close": 1320
+      }
+    ],
+    [
+      {
+        "open": 1020,
+        "close": 1320
+      }
+    ],
+    [
+      {
+        "open": 1020,
+        "close": 1320
+      }
+    ]
+  ],
+  "latitude": "40.370003",
+  "longitude": "49.832817",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d2288687-Reviews-Paul_s_Baku_Steakhouse_Rock_Bar-Baku_Absheron_Region.html",
+  "website": "http://www.pauls-baku.com",
+  "rankingDenominator": "841",
+  "rankingString": "#37 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "491",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "10461063",
+  "type": "RESTAURANT",
+  "name": "Meating Point (Fountain square)",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/0c/57/c7/01/img-20160625-wa0086-largejpg.jpg",
+  "awards": [],
+  "rankingPosition": "38",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 50 682 92 82",
+  "address": "Nigar Rafibayli 20 Fountain square, Baku 1022 Azerbaijan",
+  "cuisine": [
+    "American",
+    "Steakhouse",
+    "European",
+    "Central American",
+    "Vegetarian Friendly"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly"
+  ],
+  "hours": [
+    [
+      {
+        "open": 720,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1380
+      }
+    ]
+  ],
+  "latitude": "40.370743",
+  "longitude": "49.835762",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d10461063-Reviews-Meating_Point_Fountain_square-Baku_Absheron_Region.html",
+  "website": "http://www.meatingpoint.az",
+  "rankingDenominator": "841",
+  "rankingString": "#36 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "180",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "3387065",
+  "type": "RESTAURANT",
+  "name": "Sumakh",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-w/26/b5/7d/1e/sumakh-after-reconstruction.jpg",
+  "awards": [],
+  "rankingPosition": "35",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 310 02 20",
+  "address": "20/22 Khojali Avenue, Baku Azerbaijan",
+  "email": "sumakh@beat.az",
+  "cuisine": [
+    "Azerbaijani",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1440
+      }
+    ]
+  ],
+  "latitude": "40.382378",
+  "longitude": "49.86833",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d3387065-Reviews-Sumakh-Baku_Absheron_Region.html",
+  "website": "http://beat.az/project/sumakh/",
+  "rankingDenominator": "841",
+  "rankingString": "#33 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "299",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "13396843",
+  "type": "RESTAURANT",
+  "name": "Qaynana Restaurant",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/11/ca/ef/a9/getlstd-property-photo.jpg",
+  "awards": [],
+  "rankingPosition": "37",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 70 434 00 13",
+  "address": "Kichik Qala 126, Baku 1000 Azerbaijan",
+  "email": "qaynana.rest@gmail.com",
+  "cuisine": [
+    "European",
+    "Caucasian",
+    "Azerbaijani",
+    "Middle Eastern",
+    "Vegetarian Friendly",
+    "Vegan Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options"
+  ],
+  "hours": [],
+  "latitude": "40.3686",
+  "longitude": "49.83595",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d13396843-Reviews-Qaynana_Restaurant-Baku_Absheron_Region.html",
+  "rankingDenominator": "841",
+  "rankingString": "#35 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "263",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "23425477",
+  "type": "RESTAURANT",
+  "name": "Caravan Baku",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1d/18/bd/b9/interior.jpg",
+  "awards": [],
+  "rankingPosition": "40",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "5.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 50 820 88 99",
+  "address": "Nizami Street 79, Baku Azerbaijan",
+  "email": "caravanbaku@gmail.com",
+  "cuisine": [
+    "Moroccan",
+    "European",
+    "Healthy",
+    "Azerbaijani"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [],
+  "hours": [
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ]
+  ],
+  "latitude": "40.373005",
+  "longitude": "49.84008",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d23425477-Reviews-Caravan_Baku-Baku_Absheron_Region.html",
+  "website": "http://caravanbaku.com/",
+  "rankingDenominator": "841",
+  "rankingString": "#38 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "82",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "14076632",
+  "type": "RESTAURANT",
+  "name": "Salam Baku",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/12/f7/a2/4d/nice-place-good-service.jpg",
+  "awards": [],
+  "rankingPosition": "41",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 50 202 11 66",
+  "address": "Kichik Gala St., 126, Baku Azerbaijan",
+  "cuisine": [
+    "Azerbaijani",
+    "Arabic",
+    "Vegetarian Friendly",
+    "Gluten Free Options",
+    "Vegan Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Gluten Free Options",
+    "Vegan Options"
+  ],
+  "hours": [],
+  "latitude": "40.36857",
+  "longitude": "49.835682",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d14076632-Reviews-Salam_Baku-Baku_Absheron_Region.html",
+  "website": "https://www.facebook.com/SalamBaku-1861283234164579/",
+  "rankingDenominator": "841",
+  "rankingString": "#39 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "201",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "10784777",
+  "type": "RESTAURANT",
+  "name": "Novbahar",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/16/6a/f6/a4/stylish-and-cozy-interior.jpg",
+  "awards": [],
+  "rankingPosition": "43",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "5.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 77 444 99 07",
+  "address": "Koroglu Rahimov 3A, Baku Azerbaijan",
+  "email": "e.salamov@uluhospitality.az",
+  "cuisine": [
+    "Azerbaijani",
+    "Steakhouse",
+    "Mediterranean",
+    "European",
+    "Wine Bar",
+    "Vegetarian Friendly",
+    "Vegan Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 720,
+        "close": 1320
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1320
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1320
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1320
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1320
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 720,
+        "close": 1380
+      }
+    ]
+  ],
+  "latitude": "40.40241",
+  "longitude": "49.85674",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d10784777-Reviews-Novbahar-Baku_Absheron_Region.html",
+  "website": "http://www.novbahar.az",
+  "rankingDenominator": "841",
+  "rankingString": "#41 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "60",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "15208031",
+  "type": "RESTAURANT",
+  "name": "Kasamasa",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/18/63/9d/2f/photo4jpg.jpg",
+  "awards": [],
+  "rankingPosition": "50",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 50 258 63 63",
+  "address": "Kicik Qala Kuc, 104, Baku Azerbaijan",
+  "email": "kasamasa.baku@gmail.com",
+  "cuisine": [
+    "Azerbaijani",
+    "Barbecue",
+    "Eastern European",
+    "Uzbek",
+    "Vegan Options",
+    "Vegetarian Friendly"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegan Options",
+    "Vegetarian Friendly"
+  ],
+  "hours": [
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ]
+  ],
+  "latitude": "40.36803",
+  "longitude": "49.83402",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d15208031-Reviews-Kasamasa-Baku_Absheron_Region.html",
+  "website": "http://www.kasamasa.az",
+  "rankingDenominator": "841",
+  "rankingString": "#48 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "136",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "14998406",
+  "type": "RESTAURANT",
+  "name": "Cafe City",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/d8/32/88/close-up-for-profiterole.jpg",
+  "awards": [],
+  "rankingPosition": "42",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 599 15 14",
+  "address": "F. Kh. Khoyski ave., 14 Ganjlik Mall, Baku Azerbaijan",
+  "email": "cafecity@cafecity.az",
+  "cuisine": [
+    "Cafe",
+    "Fast Food",
+    "European",
+    "Eastern European",
+    "Central European",
+    "Azerbaijani",
+    "Vegetarian Friendly",
+    "Vegan Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options"
+  ],
+  "hours": [],
+  "latitude": "40.370277",
+  "longitude": "49.835556",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d14998406-Reviews-Cafe_City-Baku_Absheron_Region.html",
+  "website": "https://www.facebook.com/kafesiti/?hc_ref=ARQ2Lz1xGPkmyDFFnmuPMEXRRtlc6tkFu3JYzOzEs5BCoHlG0aleQKdZFefMbdPApDs&fref=nf",
+  "rankingDenominator": "841",
+  "rankingString": "#40 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "137",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "23830174",
+  "type": "RESTAURANT",
+  "name": "Citypark",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/26/cb/8f/a9/caption.jpg",
+  "awards": [],
+  "rankingPosition": "49",
+  "priceLevel": "",
+  "category": "restaurant",
+  "rating": "5.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 50 988 02 05",
+  "address": "8 Noyabr Prospekt Genclik Parki, Baku 1022 Azerbaijan",
+  "email": "citypark@cafecity.az",
+  "cuisine": [
+    "European",
+    "Eastern European",
+    "Azerbaijani",
+    "Cafe"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [],
+  "hours": [
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1440
+      }
+    ]
+  ],
+  "latitude": "40.35916",
+  "longitude": "49.95196",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d23830174-Reviews-Citypark-Baku_Absheron_Region.html",
+  "website": "http://www.cafecity.az",
+  "rankingDenominator": "841",
+  "rankingString": "#47 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "52",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "4203560",
+  "type": "RESTAURANT",
+  "name": "Sehirli Tendir",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/0a/63/b3/6b/caption.jpg",
+  "awards": [],
+  "rankingPosition": "44",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 50 403 14 35",
+  "address": "Old city near Gosha Gala gates, Baku Azerbaijan",
+  "cuisine": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Halal"
+  ],
+  "hours": [
+    [
+      {
+        "open": 540,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 540,
+        "close": 1380
+      }
+    ]
+  ],
+  "latitude": "40.368614",
+  "longitude": "49.835537",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d4203560-Reviews-Sehirli_Tendir-Baku_Absheron_Region.html",
+  "website": "https://www.facebook.com/pages/Iceri-seher-Sehirli-tendir/321381537931527",
+  "rankingDenominator": "841",
+  "rankingString": "#42 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "355",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "23371476",
+  "type": "RESTAURANT",
+  "name": "ZAZU Food & Mood",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/25/c9/70/6c/delicious.jpg",
+  "awards": [],
+  "rankingPosition": "47",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "5.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 50 285 00 23",
+  "address": "34 NeftcilNr Prospekti Seaside Boulevard, Baku 1010 Azerbaijan",
+  "cuisine": [
+    "American",
+    "European",
+    "Cafe",
+    "Healthy",
+    "Vegan Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegan Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 600,
+        "close": 1425
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1425
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1425
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1425
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1425
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1425
+      }
+    ],
+    [
+      {
+        "open": 600,
+        "close": 1425
+      }
+    ]
+  ],
+  "latitude": "40.37767",
+  "longitude": "49.89201",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d23371476-Reviews-ZAZU_Food_Mood-Baku_Absheron_Region.html",
+  "website": "https://www.instagram.com/zazubaku/",
+  "rankingDenominator": "841",
+  "rankingString": "#45 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "76",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "1948208",
+  "type": "RESTAURANT",
+  "name": "Scalini Italian Restaurant",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/05/66/19/42/scalini-italian-restaurant.jpg",
+  "awards": [],
+  "rankingPosition": "48",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 598 28 50",
+  "address": "2 Bakikhanov Str., Baku AZ1065 Azerbaijan",
+  "email": "info@scalini.az",
+  "cuisine": [
+    "Italian",
+    "Mediterranean",
+    "European",
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options",
+    "Gluten Free Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 0,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1380
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1380
+      }
+    ]
+  ],
+  "latitude": "40.386345",
+  "longitude": "49.82551",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d1948208-Reviews-Scalini_Italian_Restaurant-Baku_Absheron_Region.html",
+  "website": "http://www.scalini.az",
+  "rankingDenominator": "841",
+  "rankingString": "#46 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "366",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "7195561",
+  "type": "RESTAURANT",
+  "name": "Paris Bistro Baku",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-o/07/19/85/1c/paris-bistro-baku.jpg",
+  "awards": [],
+  "rankingPosition": "46",
+  "priceLevel": "$$ - $$$",
+  "category": "restaurant",
+  "rating": "4.0",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 404 82 15",
+  "address": "Zarifa Aliyeva 1/4, Baku AZ1010 Azerbaijan",
+  "email": "teymur.safarov@saffron.az",
+  "cuisine": [
+    "French",
+    "Cafe",
+    "European",
+    "Vegetarian Friendly",
+    "Vegan Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 1439
+      }
+    ]
+  ],
+  "latitude": "40.367725",
+  "longitude": "49.838333",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d7195561-Reviews-Paris_Bistro_Baku-Baku_Absheron_Region.html",
+  "website": "http://www.parisbistro.az",
+  "rankingDenominator": "841",
+  "rankingString": "#44 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "479",
+  "reviewsCount": 0,
+  "reviews": []
+},
+{
+  "id": "4212672",
+  "type": "RESTAURANT",
+  "name": "Sky Grill",
+  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/03/e4/b7/27/getlstd-property-photo.jpg",
+  "awards": [],
+  "rankingPosition": "45",
+  "priceLevel": "$$$$",
+  "category": "restaurant",
+  "rating": "4.5",
+  "isClosed": false,
+  "isLongClosed": false,
+  "phone": "+994 12 464 50 00",
+  "address": "Azadlig Avenue 1B, Baku 1000 Azerbaijan",
+  "email": "baku.reservations@hilton.com",
+  "cuisine": [
+    "American",
+    "Bar",
+    "Fast Food",
+    "Georgian",
+    "Azerbaijani",
+    "Steakhouse",
+    "Pub",
+    "Vegetarian Friendly",
+    "Vegan Options"
+  ],
+  "mealTypes": [],
+  "dietaryRestrictions": [
+    "Vegetarian Friendly",
+    "Vegan Options"
+  ],
+  "hours": [
+    [
+      {
+        "open": 0,
+        "close": 720
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 720
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 720
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 720
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 720
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 720
+      }
+    ],
+    [
+      {
+        "open": 0,
+        "close": 720
+      }
+    ]
+  ],
+  "latitude": "40.371944",
+  "longitude": "49.8497",
+  "webUrl": "https://www.tripadvisor.com/Restaurant_Review-g293934-d4212672-Reviews-Sky_Grill-Baku_Absheron_Region.html",
+  "website": "http://www.opentable.co.uk/r/sky-grill-baku-3?shareReferrer=ios-share",
+  "rankingDenominator": "841",
+  "rankingString": "#43 of 1,075 Restaurants in Baku",
+  "numberOfReviews": "277",
+  "reviewsCount": 0,
+  "reviews": []
+}]
