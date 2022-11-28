@@ -1,24 +1,29 @@
 import { Component, OnInit } from '@angular/core';
+import { BehaviorSubject, take } from 'rxjs';
 import { Theatre } from '../../models/theatre';
+import { TheatresDataService } from '../../services/theatres-data.service';
 
 @Component({
   selector: 'app-theatres',
   templateUrl: './theatres.component.html',
-  styleUrls: ['./theatres.component.scss']
+  styleUrls: ['./theatres.component.scss'],
 })
 export class TheatresComponent implements OnInit {
-  public pageName: string = "Theatres Page";
 
-  public theatres: Theatre[] = [
-    {id: "1", name: "Theatre 1"},
-    {id: "2", name: "Theatre 2"},
-    {id: "3", name: "Theatre 3"},
-    {id: "4", name: "Theatre 4"},
-  ];
+  public theatres: Theatre[] = [];
 
-  constructor() { }
+  public theatres$: BehaviorSubject<Theatre[]> = new BehaviorSubject<Theatre[]>(this.theatres);
+
+  constructor(private theatresDataService: TheatresDataService) {
+    this.theatresDataService
+      .getTheatres()
+      .pipe(take(1))
+      .subscribe((theatres: Theatre[]) => {
+        this.theatres = theatres;
+        this.theatres$.next(this.theatres);
+      });
+  }
 
   ngOnInit(): void {
   }
-
 }

@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { BehaviorSubject, take } from 'rxjs';
 import { Mall } from '../../models/mall';
+import { MallsDataService } from '../../services/malls-data.service';
 
 @Component({
   selector: 'app-malls',
@@ -8,16 +10,19 @@ import { Mall } from '../../models/mall';
 })
 export class MallsComponent implements OnInit {
 
-  public pageName: string = "Malls Page";
-  
-  public malls: Mall[] = [
-    {id: "1", name: "Mall 1"},
-    {id: "2", name: "Mall 2"},
-    {id: "3", name: "Mall 3"},
-    {id: "4", name: "Mall 4"},
-  ];
+  public malls: Mall[] = [];
 
-  constructor() { }
+  public malls$: BehaviorSubject<Mall[]> = new BehaviorSubject<Mall[]>(this.malls);
+
+  constructor(private mallsDataService: MallsDataService) {
+    this.mallsDataService
+      .getMalls()
+      .pipe(take(1))
+      .subscribe((malls: Mall[]) => {
+        this.malls = malls;
+        this.malls$.next(this.malls);
+      });
+  }
 
   ngOnInit(): void {
   }

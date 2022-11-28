@@ -1,0 +1,41 @@
+<header class="header">
+  <div class="filter">
+    <app-navigation></app-navigation>
+    <h1 class="header__title" [@title]="titleState">Entertainments</h1>
+  </div>
+</header>
+
+<div class="entertainments__nav">
+  <span>Baku Guide</span>
+  <span>></span>
+  <span>Entertainments</span>
+</div>
+<main class="main">
+  <div class="entertainment-list">
+    <div class="entertainment museums" (click)="showMuseums()">
+      <img src="../../../../assets/images/museum.png" />
+      <p>Museums</p>
+    </div>
+    <div class="entertainment theatres" (click)="showTheatres()">
+      <img src="../../../../assets/images/theater (1).png" />
+      <p>Theatres</p> 
+    </div>
+    <div class="entertainment cinemas" (click)="showCinemas()">
+      <img src="../../../../assets/images/cinema.png" />
+      <p>Cinemas</p> 
+    </div>
+    <div class="entertainment shopping-centres" (click)="showMalls()">
+      <img src="../../../../assets/images/online-shopping.png" />
+      <p>Shopping centres</p> 
+    </div>
+    <div class="entertainment kids-families" (click)="showKidsCentres()">
+      <img src="../../../../assets/images/toys.png" />
+      <p>Kids & Families</p> 
+    </div>
+  </div>
+  <app-museums *ngIf="museums"></app-museums>
+  <app-theatres *ngIf="theatres"></app-theatres>
+  <app-cinemas *ngIf="cinemas"></app-cinemas>
+  <app-malls *ngIf="malls"></app-malls>
+  <app-kids-and-families *ngIf="kidsCentres"></app-kids-and-families>
+</main>

@@ -1,16 +1,13 @@
 <header class="header">
   <div class="filter">
     <app-navigation></app-navigation>
-    <h1 class="header__title">Attractions in Baku</h1>
+    <h1 class="header__title" [@title]="titleState">Attractions</h1>
   </div>
 </header>
 <div class="attractions__nav">
-  <span>Baku Guide</span>
+  <span><a routerLink="/">Baku Guide</a></span>
   <span>></span>
-  <span>Attractions</span>
-  <span>></span>
-  <span>Top must see places</span>
-  <span>Associated Venues</span>
+  <span><a routerLink="/attractions">Attractions</a></span>
 </div>
 <main class="main">
   <h1 class="top__attr">Top 10 must see places</h1>
@@ -24,10 +21,6 @@
     ></ng-image-slider>
   </div>
   <h2 class="attractions__title">Associated Venues</h2>
-  <app-attraction [attr]="attr" *ngFor="let attr of attrs"></app-attraction>
-  <div class="paging">
-    <button class="page">1</button>
-    <button class="page">2</button>
-    <button class="page">3</button>
-  </div>
+  <app-attraction [attr]="attr" *ngFor="let attr of attrs | paginate: { itemsPerPage: 5, currentPage: p }"></app-attraction>
+  <pagination-controls (pageChange)="p = $event"></pagination-controls>
 </main>

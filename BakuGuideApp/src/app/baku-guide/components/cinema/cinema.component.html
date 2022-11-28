@@ -1,0 +1,18 @@
+<div class="cinema">
+  <img class="cinema__image" [src]="cinema.image" />
+  <div class="cinema__content">
+    <div class="cinema__name-loc">
+      <h3 class="cinema__name">{{ cinema.name }}</h3>
+      <h4 class="cinema__location">
+        <!-- <a [href]="restaraunt.link" target="_blank"> -->
+        <img
+          class="cinema__loc"
+          src="../../../../assets/images/location.png"
+          alt=""
+        />
+        {{ cinema.address }}
+        <!-- </a> -->
+      </h4>
+    </div>
+  </div>
+</div>

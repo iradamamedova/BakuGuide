@@ -1,0 +1,18 @@
+<div class="kidsCentre">
+  <img class="kidsCentre__image" [src]="kidsCentre.image" />
+  <div class="kidsCentre__content">
+    <div class="kidsCentre__name-loc">
+      <h3 class="kidsCentre__name">{{ kidsCentre.name }}</h3>
+      <h4 class="kidsCentre__location">
+        <!-- <a [href]="restaraunt.link" target="_blank"> -->
+        <img
+          class="kidsCentre__loc"
+          src="../../../../assets/images/location.png"
+          alt=""
+        />
+        {{ kidsCentre.address }}
+        <!-- </a> -->
+      </h4>
+    </div>
+  </div>
+</div>

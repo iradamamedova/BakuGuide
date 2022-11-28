@@ -7,25 +7,10 @@
       /> BakuGuide
   </h1>
   <div class="nav__menu-list">
-    <a
-      class="nav__link"
-      routerLink="/"
-      routerLinkActive="active"
-      >Home</a>
+    <a class="nav__link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a>
     <a class="nav__link" routerLink="/attractions" routerLinkActive="active">Attractions</a>
     <a class="nav__link" routerLink="/restaurants" routerLinkActive="active">Food and Drink</a>
-    <a class="nav__link" href="">Entertainment</a>
-    <a class="nav__link" href="">Outdoor activities</a>
-    <!-- <a
-      (click)="home()"
-      class="nav__link"
-      routerLink="/"
-      routerLinkActive="active"
-      >Home</a>
-    <a class="nav__link" (click)="toAttractions()" routerLink="/attractions" routerLinkActive="active">Attractions</a>
-    <a class="nav__link" (click)="toRestaurants()" routerLink="/restaurants" routerLinkActive="active">Food and Drink</a>
-    <a class="nav__link" (click)="toAttractions()" href="">Entertainment</a>
-    <a class="nav__link" (click)="toAttractions()" href="">Outdoor activities</a> -->
+    <a class="nav__link" routerLink="/entertainment" routerLinkActive="active">Entertainment</a>
+    <a class="nav__link" routerLink="/outdoor" routerLinkActive="active">Outdoor activities</a>
   </div>
 </div>
-

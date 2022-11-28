@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "name": "Park Сinema",
+    "image": "",
+    "address": ["Park Bulvar Mall", "Metro Park", "Zaqulba","Aygun Mall"],
+    "link": "https://parkcinema.az/"
+  },
+  {
+    "id": "3",
+    "name": "Cinema Plus",
+    "image": "",
+    "address": ["Ganjlik Mall", "28 Mall", "Deniz Mall", "Amburan Mall"],
+    "link":"https://www.cinemaplus.az/"
+  },
+  {
+    "id": "4",
+    "name": "IMAX",
+    "image": "",
+    "address": "Flame Towers, Mehdi Huseyn St, Baku",
+    "link": "https://www.imax.com/theatres/azercell-imax"
+  },
+  {
+    "id": "5",
+    "name": "Nizami Cinema",
+    "image": "",
+    "address": "20 Bulbul Ave, Baku 1014",
+    "link": "https://www.instagram.com/nizamicinemacenter/?hl=en"
+  }
+]

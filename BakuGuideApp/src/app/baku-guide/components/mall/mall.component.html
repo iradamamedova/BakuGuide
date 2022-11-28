@@ -1,1 +1,18 @@
-<h4>{{ mall.name }}</h4>
+<div class="mall">
+  <img class="mall__image" [src]="mall.image" />
+  <div class="mall__content">
+    <div class="mall__name-loc">
+      <h3 class="mall__name">{{ mall.name }}</h3>
+      <h4 class="mall__location">
+        <!-- <a [href]="restaraunt.link" target="_blank"> -->
+        <img
+          class="theatre__loc"
+          src="../../../../assets/images/location.png"
+          alt=""
+        />
+        {{ mall.address }}
+        <!-- </a> -->
+      </h4>
+    </div>
+  </div>
+</div>

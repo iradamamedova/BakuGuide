@@ -10,10 +10,9 @@
         </a>
       </h4>
     </div>
-    <button 
-    class="attraction__details-button"
-    (click)="details = !details"
-    >{{ details ? "Show History" : "Hide"}}</button>
+    <button class="attraction__details-button" (click)="details = !details">
+      {{ details ? "Show History" : "Hide"}}
+    </button>
     <p class="attraction__description" *ngIf="!details">
       {{ attr.desc }}
     </p>

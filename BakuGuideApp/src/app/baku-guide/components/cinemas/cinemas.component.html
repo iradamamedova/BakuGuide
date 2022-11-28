@@ -1,0 +1,8 @@
+<h3 class="cinemas__title">Cinemas in Baku</h3>
+<div class="cinema-list">
+  <ng-container *ngFor="let cinema of cinemas;">
+    <div class="cinema" *ngIf="cinema">
+      <app-cinema [cinema]="cinema" ></app-cinema>
+    </div>
+  </ng-container>
+</div>

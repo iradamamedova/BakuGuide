@@ -12,9 +12,7 @@ export class AttractionComponent implements OnInit {
   public attr: Attraction;
   public details: boolean = true;
 
-  // constructor(private attractionsService: AttractionsService) {
-  //   console.log(attractionsService.attrs$)
-  // }
+  constructor() {}
 
   ngOnInit(): void {
   }

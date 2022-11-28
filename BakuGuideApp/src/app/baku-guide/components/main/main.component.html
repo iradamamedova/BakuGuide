@@ -39,13 +39,15 @@
     </p>
     <div class="categories">
       <div class="category-list">
-        <div class="category" [@pulse]="trigger">
+        <div class="category" [@pulse]="trigger" routerLink="/restaurants">
           <img src="../../../../assets/images/foodanddrink.png" alt="" />
           Food & Drink
         </div>
         <div class="category" [@pulse]="trigger">
-          <img src="../../../../assets/images/stickers.png" alt="" />
-          Things to do
+          <a class="category__a" href="#reasons-to-visit">
+            <img src="../../../../assets/images/stickers.png" alt="" />
+            Things to do
+          </a>
         </div>
         <div class="category" [@pulse]="trigger">
           <img src="../../../../assets/images/suitcase (1).png" alt="" />
@@ -54,7 +56,7 @@
       </div>
     </div>
   </section>
-  <section class="reasons-to-visit">
+  <section class="reasons-to-visit" id="reasons-to-visit">
     <div class="reasons-to-visit__flex">
       <div class="reasons-to-visit__slider">
         <h3 class="reasons-to-visit__title">
@@ -76,11 +78,10 @@
           Things To See In Baku
           <hr />
         </h3>
-        <div class="top__stuff">
+        <div class="top__stuff" routerLink="/attractions">
           <img
             src="../../../../assets/images/flameTowers.jpg"
             alt=""
-            srcset=""
           />
           <p>Top attractions</p>
         </div>
@@ -88,7 +89,6 @@
           <img
             src="../../../../assets/images/heydar-aliyev-centre.jpg"
             alt=""
-            srcset=""
           />
           <p>Top museums</p>
         </div>
@@ -96,7 +96,6 @@
           <img
             src="../../../../assets/images/centralpark.jpg"
             alt=""
-            srcset=""
           />
           <p>Top parks</p>
         </div>
@@ -111,21 +110,7 @@
     <h3 class="map__title">Welcome to Baku!</h3>
     <hr />
     <div class="map-div">
-      <google-map
-        width="100%"
-        [center]="center"
-        [zoom]="zoom"
-        (mapClick)="moveMap($event)"
-        (mapMousemove)="move($event)"
-      >
-        <map-info-window></map-info-window>
-        <map-marker
-          #marker="mapMarker"
-          *ngFor="let markerPosition of markerPositions"
-          [position]="markerPosition"
-          (mapClick)="openInfoWindow(marker)"
-        ></map-marker>
-      </google-map>
+      <app-map></app-map>
     </div>
   </section>
   <section class="contact">

@@ -1,25 +1,29 @@
 import { Component, OnInit } from '@angular/core';
+import { BehaviorSubject, take } from 'rxjs';
 import { Museum } from '../../models/museum';
+import { MuseumsDataService } from '../../services/museums-data.service';
 
 @Component({
   selector: 'app-museums',
   templateUrl: './museums.component.html',
-  styleUrls: ['./museums.component.scss']
+  styleUrls: ['./museums.component.scss'],
 })
 export class MuseumsComponent implements OnInit {
 
-  public pageName: string = "Museums Page";
+  public museums: Museum[] = [];
 
-  public museums: Museum[] = [
-    {id: "1", name: "Museum 1"},
-    {id: "2", name: "Museum 2"},
-    {id: "3", name: "Museum 3"},
-    {id: "4", name: "Museum 4"},
-  ];
+  public museums$: BehaviorSubject<Museum[]> = new BehaviorSubject<Museum[]>(this.museums);
 
-  constructor() { }
+  constructor(private museumsDataService: MuseumsDataService) {
+    this.museumsDataService
+      .getMuseums()
+      .pipe(take(1))
+      .subscribe((museums: Museum[]) => {
+        this.museums = museums;
+        this.museums$.next(this.museums);
+      });
+  }
 
   ngOnInit(): void {
   }
-
 }

@@ -9,20 +9,11 @@ import { Router } from '@angular/router';
 export class NavigationComponent implements OnInit {
   constructor(private router: Router) {
     document.onscroll = function () {
-      document.documentElement.scrollTop > 450
+      document.documentElement.scrollTop > 400
         ? document.getElementById('navigation')?.classList.add('sticky')
         : document.getElementById('navigation')?.classList.remove('sticky');
     };
   }
-  // home() {
-  //   this.router.navigate([''])
-  // }
-  // toAttractions() {
-  //   this.router.navigate(['/attractions'])
-  // }
-  // toRestaurants() {
-  //   this.router.navigate(['/restaurants'])
-  // }
 
   ngOnInit(): void {}
 }

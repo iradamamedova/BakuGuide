@@ -19,13 +19,15 @@
   animation: example .3s ease-in-out;
   background-color: #fff;
   box-shadow: 0 6px 10px -4px #00000026;
-  color: #303030;
   a {
     color: #222;
     cursor: pointer;
   }
   a:hover {
     color: #72ba58;
+  }
+  .nav__title {
+    color: #303030;
   }
 }
 @keyframes example {
@@ -45,7 +47,7 @@
       transition: .3s;
     }
     &.active {
-      color: #72ba58;
+      color: #72ba58 !important;
     }
   }
   &__title {

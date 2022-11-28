@@ -1,5 +1,44 @@
-.restaurant{
+.restaurant {
+  display: flex;
+  margin-bottom: 20px;
+  text-align: left;
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 20px;
   &__image {
-    width: 500px;
+    width: 250px;
+    margin: 0 30px 0 0;
   }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+  }
+  &__name {
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #ec7c21;
+  }
+  &__rating {
+    font-size: 0.9em;
+    font-weight: 600;
+    line-height: 23px;
+    color: #666;
+  }
+  &__location {
+    font-weight: 300;
+    color: #999;
+    font-size: .9em;
+    margin: 30px 0;
+  }
+  &__loc {
+    width: 15px;
+  }
+  }
+hr {
+  border: none;
+  border-top: 1px #ccc solid;
+  width: 80%;
+  margin: unset;
 }

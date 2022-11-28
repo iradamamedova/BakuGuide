@@ -6,9 +6,12 @@ import { AttractionsDataService } from './attractions-data.service';
 @Injectable()
 export class AttractionsService {
   private attractions: Attraction[] = [];
-  public attractions$: BehaviorSubject<Attraction[]> = new BehaviorSubject<Attraction[]>(this.attractions);
   private attractionsImages: Object[] = [];
+  private reasonsToVisitImages: Object[] = [];
+
+  public attractions$: BehaviorSubject<Attraction[]> = new BehaviorSubject<Attraction[]>(this.attractions);
   public attractionsImages$: BehaviorSubject<Object[]> = new BehaviorSubject<Object[]>(this.attractionsImages);
+  public reasonsToVisitImages$: BehaviorSubject<Object[]> = new BehaviorSubject<Object[]>(this.reasonsToVisitImages);
 
   constructor(private attractionsDataService: AttractionsDataService) {
     this.attractionsDataService
@@ -24,6 +27,13 @@ export class AttractionsService {
       .subscribe((attractionsImages: Object[]) => {
         this.attractionsImages = attractionsImages;
         this.attractionsImages$.next(this.attractionsImages);
+      });
+      this.attractionsDataService
+      .getReasonsToVisitImages()
+      .pipe(take(1))
+      .subscribe((reasonsToVisitImages: Object[]) => {
+        this.reasonsToVisitImages = reasonsToVisitImages;
+        this.reasonsToVisitImages$.next(this.reasonsToVisitImages);
       });
   }
 }
