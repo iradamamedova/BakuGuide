@@ -1,44 +1,107 @@
 [
   {
     "id": "1",
-    "name": "ksnx",
-    "image": "",
-    "address": "",
-    "decription": "kjbhvcgfggvhb"
+    "name": "Heydar Aliyev Centre",
+    "image": "../../../../assets/images/heydar-aliyev-centre.jpg",
+    "address": "1 Heydar Aliyev Ave, Baku 1033",
+    "decription": "Cultural center in Baku"
   },
   {
     "id": "2",
-    "name": "ksefenx",
-    "image": "",
-    "address": "",
-    "decription": "kjbhvcgfggvhb"
+    "name": "Azerbaijan Carpet Museum",
+    "image": "../../../../assets/images/carpet-museum.jpg",
+    "address": "Mikayil Huseynov Street 28, Baku",
+    "decription": "Museum in Baku"
   },
   {
     "id": "3",
-    "name": "ks frnx",
-    "image": "",
-    "address": "",
-    "decription": "kjbhvcgfggvhb"
+    "name": "National Museum of History of Azerbaijan",
+    "image": "../../../../assets/images/Azerbaijani-Museum-of-History.jpg",
+    "address": "4 Haji Zeynalabdin Taghiyev St, Baku 1005",
+    "decription": "Museum in Baku"
   },
   {
     "id": "4",
-    "name": "k frsnx",
-    "image": "",
-    "address": "",
-    "decription": "kjbhvcgfggvhb"
+    "name": "Nizami Museum of Azerbaijan Literature",
+    "image": "../../../../assets/images/literature-museum.jpg",
+    "address": "53 Istiglaliyyat, Baku 1005",
+    "decription": "Museum in Baku"
   },
   {
     "id": "5",
-    "name": "ksfnx",
-    "image": "",
-    "address": "",
-    "decription": "kjbhvcgfggvhb"
+    "name": "Azerbaijan State Museum of Art",
+    "image": "../../../../assets/images/national_art_museum_of_azerbaijan.jpg",
+    "address": "Niyazi Street 9/11",
+    "decription": "Museum in Baku"
   },
   {
     "id": "6",
-    "name": "ksnx",
-    "image": "",
-    "address": "",
-    "decription": "kjbhvcgfggvhb"
+    "name": "Museum of Modern Art",
+    "image": "../../../../assets/images/modern-art-museum.jpg",
+    "address": "5 Yusuph Safarov, Bakı 1025",
+    "decription": "Museum in Baku"
+  },
+  {
+    "id": "7",
+    "name": "Museum of Miniature Books",
+    "image": "../../../../assets/images/mini-books-museum.jpg",
+    "address": "9R8M+G2M, Baku 1000",
+    "decription": "Museum in Baku"
+  },
+  {
+    "id": "8",
+    "name": "Independence Museum of Azerbaijan",
+    "image": "../../../../assets/images/independency-museum.jpg",
+    "address": "The Museum Center, 49 Neftchilar Ave, Baku",
+    "decription": "Museum in Baku"
+  },
+  {
+    "id": "9",
+    "name": "Stone Chronicle Museum",
+    "image": "../../../../assets/images/chronicle-museum.jpg",
+    "address": "8RRR+3F7, Baku",
+    "decription": "Museum in Baku"
+  },
+  {
+    "id": "10",
+    "name": "State Museum of Musical Culture of Azerbaijan",
+    "image": "../../../../assets/images/musical-culture-museum.jpg",
+    "address": "49 Neftchilar Ave, Baku",
+    "decription": "Museum in Baku"
+  },
+  {
+    "id": "11",
+    "name": "Museum of Archaeology and Ethnography",
+    "image": "../../../../assets/images/archaeology-museum.jpg",
+    "address": "Icherisheher",
+    "decription": "Museum in Baku"
+  },
+  {
+    "id": "12",
+    "name": "Vagif Mustafazadeh House-Museum",
+    "image": "../../../../assets/images/vagif-mustafazadeh-house-museum.jpg",
+    "address": "9R8M+2W7, Baku 1000",
+    "decription": "Museum in Baku"
+  },
+  {
+    "id": "13",
+    "name": "House-Museum of Samad Vurgun",
+    "image": "../../../../assets/images/samad_Vurgun's_house_museum.jpg",
+    "address": "9R9Q+7W7, Tarlan Aliyarbeyov St, Baku",
+    "decription": "Museum in Baku"
+  },
+  {
+    "id": "14",
+    "name": "House-Museum of Tahir Salahov",
+    "image": "../../../../assets/images/tahir-salahov-house-museum.jpg",
+    "address": "st. Ilyas Efendiyev , 55 / 3rd lane Ilyas Efendiyev, Bakı",
+    "decription": "Museum in Baku"
+  },
+  {
+    "id": "15",
+    "name": "Azerbaijan Museum of Geology",
+    "image": "../../../../assets/images/geologiya-museum.jpg",
+    "address": " 95 Ismayil Kutkashenli St, Baku",
+    "decription": "Museum in Baku"
   }
 ]

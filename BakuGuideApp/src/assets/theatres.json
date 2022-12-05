@@ -1,44 +1,72 @@
 [
-    {
-      "id": "1",
-      "name": "trdt",
-      "image": "",
-      "address": "",
-      "decription": "kjbhvcgfggvhb"
-    },
-    {
-      "id": "2",
-      "name": "ksefenx",
-      "image": "",
-      "address": "",
-      "decription": "kjbhvcgfggvhb"
-    },
-    {
-      "id": "3",
-      "name": "ks frnx",
-      "image": "",
-      "address": "",
-      "decription": "kjbhvcgfggvhb"
-    },
-    {
-      "id": "4",
-      "name": "k frsnx",
-      "image": "",
-      "address": "",
-      "decription": "kjbhvcgfggvhb"
-    },
-    {
-      "id": "5",
-      "name": "ksfnx",
-      "image": "",
-      "address": "",
-      "decription": "kjbhvcgfggvhb"
-    },
-    {
-      "id": "6",
-      "name": "ksnx",
-      "image": "",
-      "address": "",
-      "decription": "kjbhvcgfggvhb"
-    }
-  ]
+  {
+    "id": "1",
+    "name": "The Baku Marionette Theatre",
+    "image": ["../../../../assets/images/marionett-theatre.jpg"],
+    "address": "28 Kichik Qala, Baku",
+    "description": "Even if you have limited time for cultural activities in Baku, you should make sure to visit the Marionette Theatre. Here you get the chance to come in touch, in a short period of time, with the full range of the Azerbaijani people’s cultural heritage: architecture, music, traditional costumes, the melodies of Azeri speech, daily life and holidays, ornaments and dances. Baku Marionette Theatre established by the director and artist Tarlan Gorchu in the mid of 1980. The first performance of the theater was the marionette of Uzeyir Hajibeyli's opera Arshin Mal Alan."
+  },
+  {
+    "id": "2",
+    "name": "Azerbaijan State Puppet Theatre",
+    "image": ["../../../../assets/images/Puppet_Theatre,_Baku.jpg"],
+    "address": "77 Neftchilar Ave, Baku 1095",
+    "description": "Azerbaijan State Puppet Show named Abdullah Shaig, was formed in 1931. In the first period there were put on theatre stage Azerbaijani, Russian and Western European theatrical plays, the Azerbaijani people's oral literary motifs: Haji Kara, Almas, Iskander and shepherd, Karlik, Nargiz, etc. Since 60-70 years theatre began to present repertoire for small children, schoolchilds. Since 1975, theatre put on stage plays for adult viewers: Three tales, Twin brothers and etc. In 1974 theater was given the name of A.Shaig. In theatrical representations operate puppets, driven by actor-puppeteers, hidden from viewers fronts."
+  },
+  
+  {
+    "id": "8",
+    "name": "Azerbaijan State Academic Drama Theater",
+    "image": ["../../../../assets/images/azerbaijan_State_Academic_Drama_Theatre.jpg"],
+    "address": "1 Fuzuli St, Baku 1009",
+    "description": "The theatre has its origins in national holidays and dances. Elements of theatricality were contained in many kinds of national creativity accompanying national festivities, traditional holidays and other occasions. On 10 March 1873, under the guidance of Hasan bey Zardabi and with the participation of students of the Real School of Baku, comedy Vizier of Lankaran khanate by M.F.Akhundov's was staged. The professional Azerbaijani theatre was originated after this very performance. In 1919, separated troupes joined up and the theatre acquired the state recognition."
+  },
+  {
+    "id": "9",
+    "name": "Azerbaijan State Academic Opera and Ballet Theater",
+    "image": ["../../../../assets/images/Azerbaijan_State_Academic_Opera_and_Ballet_Theatre.jpg"],
+    "address": "95 Nizami St, Baku 1001",
+    "description": "The theatre was built in 1910 by a famous architect named Nikolai Bayev and, as with other examples of Azerbaijani architecture from the beginning of the 20th century, it blends elements of baroque, rococo and Moorish styles. This building is closely connected with the development of Azerbaijani opera, which began in 1908 with the first opera in the Muslim East – Leyli and Majnun – composed by one of the finest composers of the 20th century and the founder of Azerbaijani classical music, Uzeyir Hajibeyli."
+  },{
+    "id": "6",
+    "name": "Azerbaijan State Theatre of the Young Spectator",
+    "image": ["../../../../assets/images/Azerbaijan_State_Theatre_of_Young_Spectators.8.jpg"],
+    "address": "Nizami, Bakı",
+    "description": "Azerbaijan State Theater of Young Spectators was founded in 1928 as Baku Children’s Theater according to the Decision of the Commissariat of Public Enlightenment of Azerbaijan dated September 20, 1928. The initial group of actors and directors of the theatre included Aghadadash Gurbanov, Mammadagha Dadashov, Yusif Eminli, Mina Abdullayeva, Yusif Dadashov, Susanna Majidova, Javahir Isgandarova, Suleyman Alasgarov, Huseynagha Sadikhov, Karim Hasanov, Zafar Nematov, Maharram Hashimov, and Alimammad Atayev."
+  },
+  {
+    "id": "10",
+    "name": "Azerbaijan State Musical Theatre",
+    "image": ["../../../../assets/images/music-theatre.jpg"],
+    "address": " Yusif Mammadaliyev St, Baku",
+    "description": "Azerbaijan State Theatre of Musical Comedy is one of the leading musical theatres of Azerbaijan.The premiere of Husband and wife, a musical comedy written by Uzeyir Hajibeyov in 1909, was held on May 24, 1910, in the building of the Nikitin brothers’ circus, in Baku. This production laid the foundation of Azerbaijan State Theatre of Musical Comedy. By 1938, musical comedies were displayed on the stage of Azerbaijan State Academic Opera and Ballet Theater."
+  },
+  {
+    "id": "4",
+    "name": "Rashid Behbudov State Song Theatre",
+    "image": ["../../../../assets/images/song-theatre.jpg"],
+    "address": "12 Rashid Behbudov St, Baku",
+    "description": "The Azerbaijan State Song Theatre is located in Azerbaijan's capital, Baku, on Rashid Behbudov Street, and is named after Rashid Behbudov, who founded it in 1968. The theatre building was originally built as a synagogue in 1901. It is in the Greek Revival style, with an Ionic order portico, and in the ornamented pediment there is a central lyre where a representation of the Tablets of Stone once featured. The theatre's repertoire consists of folk songs, mugams and tasnifs, as well as works of national composers like Uzeyir Hajibeyov, Gara Garayev, Fikrat Amirov and Tofig Guliyev."
+  },
+  {
+    "id": "3",
+    "name": "Azerbaijan State Academic Russian Drama Theatre",
+    "image": ["../../../../assets/images/teatrrusdrama.jpg"],
+    "address": "7 Khagani Street, Baku",
+    "description": "Azerbaijan State Russian Drama Theatre named  Samed Vurgun, organized in 1923  on the basis of the Bakus free satire-troupes. Originally it called the Baku working theatre. In 1937, named the Azerbaijani State Russian Drama Theatre. Since middle of 20’s theatre modern drama and also works of classic Three Sisters-1946, Seagull-1960, Chekhov, Masquerade - Lermontov). A special place take part plays of azeri playwrights (Sevil- in 1930, The Bride of fire - 1933, Farhad and Shirin - 1947, Sunrise on Caspian - 1951)."
+  },
+  {
+    "id": "7",
+    "name": "Azerbaijan State Pantomime Theatre",
+    "image": ["../../../../assets/images/Pantomima_teatrı.jpg"],
+    "address": "49 Azadliq Ave, Baku",
+    "description": "The theatre was founded in 1994 by Bakhtiyar Khanizadeh, an actor of the Azerbaijan State Theatre of Young Spectators. He worked closely with students of the Azerbaijan State University of Culture and Arts and selected the ones he considered fit to establish the pioneer mime theatre studio in Azerbaijan. For the next 11 years, the theatre was based in the building of the Theatre of Young Spectators until relocated to the building of the Shafag Cinema. In 2000, the theatre received the status of a state theatre."
+  },
+  {
+    "id": "5",
+    "name": "Green Theatre",
+    "image": ["../../../../assets/images/green-theatre.jpg"],
+    "address": "9R6J+35R, Istiglaliyyat, Bakı",
+    "description": "The Green Theatre is an open-air theatre in Baku, the capital city of Azerbaijan. The theatre was built in the mid-1960s on the initiative of the city's mayor of the time Alish Lambaranski. The Green Theatre was built as a venue intended for important cultural events. Speaking at the opening ceremony, Ilham Aliyev hoped that the venue would become the favourite entertainment place of the people of Baku."
+  }
+]

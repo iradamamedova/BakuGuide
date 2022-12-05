@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, QueryList, ViewChild, ViewChildren } from '@angular/core';
 import { MapInfoWindow, MapMarker } from '@angular/google-maps';
 
 @Component({
@@ -11,7 +11,7 @@ export class MapComponent implements OnInit {
   
   constructor() {}
 
-  @ViewChild(MapInfoWindow) infoWindow: MapInfoWindow | undefined;
+  @ViewChildren(MapInfoWindow) infoWindows: QueryList<MapInfoWindow>;
   center: google.maps.LatLngLiteral = {
     lat: 40.4093,
     lng: 49.8671
@@ -22,8 +22,8 @@ export class MapComponent implements OnInit {
   ];
   markerOptions: google.maps.MarkerOptions = {draggable: false};
   mapInfoWindows = [
-    {value: "1"},
-    {value: "2"}
+    {name: "rest1"},
+    {name: "rest2"}
   ];
   zoom = 11;
  
@@ -31,8 +31,9 @@ export class MapComponent implements OnInit {
     if (event.latLng != null)  this.markerPositions.push(event.latLng.toJSON());
   }
   openInfoWindow(marker: MapMarker, i: any) {
-    if (this.infoWindow != undefined) {
-      this.infoWindow.open(marker);
+    const infoWindow = this.infoWindows.get(i);
+    if (infoWindow) {
+      infoWindow.open(marker);
     }
   }
 

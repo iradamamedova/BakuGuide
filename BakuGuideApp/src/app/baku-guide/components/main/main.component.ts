@@ -69,6 +69,11 @@ export class MainComponent implements OnInit {
   public pulseState: string = 'start';
   public trigger: boolean;
   public imageObject: Array<object>;
+  public center: google.maps.LatLngLiteral = {
+    lat: 40.4093,
+    lng: 49.8671
+  }; 
+  public zoom = 11;
 
   constructor(private attractionsService: AttractionsService) {}
 

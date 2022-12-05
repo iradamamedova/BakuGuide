@@ -16,7 +16,7 @@ export class TheatresDataService {
             name: theatreJSON.name,
             image: theatreJSON.image,
             address: theatreJSON.address,
-            description: theatreJSON.rating,
+            description: theatreJSON.description,
           };
         });
       })

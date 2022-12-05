@@ -11,9 +11,11 @@ export class CinemaComponent implements OnInit {
   @Input()
   public cinema: Cinema;
 
-  constructor() { }
+  @Input()
+  public addresses: string[];
 
-  ngOnInit(): void {
-  }
+  constructor() {}
+
+  ngOnInit(): void {}
 
 }

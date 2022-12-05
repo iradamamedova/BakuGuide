@@ -1,8 +1,10 @@
 import { state, style, trigger } from '@angular/animations';
-import { Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component, OnDestroy, OnInit } from '@angular/core';
 import { Restaraunt } from '../../models/restaurant';
 import { RestarauntsService } from '../../services/restaraunts.service';
 import { FormBuilder, FormGroup, FormArray, FormControl } from '@angular/forms';
+import { ActivatedRoute, Params } from '@angular/router';
+import { combineLatest, Subject, takeUntil } from 'rxjs';
 
 @Component({
   selector: 'app-restaraunts',
@@ -20,17 +22,14 @@ import { FormBuilder, FormGroup, FormArray, FormControl } from '@angular/forms';
     ]),
   ],
 })
-export class RestarauntsComponent implements OnInit {
+export class RestarauntsComponent implements OnInit, AfterViewInit, OnDestroy {
+  private destroy$: Subject<void> = new Subject<void>();
   public titleState: string = 'start';
-
   public restaraunts: Restaraunt[];
-  public imageObject: Array<object>;
-
   public p: number = 1;
-
-  form: FormGroup;
-
+  public form: FormGroup;
   public cuisines: string;
+  public selectedRestaraunt: Restaraunt;
 
   Cuisine: Array<any> = [
     { name: 'Azerbaijani', value: 'Azerbaijani' },
@@ -75,16 +74,43 @@ export class RestarauntsComponent implements OnInit {
     { name: 'Wine Bar', value: 'Wine Bar' },
     { name: 'Pub', value: 'Pub' },
     { name: 'Fast Food', value: 'Fast Food' },
-    { name: 'Steakhouse', value: 'Steakhouse' }
+    { name: 'Steakhouse', value: 'Steakhouse' },
   ];
 
   constructor(
     private restarauntsService: RestarauntsService,
+    private activatedRoute: ActivatedRoute,
     private fb: FormBuilder
   ) {
     this.form = this.fb.group({
       checkArray: this.fb.array([]),
     });
+  }
+
+  ngOnDestroy(): void {
+    this.destroy$.next();
+    this.destroy$.complete();
+  }
+
+  ngOnInit(): void {
+    combineLatest([
+      this.restarauntsService.restaraunts$,
+      this.activatedRoute.params,
+    ])
+      .pipe(takeUntil(this.destroy$))
+      .subscribe(([restaraunts, params]: [Restaraunt[], Params]) => {
+        this.restaraunts = restaraunts;
+        const selectedRestaraunt: Restaraunt | undefined =
+          this.restaraunts.find((restaraunt) => restaraunt.id === params['id']);
+        if (selectedRestaraunt) {
+          this.selectedRestaraunt = selectedRestaraunt;
+        }
+      });
+  }
+  ngAfterViewInit() {
+    console.log(
+      document.querySelector('.restaraunts__restaraunt-list')?.children
+    );
   }
 
   onCheckboxChange(e: any) {
@@ -102,6 +128,7 @@ export class RestarauntsComponent implements OnInit {
       });
     }
   }
+
   submitForm() {
     this.cuisines = this.form.value.checkArray.toString();
     this.updateRestaraunts();
@@ -132,13 +159,5 @@ export class RestarauntsComponent implements OnInit {
     filteredResult = result.filter((r) => r !== null);
 
     return filteredResult;
-  }
-
-  ngOnInit(): void {
-    this.restarauntsService.restaraunts$.subscribe(
-      (restaraunts: Restaraunt[]) => {
-        this.restaraunts = restaraunts;
-      }
-    );
   }
 }

@@ -1,5 +1,9 @@
 import { state, style, trigger } from '@angular/animations';
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { Subscription } from 'rxjs';
+import { Park } from '../../models/park';
+import { ParksService } from '../../services/parks.service';
 
 @Component({
   selector: 'app-outdoor-activities',
@@ -19,10 +23,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OutdoorActivitiesComponent implements OnInit {
   public titleState: string = 'start';
+  public parks: Park[];
 
-  constructor() { }
+  public p: number = 1;
+
+  constructor(private parksService: ParksService) {}
 
   ngOnInit(): void {
+    this.parksService.parks$.subscribe((parks: Park[]) => {
+      this.parks = parks;
+    });
   }
-
 }

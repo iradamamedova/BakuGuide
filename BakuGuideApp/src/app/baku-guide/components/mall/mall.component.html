@@ -10,9 +10,12 @@
           src="../../../../assets/images/location.png"
           alt=""
         />
-        {{ mall.address }}
+        <span class="mall__address">{{ mall.address }}</span> 
         <!-- </a> -->
       </h4>
+      <p class="mall__hours">
+        hours: {{ mall.hoursOpen }} -- {{ mall.hoursClose }} 
+      </p>
     </div>
   </div>
 </div>

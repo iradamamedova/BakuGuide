@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
 export class NavigationComponent implements OnInit {
   constructor(private router: Router) {
     document.onscroll = function () {
-      document.documentElement.scrollTop > 400
+      document.documentElement.scrollTop > 300
         ? document.getElementById('navigation')?.classList.add('sticky')
         : document.getElementById('navigation')?.classList.remove('sticky');
     };

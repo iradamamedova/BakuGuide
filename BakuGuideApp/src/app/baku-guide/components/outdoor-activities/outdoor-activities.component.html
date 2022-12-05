@@ -1,15 +1,24 @@
 <header class="header">
-    <div class="filter">
-      <app-navigation></app-navigation>
-      <h1 class="header__title" [@title]="titleState">Outdoor Activities in Baku</h1>
-    </div>
-  </header>
-  
-  <div class="outdoor__nav">
-    <span>Baku Guide</span>
-    <span>></span>
-    <span>Outdoor Activities</span>
+  <div class="filter">
+    <app-navigation></app-navigation>
+    <h1 class="header__title" [@title]="titleState">
+      Outdoor Activities in Baku
+    </h1>
   </div>
-  <main class="main">
+</header>
 
-  </main>
+<div class="outdoor__nav">
+  <span>Baku Guide</span>
+  <span>></span>
+  <span>Outdoor Activities</span>
+</div>
+<main class="main">
+  <h2 class="main__title">Parks in Baku</h2>
+  <div class="main__parks">
+    <app-park
+      *ngFor="let park of parks | paginate: { itemsPerPage: 5, currentPage: p }"
+      [park]="park"
+    ></app-park>
+    <pagination-controls (pageChange)="p=$event"></pagination-controls>
+  </div>
+</main>

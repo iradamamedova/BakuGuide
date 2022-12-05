@@ -1,24 +1,16 @@
 <header class="header">
-  <div class="clouds">
-    <div class="cloud1"></div>
-    <div class="cloud2"></div>
-    <div class="cloud3"></div>
-    <div class="cloud4"></div>
-    <div class="cloud5"></div>
-  </div>
-  <div class="header__filter">
-    <app-navigation></app-navigation>
-    <div class="header__title">
-      <div class="title__content">
-        <h1 class="title__h1" [@title]="titleState">baku guide</h1>
-        <p class="title__p">Baku Tourism | Baku Guide</p>
-        <p class="title__quote" [@quote]="quoteState">
-          <span>&#10077;</span>
-          The fire of true enthusiasm is like the fires of Baku, which no water
-          can ever quench…
-          <span>&#10078;</span>
-        </p>
-      </div>
+  <div class="header__filter"></div>
+  <app-navigation></app-navigation>
+  <div class="header__title">
+    <div class="title__content">
+      <h1 class="title__h1" [@title]="titleState">baku guide</h1>
+      <p class="title__p">Baku Tourism | Baku Guide</p>
+      <p class="title__quote" [@quote]="quoteState">
+        <span>&#10077;</span>
+        The fire of true enthusiasm is like the fires of Baku, which no water
+        can ever quench…
+        <span>&#10078;</span>
+      </p>
     </div>
   </div>
 </header>
@@ -79,10 +71,7 @@
           <hr />
         </h3>
         <div class="top__stuff" routerLink="/attractions">
-          <img
-            src="../../../../assets/images/flameTowers.jpg"
-            alt=""
-          />
+          <img src="../../../../assets/images/flameTowers.jpg" alt="" />
           <p>Top attractions</p>
         </div>
         <div class="top__stuff">
@@ -93,10 +82,7 @@
           <p>Top museums</p>
         </div>
         <div class="top__stuff">
-          <img
-            src="../../../../assets/images/centralpark.jpg"
-            alt=""
-          />
+          <img src="../../../../assets/images/centralpark.jpg" alt="" />
           <p>Top parks</p>
         </div>
         <div class="top__stuff">
@@ -110,7 +96,7 @@
     <h3 class="map__title">Welcome to Baku!</h3>
     <hr />
     <div class="map-div">
-      <app-map></app-map>
+      <google-map width="100%" [center]="center" [zoom]="zoom"></google-map>
     </div>
   </section>
   <section class="contact">
@@ -125,7 +111,7 @@
           <label class="label" for="email">Email</label>
           <input type="email" name="email" id="email" placeholder="Email" />
         </div>
-      </div> 
+      </div>
       <div class="form__message">
         <label class="label" for="textarea">Message</label>
         <textarea
@@ -135,7 +121,7 @@
           rows="5"
           placeholder="Tell us your thoughts..."
         ></textarea>
-      </div> 
+      </div>
       <button type="submit">send message</button>
     </form>
   </section>

@@ -22,16 +22,18 @@ $white: #fff;
 }
 
 .header {
+  width: 100%;
   height: 100vh;
   position: relative;
   color: $white;
   text-align: center;
-  background: url("../../../../assets/images/home-header.jpg") center/cover;
+  background: url("../../../../assets/images/baku_flametowers.jpg") center/cover;
   overflow: hidden;
   &__filter {
     width: 100%;
     height: 100vh;
-    background-color: #020107c2;
+    background: url("../../../../assets/images/stars.gif");
+    opacity: .1;
   }
   &__title {
     @extend %position-center;
@@ -73,93 +75,6 @@ $white: #fff;
     width: 60%;
     margin: auto;
     padding: 10px 0;
-  }
-}
-
-.cloud1,
-.cloud2,
-.cloud3,
-.cloud4,
-.cloud5 {
-  position: absolute;
-  height: 500px;
-  background: url("../../../../assets/images/clouds.png") top left/500px;
-  background-repeat: no-repeat;
-}
-.cloud1 {
-  opacity: 0.05;
-  width: 700px;
-  top: 100px;
-  background-size: 800px;
-  animation: cloud1 55s linear -25s infinite;
-}
-.cloud2 {
-  opacity: 0.06;
-  width: 700px;
-  top: 70px;
-  background-size: 700px;
-  animation: cloud2 50s linear -10s infinite;
-}
-
-.cloud3 {
-  opacity: 0.07;
-  width: 700px;
-  top: 20px;
-  background-size: 800px;
-  animation: cloud1 35s linear -20s infinite;
-}
-.cloud4 {
-  opacity: 0.09;
-  width: 700px;
-  top: 0;
-  background-size: 800px;
-  animation: cloud1 40s linear -30s infinite;
-}
-.cloud5 {
-  opacity: 0.04;
-  width: 700px;
-  top: 120px;
-  background-size: 800px;
-  animation: cloud1 45s linear -40s infinite;
-}
-@keyframes cloud1 {
-  from {
-    left: 100%;
-  }
-  to {
-    left: -700px;
-  }
-}
-@keyframes cloud2 {
-  from {
-    left: 100%;
-  }
-  to {
-    left: -700px;
-  }
-}
-@keyframes cloud3 {
-  from {
-    left: 100%;
-  }
-  to {
-    left: -700px;
-  }
-}
-@keyframes cloud4 {
-  from {
-    left: 100%;
-  }
-  to {
-    left: -700px;
-  }
-}
-@keyframes cloud5 {
-  from {
-    left: 100%;
-  }
-  to {
-    left: -700px;
   }
 }
 

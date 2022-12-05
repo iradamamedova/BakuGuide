@@ -3,5 +3,6 @@ export interface Mall{
   name: string;
   image: string;
   address: string;
-  description: string;
+  hoursOpen: string;
+  hoursClose: string;
 }

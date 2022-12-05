@@ -1,0 +1,75 @@
+.restaraunt {
+  hr {
+    border: none;
+    border-top: 1px solid #aaa;
+    margin-bottom: 50px;
+    width: 500px;
+  }
+  &__name {
+    text-align: center;
+    color: #555;
+    font-weight: 300;
+    font-size: 2em;
+  }
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  &__appearance {
+    width: 48%;
+  }
+  &__cuisine {
+    display: inline-block;
+    padding: 10px;
+    margin: 0 10px 10px 0;
+    background-color: #999;
+    color: #fff;
+    font-weight: 200 !important;
+    border-radius: 5px;
+  }
+  &__website {
+    text-decoration: none;
+    color: #555;
+    padding: 10px;
+    border-radius: 5px;
+    background: #ddd;
+    box-shadow: 0 0 10px #ddd;
+    display: inline-block;
+    font-weight: 700;
+    width: fit-content;
+    &:hover {
+      background: #ccc;
+      transition: .2s;
+    }
+    img {
+      width: 30px;
+      vertical-align: middle;
+    }
+  }
+  &__details {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    p {
+      margin: 5px 0;
+      font-size: 1.1em;
+      span {
+        font-weight: 700;
+        margin-right: 10px;
+      }
+    }
+  }
+  &__return-button {
+    display: inline-block;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    color: #555;
+  }
+}

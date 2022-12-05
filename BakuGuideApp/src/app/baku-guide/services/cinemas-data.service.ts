@@ -16,7 +16,7 @@ export class CinemasDataService {
             name: cinemaJSON.name,
             image: cinemaJSON.image,
             address: cinemaJSON.address,
-            description: cinemaJSON.rating,
+            link: cinemaJSON.link,
           };
         });
       })

@@ -1,1 +1,26 @@
-<h4>{{ park.name }}</h4>
+<div class="park">
+  <div class="park__slider">
+    <ng-image-slider
+      [images]="park.images"
+      [imageSize]="{ width: '100%', height: '250px', space: 0}"
+      [autoSlide]="{ interval: 2, stopOnHover: true }"
+      #nav
+    ></ng-image-slider>
+  </div>
+  <div class="park__content">
+    <h3 class="park__name">{{ park.name }}</h3>
+    <h4 class="park__location">
+      <a [href]="park.link" target="_blank">
+        <img
+          class="park__location-icon"
+          src="../../../../assets/images/location.png"
+        />
+        {{ park.location }}
+      </a>
+    </h4>
+    <p class="park__desc">
+      {{ park.description }}
+    </p>
+  </div>
+</div>
+<hr />

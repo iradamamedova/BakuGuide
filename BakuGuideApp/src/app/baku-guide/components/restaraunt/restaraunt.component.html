@@ -2,7 +2,9 @@
   <img class="restaurant__image" [src]="restaraunt.image" />
   <div class="restaurant__content">
     <div class="restaurant__name-loc">
-      <h3 class="restaurant__name">{{ restaraunt.name }}</h3>
+      <a [routerLink]="['/restaurants', restaraunt.id]">
+        <h3 class="restaurant__name">{{ restaraunt.name }}</h3>
+      </a>
       <h4 class="restaurant__location">
         <!-- <a [href]="restaraunt.link" target="_blank"> -->
         <img

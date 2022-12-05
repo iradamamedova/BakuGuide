@@ -4,5 +4,8 @@ export interface Restaraunt{
   image: string,
   cuisine: string[],
   address: string,
-  rating: string
+  rating: string,
+  phone: string,
+  email: string,
+  website: string
 }

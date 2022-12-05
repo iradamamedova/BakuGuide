@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Park } from '../../models/park';
+import { ParksService } from '../../services/parks.service';
 
 @Component({
   selector: 'app-park',
@@ -11,9 +12,8 @@ export class ParkComponent implements OnInit {
   @Input()
   public park: Park;
 
-  constructor() { }
+  constructor(private parksService: ParksService) { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
 }

@@ -1,0 +1,372 @@
+[
+  {
+    "id": "10",
+    "name": "Baku Boulevard",
+    "images": [
+      {
+        "image": "./assets/images/boulevard-1.jpg",
+        "thumbImage": "./assets/images/boulevard-1.jpg"
+      },
+      {
+        "image": "./assets/images/boulevard-3.jpg",
+        "thumbImage": "./assets/images/boulevard-3.jpg"
+      },
+      {
+        "image": "./assets/images/boulevard-4.jpg",
+        "thumbImage": "./assets/images/boulevard-4.jpg"
+      },
+      {
+        "image": "./assets/images/boulevard-2.jpg",
+        "thumbImage": "./assets/images/boulevard-2.jpg"
+      },
+      {
+        "image": "./assets/images/boulevard-5.jpg",
+        "thumbImage": "./assets/images/boulevard-5.jpg"
+      },
+      {
+        "image": "./assets/images/boulevard-6.jpg",
+        "thumbImage": "./assets/images/boulevard-6.jpg"
+      }
+    ],
+    "location": "92 Neftchilar Ave, Baku",
+    "description": "Baku Boulevard is a promenade established in 1909 which runs parallel to Baku's seafront. Its history goes back more than 100 years, to a time when Baku oil barons built their mansions along the Caspian shore and when the seafront was artificially built up inch by inch. ",
+    "link": "https://www.google.com/maps/place/D%C9%99nizk%C9%99nar%C4%B1+Milli+Park/@40.3703993,49.8499702,15z/data=!4m2!3m1!1s0x0:0xf1ec5cd5282d3acb?sa=X&ved=2ahUKEwjttLK9ot77AhU-X_EDHXefAUgQ_BJ6BQiCARAI"
+  },
+  {
+    "id": "6",
+    "name": "Philarmonia Garden",
+    "images": [
+      {
+        "image": "./assets/images/philarmoniya-park-4.jpg",
+        "thumbImage": "./assets/images/philarmoniya-park-4.jpg"
+      },
+      {
+        "image": "./assets/images/philarmoniya-park-2.jpg",
+        "thumbImage": "./assets/images/philarmoniya-park-2.jpg"
+      },
+      {
+        "image": "./assets/images/governor-garden-1.jpg",
+        "thumbImage": "./assets/images/governor-garden-1.jpg"
+      },
+      {
+        "image": "./assets/images/philarmoniya-park-3.jpg",
+        "thumbImage": "./assets/images/philarmoniya-park-3.jpg"
+      }
+    ],
+    "location": "9R7M+F5M, Baku 1000",
+    "description": "Filarmonia Park or Philharmonia Garden, sometimes called Gubernator's or Governor's Park, is a park in Baku, Azerbaijan, next to Baku fortress. The park was established beginning in 1830. An old-fashioned fountain designed by the French company Inter Art has been added.",
+    "link": "https://www.google.com/maps/place/Philarmonia+Garden/@40.3637153,49.832935,15z/data=!4m5!3m4!1s0x0:0x5a4e004f582ad026!8m2!3d40.3637153!4d49.832935"
+  },
+  {
+    "id": "2",
+    "name": "Highland Park",
+    "images": [
+      {
+        "image": "./assets/images/highland-park-2.jpg",
+        "thumbImage": "./assets/images/highland-park-2.jpg"
+      },
+      {
+        "image": "./assets/images/highland-Park-Azerbaijan.jpg",
+        "thumbImage": "./assets/images/highland-Park-Azerbaijan.jpg"
+      },
+      {
+        "image": "./assets/images/highland-park-3.jpg",
+        "thumbImage": "./assets/images/highland-park-3.jpg"
+      },
+      {
+        "image": "./assets/images/highland-park-4.jpg",
+        "thumbImage": "./assets/images/highland-park-4.jpg"
+      }
+    ],
+    "location": "9R5H+4G3, Baku",
+    "description": "Elevated terrace reached by stairs or funicular ride, offering dramatic views of the city & sea. The highland park Baku is the highest point of the capital of Azerbaijan, from where a beautiful panorama of the city and the bay opens. People from Baku and tourists often come here to see Baku from a bird’s eye view, as well as just take a walk.",
+    "link": "https://www.google.com/maps/place/Highland+Park/@40.3577668,49.8288044,15z/data=!4m2!3m1!1s0x0:0xa6b1b701ada62d46?sa=X&ved=2ahUKEwiR-r2Lo977AhVJYPEDHX4kA60Q_BJ6BAhqEAg"
+  },
+  {
+    "id": "8",
+    "name": "Heydar Aliyev Center Park",
+    "images": [
+      {
+        "image": "./assets/images/heydar-aliyev-centre-4.jpg",
+        "thumbImage": "./assets/images/heydar-aliyev-centre-4.jpg"
+      },
+      {
+        "image": "./assets/images/heydar-aliyev-centre-2.jpg",
+        "thumbImage": "./assets/images/heydar-aliyev-centre-2.jpg"
+      },
+      {
+        "image": "./assets/images/heydar-aliyev-centre-3.jpg",
+        "thumbImage": "./assets/images/heydar-aliyev-centre-3.jpg"
+      },
+      {
+        "image": "./assets/images/heydar-aliyev-centre-1.jpg",
+        "thumbImage": "./assets/images/heydar-aliyev-centre-1.jpg"
+      }
+    ],
+    "location": "9VV8+JCV, Baku",
+    "description": "The whole complex encompasses the main building, underground parking and adjacent landscape area. The landscape area includes 2 decorative pools and an artificial lake.",
+    "link": "https://www.google.com/maps/place/Heydar+Aliyev+Center+Park/@40.3941054,49.8660616,15z/data=!4m2!3m1!1s0x0:0x529447d9c5ebbc0e?sa=X&ved=2ahUKEwjy84qoo977AhXNVfEDHQ6PBi0Q_BJ6BAh-EAg"
+  },
+  {
+    "id": "1",
+    "name": "Fizuli Park",
+    "images": [
+      {
+        "image": "./assets/images/fizuli-park-2.jpg",
+        "thumbImage": "./assets/images/fizuli-park-2.jpg"
+      },
+      {
+        "image": "./assets/images/fizuli-park.jpg",
+        "thumbImage": "./assets/images/fizuli-park.jpg"
+      },
+      {
+        "image": "./assets/images/fizuli-park-4.jpg",
+        "thumbImage": "./assets/images/fizuli-park-4.jpg"
+      },
+      {
+        "image": "./assets/images/fizuli-park-3.jpg",
+        "thumbImage": "./assets/images/fizuli-park-3.jpg"
+      }
+    ],
+    "location": "9RGQ+VH9, Rasul Rza, Bakı",
+    "description": "Monumental walkway lined by imposing buildings, with fountains & a statue of an Azerbaijani poet. Park is nice and clean. It has Wi-Fi, seating benches, is good for walking and people watching. You can enjoy the view of National Theater building. There are several bus stops nearby. It also called as Winter Park",
+    "link": "https://www.google.com/maps/place/F%C3%BCzuli+Park/@40.3771579,49.8389914,15z/data=!4m5!3m4!1s0x0:0x777c5c1f1fd8fcc0!8m2!3d40.3771579!4d49.8389914"
+  },
+  {
+    "id": "3",
+    "name": "Love Park",
+    "images": [
+      {
+        "image": "./assets/images/love-park-1.jpg",
+        "thumbImage": "./assets/images/love-park-1.jpg"
+      },
+      {
+        "image": "./assets/images/love-park-2.jpg",
+        "thumbImage": "./assets/images/love-park-2.jpg"
+      },
+      {
+        "image": "./assets/images/love-park-3.jpg",
+        "thumbImage": "./assets/images/love-park-3.jpg"
+      },
+      {
+        "image": "./assets/images/love-park-4.jpg",
+        "thumbImage": "./assets/images/love-park-4.jpg"
+      }
+    ],
+    "location": "9VP8+Q79, Baku",
+    "description": "Love Park is very beatiful and comfortable place. Green spot full of a romance and childhood. It has soo pleasant atmosphere that those who come , don't want to leave. So, if you want to have a romantic walk with your as a couple , you should visit Love Park.",
+    "link": "https://www.google.com/maps/place/Love+Park/@40.3869152,49.8657406,15z/data=!4m2!3m1!1s0x0:0xb17a391436b2bb23?sa=X&ved=2ahUKEwiay5bKo977AhVtSfEDHYnyAb0Q_BJ6BQiDARAI"
+  },
+  {
+    "id": "7",
+    "name": "Chemberekend Park",
+    "images": [
+      {
+        "image": "./assets/images/cemberekend-park.jpg",
+        "thumbImage": "./assets/images/cemberekend-park.jpg"
+      },
+      {
+        "image": "./assets/images/cemberekend-park-2.jpg",
+        "thumbImage": "./assets/images/cemberekend-park-2.jpg"
+      },
+      {
+        "image": "./assets/images/cemberekend-park-3.jpg",
+        "thumbImage": "./assets/images/cemberekend-park-3.jpg"
+      },
+      {
+        "image": "./assets/images/cemberekend-park-4.jpg",
+        "thumbImage": "./assets/images/cemberekend-park-4.jpg"
+      }
+    ],
+    "location": "Hasan Seyidbeyli, Baku",
+    "description": "Chambarekand Park was opened on June 8, 2022. A 147-meter-long bridge for pedestrians was built over the overpass in the park, two terraces with a view of the city were built, a fountain was built in a modern style, a catering facility, a sanitary junction and an administrative building were built in the area. Sports and children's entertainment facilities have also been installed in the area. The green area of ​​the park with an area of ​​4 hectares was laid with a lawn and more than 50 thousand different types of trees, bushes and flowers were planted.",
+    "link": "https://www.google.com/maps/place/Chemberekend+park/@40.3632905,49.8260243,15z/data=!4m2!3m1!1s0x0:0xad87407b88751592?sa=X&ved=2ahUKEwj2yqfdo977AhU3Z_EDHZp5DsoQ_BJ6BAhNEAg"
+  },
+  {
+    "id": "9",
+    "name": "Dədə Qorqud park",
+    "images": [
+      {
+        "image": "./assets/images/dede-qorqud-park-1.jpg",
+        "thumbImage": "./assets/images/dede-qorqud-park-1.jpg"
+      },
+      {
+        "image": "./assets/images/dede-qorqud-park-2.jpg",
+        "thumbImage": "./assets/images/dede-qorqud-park-2.jpg"
+      },
+      {
+        "image": "./assets/images/dede-qorqud-park-3.jpg",
+        "thumbImage": "./assets/images/dede-qorqud-park-3.jpg"
+      },
+      {
+        "image": "./assets/images/dede-qorqud-park-4.jpg",
+        "thumbImage": "./assets/images/dede-qorqud-park-4.jpg"
+      }
+    ],
+    "location": "9RVW+3MJ, Baku",
+    "description": "Sprawling urban green space, home to ADA University & the country's oldest zoo, founded in 1928.An artificial lake and a waterfall with an area of ​​three hectares have been created in the territory of the park. Visitors to the park can rent catamarans and travel on the lake. There are two bridges for this. In addition, a bridge for walking has been built in the lower part of the artificial waterfall, as well as over the small bay intended for special aquatic plants. Free Wi-Fi service is installed in the park.",
+    "link": "https://www.google.com/maps/place/D%C9%99d%C9%99+Qorqud+Park%C4%B1/@40.3927064,49.8444631,17z/data=!3m1!4b1!4m5!3m4!1s0x40307d6e196e56e5:0x71c942aba00482a0!8m2!3d40.3927064!4d49.8466518"
+  },
+  {
+    "id": "11",
+    "name": "Central Park",
+    "images": [
+      {
+        "image": "./assets/images/central-park-1.jpg",
+        "thumbImage": "./assets/images/central-park-1.jpg"
+      },
+      {
+        "image": "./assets/images/central-park-2.jpg",
+        "thumbImage": "./assets/images/central-park-2.jpg"
+      },
+      {
+        "image": "./assets/images/central-park-3.jpg",
+        "thumbImage": "./assets/images/central-park-3.jpg"
+      },
+      {
+        "image": "./assets/images/central-park-4.jpg",
+        "thumbImage": "./assets/images/central-park-4.jpg"
+      },
+      {
+        "image": "./assets/images/central-park-5.jpg",
+        "thumbImage": "./assets/images/central-park-5.jpg"
+      },
+      {
+        "image": "./assets/images/central-park-6.jpg",
+        "thumbImage": "./assets/images/central-park-6.jpg"
+      }
+    ],
+    "location": "9RGG+62J, Fuzuli St, Baku 1009",
+    "description": "Large urban park with sports courts & a cafe, plus a long fountain feature leading to a mosque. The Central Park in Baku was designed by Austrian architect Jans Hoffmann. The first part of the park was opened to the public on May 22, 2019.",
+    "link": "https://www.google.com/search?tbs=lf:1,lf_ui:2&tbm=lcl&q=central+park&rflfq=1&num=10&ved=2ahUKEwigjNn7o977AhWzXvEDHaE9CIMQtgN6BAgZEAE#rlfi=hd:;si:4325271977157363503,l,CgxjZW50cmFsIHBhcmtIgJei44WvgIAIWhYQABABGAAYASIMY2VudHJhbCBwYXJrkgEJY2l0eV9wYXJrmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVF5WDBscWFHRlJFQUWqASIQARoeEAEiGnpDX5KHcLRLUTIJKoXF4-B8umIJjPkEdzA2;mv:[[40.4139304,49.9454681],[40.3715264,49.8139445]]"
+  },
+  {
+    "id": "4",
+    "name": "Officers Park",
+    "images": [
+      {
+        "image": "./assets/images/officers-park-1.jpg",
+        "thumbImage": "./assets/images/officers-park-1.jpg"
+      },
+      {
+        "image": "./assets/images/officers-park-3.jpg",
+        "thumbImage": "./assets/images/officers-park-3.jpg"
+      },
+      {
+        "image": "./assets/images/officers-park-2.jpg",
+        "thumbImage": "./assets/images/officers-park-2.jpg"
+      },
+      {
+        "image": "./assets/images/officers-park-4.jpg",
+        "thumbImage": "./assets/images/officers-park-4.jpg"
+      }
+    ],
+    "location": "77 Samad Vurgun, Baku",
+    "description": "One of the attractive green, new designed Baku park. Nice and clean, couple of caffes inside, kid place for free. A lot of decorative and old trees. Very good and worth place to visit with your family. There is always a free place where you can take a breath, relieve stress, relax, chat in a quiet and relaxing environment. And perennial trees not only create conditions for relaxation in the shade but also protect against the Baku wind.",
+    "link": "https://www.google.com/maps/place/Officers+Park/@40.3854959,49.8377412,15z/data=!4m2!3m1!1s0x0:0xeebf01eeab8047d7?sa=X&ved=2ahUKEwjbr_KPpN77AhVoSPEDHe-oBFoQ_BJ6BAhMEAg"
+  },
+  {
+    "id": "12",
+    "name": "Sahil Park",
+    "images": [
+      {
+        "image": "./assets/images/sahil-park-1.jpg",
+        "thumbImage": "./assets/images/sahil-park-1.jpg"
+      },
+      {
+        "image": "./assets/images/sahil-park-2.jpg",
+        "thumbImage": "./assets/images/sahil-park-2.jpg"
+      },
+      {
+        "image": "./assets/images/sahil-park-3.jpg",
+        "thumbImage": "./assets/images/sahil-park-3.jpg"
+      }
+    ],
+    "location": "9RFW+78J, Uzeyir Hajibeyov, Baku",
+    "description": "Landmark 19th-century park with palms & roses, plus an ornamental fountain strikingly lit at night. It is a large and neat park located in the center of Baku. Today, right in the middle of the park, there is a large, oriental-style, cup-shaped, three-tiered fountain. Among the perennial trees in the garden, there are many palm trees, sycamores, sycamores and other trees.",
+    "link": "https://www.google.com/maps/place/Sahil+Ba%C4%9F%C4%B1/@40.3854903,49.8114765,13z/data=!4m10!1m2!2m1!1sSahil+Park!3m6!1s0x40307dae5c39db6b:0x12d1ffce0d87fbfa!8m2!3d40.3732047!4d49.8457506!15sCgpTYWhpbCBQYXJrWgwiCnNhaGlsIHBhcmuSAQRwYXJrmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJ2TkMwdE9ISlJSUkFC4AEA!16s%2Fg%2F1vhq25pj"
+  },
+  {
+    "id": "13",
+    "name": "Ataturk Park",
+    "images": [
+      {
+        "image": "./assets/images/ataturk-park-1.jpg",
+        "thumbImage": "./assets/images/ataturk-park-1.jpg"
+      },
+      {
+        "image": "./assets/images/ataturk-park-3.jpg",
+        "thumbImage": "./assets/images/ataturk-park-3.jpg"
+      },
+      {
+        "image": "./assets/images/ataturk-park-4.jpg",
+        "thumbImage": "./assets/images/ataturk-park-4.jpg"
+      },
+      {
+        "image": "./assets/images/ataturk-park-2.jpg",
+        "thumbImage": "./assets/images/ataturk-park-2.jpg"
+      }
+    ],
+    "location": "Ataturk, 107, Baku, Narimanov",
+    "description": "This park is named after the great Turkish leader Mustafa Kamal Ataturk. You can find it in the Narimanov district of Baku. Some sections have been recently renovated. It is a lush green patch in the middle of a concrete jungle. There were a few eateries like Oszut. Children were enjoying on swings in the park. There are two malls nearby Ganjlik Mall and Caspian Shopping Mall.",
+    "link": "https://www.google.com/search?tbs=lf:1,lf_ui:1&tbm=lcl&q=ataturk+park&rflfq=1&num=10&ved=2ahUKEwiRiqyvpN77AhWlavEDHScGBj8QtgN6BAgPEAY#rlfi=hd:;si:13153570132484434278,l,CgxhdGF0dXJrIHBhcmtIj7_nn-aAgIAIWhYQABABGAAYASIMYXRhdHVyayBwYXJrkgEEcGFya5oBJENoZERTVWhOTUc5blMwVkpRMEZuU1VOMU0yUllXR3RCUlJBQqoBNBABGh4QASIaT4k0dRMyvAu-uwLYTfYEk_NWhMxokydhqBcqECIMYXRhdHVyayBwYXJrKAA,y,aMkgGqtjqvg;mv:[[40.414291,49.872306099999996],[40.3745104,49.8335224]]"
+  },
+  {
+    "id": "14",
+    "name": "Boyukshor Boulevard",
+    "images": [
+      {
+        "image": "./assets/images/boyukshor-park-1.jpg",
+        "thumbImage": "./assets/images/boyukshor-park-1.jpg"
+      },
+      {
+        "image": "./assets/images/boyukshor-park-6.jpg",
+        "thumbImage": "./assets/images/boyukshor-park-6.jpg"
+      },
+      {
+        "image": "./assets/images/boyukshor-park-5.jpg",
+        "thumbImage": "./assets/images/boyukshor-park-5.jpg"
+      },
+      {
+        "image": "./assets/images/boyukshor-park-4.jpg",
+        "thumbImage": "./assets/images/boyukshor-park-4.jpg"
+      },
+      {
+        "image": "./assets/images/boyukshor-park-3.jpg",
+        "thumbImage": "./assets/images/boyukshor-park-3.jpg"
+      },
+      {
+        "image": "./assets/images/boyukshor-park-2.jpg",
+        "thumbImage": "./assets/images/boyukshor-park-2.jpg"
+      }
+    ],
+    "location": "CWH4+3X7, Baku",
+    "description": "The length of the coastal promenade is 2.5 kilometers, and the total width of the boulevard is 94 meters. Sports and children's playgrounds have been built here, as well as running and cycling lanes. A complex of fountains installed in the lake enriches it with oxygen to improve the water quality of the lake. Special devices powered by solar energy are used for lake management, water quality improvement and monitoring.",
+    "link": "https://www.google.com/search?q=Boyukshor+Boulevard&npsic=0&rflfq=1&rldoc=1&rllag=40428092,49914712,314&tbm=lcl&sa=X&ved=2ahUKEwjQhc_IpN77AhXKR_EDHUoFB6kQtgN6BAgLEAE&biw=1536&bih=746&dpr=1.25"
+  },
+  {
+    "id": "5",
+    "name": "Molokan Gardens",
+    "images": [
+      {
+        "image": "./assets/images/molokan-garden-2.jpg",
+        "thumbImage": "./assets/images/molokan-garden-2.jpg"
+      },
+      {
+        "image": "./assets/images/molokan-garden-1.jpg",
+        "thumbImage": "./assets/images/molokan-garden-1.jpg"
+      },
+      {
+        "image": "./assets/images/molokan-garden-3.jpg",
+        "thumbImage": "./assets/images/molokan-garden-3.jpg"
+      },
+      {
+        "image": "./assets/images/molokan-garden-4.jpg",
+        "thumbImage": "./assets/images/molokan-garden-4.jpg"
+      }
+    ],
+    "location": "9RCR+M4X, Khagani Street, Baku",
+    "description": "The Khagani Garden, better known as the Molokan Garden, is one of the oldest parks in Baku, the capital of Azerbaijan. It is small in area, and is located in the Sabail district of the city. It bears the name of the medieval Persian poet Khagani Shirvani. On the south, the garden is bounded by the Uzeyir Hajibeyov Street, on the north by the Khagani Street, on east by the Gogol Street, and on the west by the Rasul Rza Street.",
+    "link": "https://www.google.com/maps/place/Molokan+Gardens/@40.3717273,49.8403557,15z/data=!4m2!3m1!1s0x0:0xbd3a8230b8a99d72?sa=X&ved=2ahUKEwji1_nVpN77AhUUQvEDHWD2DAsQ_BJ6BAhuEAg"
+  }
+]

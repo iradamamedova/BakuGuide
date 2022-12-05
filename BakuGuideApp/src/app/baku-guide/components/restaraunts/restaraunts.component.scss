@@ -28,7 +28,7 @@
     height: 25px;
     padding: 2px 50px;
     box-sizing: border-box;
-    font-size: .9em;
+    font-size: 0.9em;
     background-color: #72ba58;
     color: #fff;
     span {
@@ -39,69 +39,75 @@
 .main {
   padding: 50px 120px;
   background-color: #eee;
-  display: flex;
-  justify-content:space-evenly;
-  .restaraunt-list{
-    width: 60%;
-  }
-  .filtration {
-    width: 250px;
-    height: fit-content;
-    background-color: #fff;
-    border-radius: 3px;
-    padding: 20px;
-    .chbox {
-      width: 16px;
-      height: 16px;
-      margin: 0 0 4px 0;
-      vertical-align: middle;
+  .restaraunts {
+    &__content {
+      display: flex;
+      justify-content: space-evenly;
     }
-    hr {
-      border: none;
-      border-top: 1px #ddd solid;
-      width: 80%;
-      margin-bottom: 20px;
-    }
-    &__title {
+    &__pagination {
       text-align: center;
-      color: #ec7c21;
-      font-weight: 700;
-      text-transform: uppercase;
     }
-    &__values {
-      margin: 5px 0;
-    }
-    &__category {
-      color: #555;
-      margin-top: 10px;
-    }
-    &__button {
-      text-align: center;
-      margin-top: 10px;
-      input {
-        color: #fff;
-        background-color: #ec7c21;
-        font-weight: 600;
-        text-transform: uppercase;
-        padding: 10px 20px;
-        border-radius: 5px;
+    &__filtration {
+      width: 250px;
+      height: fit-content;
+      background-color: #fff;
+      border-radius: 3px;
+      padding: 20px;
+      .chbox {
+        width: 16px;
+        height: 16px;
+        margin: 0 0 4px 0;
+        vertical-align: middle;
+      }
+      hr {
         border: none;
-        outline: none;
-        &:hover {
-          background-color: #ec5a21;
-          transition: all 0.2s linear;
-        }
-        &:active {
-          box-shadow: 0 0 10px #020107c2;
-          background-color: #ec3521;
+        border-top: 1px #ddd solid;
+        width: 80%;
+        margin-bottom: 20px;
+      }
+      &__title {
+        text-align: center;
+        color: #ec7c21;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+      &__values {
+        margin: 5px 0;
+      }
+      &__category {
+        color: #555;
+        margin-top: 10px;
+      }
+      &__button {
+        text-align: center;
+        margin-top: 10px;
+        input {
+          color: #fff;
+          background-color: #ec7c21;
+          font-weight: 600;
+          text-transform: uppercase;
+          padding: 10px 20px;
+          border-radius: 5px;
+          border: none;
+          outline: none;
+          &:hover {
+            background-color: #ec5a21;
+            transition: all 0.2s linear;
+          }
+          &:active {
+            box-shadow: 0 0 10px #020107c2;
+            background-color: #ec3521;
+          }
         }
       }
+      .value {
+        font-size: 0.9em;
+        color: #666;
+        font-weight: 300;
+      }
     }
-    .value {
-      font-size: .9em;
-      color: #666;
-      font-weight: 300;
-    }
+    // &__restaraunt-list {
+    //   width: 60%;
+    // }
   }
 }
-

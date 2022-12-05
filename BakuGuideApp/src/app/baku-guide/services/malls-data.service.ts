@@ -16,7 +16,8 @@ export class MallsDataService {
             name: mallJSON.name,
             image: mallJSON.image,
             address: mallJSON.address,
-            description: mallJSON.rating,
+            hoursOpen: mallJSON.hoursOpen,
+            hoursClose: mallJSON.hoursClose
           };
         });
       })

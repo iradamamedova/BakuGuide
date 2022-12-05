@@ -4,7 +4,6 @@ import { MainComponent } from './components/main/main.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RestarauntsComponent } from './components/restaraunts/restaraunts.component';
 import { TheatresComponent } from './components/theatres/theatres.component';
-import { ParksComponent } from './components/parks/parks.component';
 import { MuseumsComponent } from './components/museums/museums.component';
 import { MallsComponent } from './components/malls/malls.component';
 import { RestarauntComponent } from './components/restaraunt/restaraunt.component';
@@ -26,18 +25,17 @@ import { NgxPaginationModule } from 'ngx-pagination';
 import { RestarauntsDataService } from './services/restaraunts-data.service';
 import { RestarauntsService } from './services/restaraunts.service';
 import { MapComponent } from './components/map/map.component';
-import { MapMarkerComponent } from './components/map-marker/map-marker.component';
 import { EntertainmentComponent } from './components/entertainment/entertainment.component';
 import { CinemasComponent } from './components/cinemas/cinemas.component';
-import { KidsCentresComponent } from './components/kids-centres/kids-centres.component';
 import { OutdoorActivitiesComponent } from './components/outdoor-activities/outdoor-activities.component';
 import { MuseumsDataService } from './services/museums-data.service';
 import { TheatresDataService } from './services/theatres-data.service';
 import { CinemasDataService } from './services/cinemas-data.service';
 import { CinemaComponent } from './components/cinema/cinema.component';
 import { MallsDataService } from './services/malls-data.service';
-import { KidsCentreComponent } from './components/kids-centre/kids-centre.component';
-import { KidsCentresDataService } from './services/kids-centres-data.service';
+import { ParksDataService } from './services/parks-data.service';
+import { ParksService } from './services/parks.service';
+import { RestarauntDetailedComponent } from './components/restaraunt-detailed/restaraunt-detailed.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +43,6 @@ import { KidsCentresDataService } from './services/kids-centres-data.service';
     MainComponent,
     RestarauntsComponent,
     TheatresComponent,
-    ParksComponent,
     MuseumsComponent,
     MallsComponent,
     RestarauntComponent,
@@ -56,13 +53,11 @@ import { KidsCentresDataService } from './services/kids-centres-data.service';
     AttractionsComponent,
     AttractionComponent,
     MapComponent,
-    MapMarkerComponent,
     EntertainmentComponent,
     CinemasComponent,
-    KidsCentresComponent,
     OutdoorActivitiesComponent,
     CinemaComponent,
-    KidsCentreComponent,
+    RestarauntDetailedComponent
   ],
   imports: [
     CommonModule,
@@ -84,13 +79,13 @@ import { KidsCentresDataService } from './services/kids-centres-data.service';
     TheatresDataService,
     CinemasDataService,
     MallsDataService,
-    KidsCentresDataService
+    ParksDataService,
+    ParksService
   ],
   exports: [
     MainComponent,
     RestarauntsComponent,
     TheatresComponent,
-    ParksComponent,
     MuseumsComponent,
     MallsComponent,
     RestarauntComponent,

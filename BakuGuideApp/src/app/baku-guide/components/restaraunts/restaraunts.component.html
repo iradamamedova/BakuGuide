@@ -12,45 +12,84 @@
   <span>Restaurants</span>
 </div>
 <main class="main">
-  <div class="filtration"> 
-    <h3 class="filtration__title">Filter By</h3>
-    <hr />
-    <h4 class="filtration__category">Cuisine</h4>
-    <form [formGroup]="form" (ngSubmit)="submitForm()">
-      <div class="filtration__values" *ngFor="let data of Cuisine; let i=index">
-        <label class="value">
-          <input class="chbox" type="checkbox" [value]="data.value" (change)="onCheckboxChange($event)" />
-          {{data.name}}
-        </label>
-      </div>
-    </form>
-    <h4 class="filtration__category">Menu</h4>
-    <form [formGroup]="form" (ngSubmit)="submitForm()">
-      <div class="filtration__values" *ngFor="let data of Menu; let i=index">
-        <label class="value">
-          <input class="chbox" type="checkbox" [value]="data.value" (change)="onCheckboxChange($event)" />
-          {{data.name}}
-        </label>
-      </div>
-    </form>
-    <h4 class="filtration__category">Type</h4>
-    <form [formGroup]="form" (ngSubmit)="submitForm()">
-      <div class="filtration__values" *ngFor="let data of Type; let i=index">
-        <label class="value">
-          <input class="chbox" type="checkbox" [value]="data.value" (change)="onCheckboxChange($event)" />
-          {{data.name}}
-        </label>
-      </div>
-      <div class="filtration__button">
-        <input type="submit" value="Filter">
-      </div>
-    </form>
+  <div class="restaraunt-detailed" *ngIf="selectedRestaraunt">
+    <app-restaraunt-detailed
+      [restaraunt]="selectedRestaraunt"
+    ></app-restaraunt-detailed>
   </div>
-  <div class="restaraunt-list">
-    <app-restaraunt
-      [restaraunt]="restaraunt"
-      *ngFor="let restaraunt of restaraunts | paginate: { itemsPerPage: 5, currentPage: p }"
-    ></app-restaraunt>
-    <pagination-controls (pageChange)="p=$event"></pagination-controls>
+  <div class="restaraunts" *ngIf="!selectedRestaraunt">
+    <div class="restaraunts__content">
+      <div class="restaraunts__filtration">
+        <h3 class="restaraunts__filtration__title">Filter By</h3>
+        <hr />
+        <h4 class="restaraunts__filtration__category">Cuisine</h4>
+        <form [formGroup]="form" (ngSubmit)="submitForm()">
+          <div
+            class="restaraunts__filtration__values"
+            *ngFor="let data of Cuisine; let i = index"
+          >
+            <label class="value">
+              <input
+                class="chbox"
+                type="checkbox"
+                [value]="data.value"
+                (change)="onCheckboxChange($event)"
+              />
+              {{ data.name }}
+            </label>
+          </div>
+        </form>
+        <h4 class="restaraunts__filtration__category">Menu</h4>
+        <form [formGroup]="form" (ngSubmit)="submitForm()">
+          <div
+            class="restaraunts__filtration__values"
+            *ngFor="let data of Menu; let i = index"
+          >
+            <label class="value">
+              <input
+                class="chbox"
+                type="checkbox"
+                [value]="data.value"
+                (change)="onCheckboxChange($event)"
+              />
+              {{ data.name }}
+            </label>
+          </div>
+        </form>
+        <h4 class="restaraunts__filtration__category">Type</h4>
+        <form [formGroup]="form" (ngSubmit)="submitForm()">
+          <div
+            class="restaraunts__filtration__values"
+            *ngFor="let data of Type; let i = index"
+          >
+            <label class="value">
+              <input
+                class="chbox"
+                type="checkbox"
+                [value]="data.value"
+                (change)="onCheckboxChange($event)"
+              />
+              {{ data.name }}
+            </label>
+          </div>
+          <div class="restaraunts__filtration__button">
+            <input type="submit" value="Filter" />
+          </div>
+        </form>
+      </div>
+      <div class="restaraunts__restaraunt-list">
+        <app-restaraunt
+          [restaraunt]="restaraunt"
+          *ngFor="
+            let restaraunt of restaraunts
+              | paginate : { itemsPerPage: 5, currentPage: p }
+          "
+        ></app-restaraunt>
+      </div>
+    </div>
+    <pagination-controls 
+      class="restaraunts__pagination"
+      (pageChange)="p = $event"
+    ></pagination-controls>
   </div>
 </main>

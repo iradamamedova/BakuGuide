@@ -1,0 +1,35 @@
+<div class="restaraunt">
+  <h2 class="restaraunt__name">
+    {{ restaraunt.name }}
+  </h2>
+  <hr />
+  <div class="restaraunt__content">
+    <div class="restaraunt__appearance">
+      <img class="restaraunt__image" [src]="restaraunt.image" />
+    </div>
+    <div class="restaraunt__details">
+      <div class="restaraunt__cuisines">
+        <span class="restaraunt__cuisine" *ngFor="let cuisine of restaraunt.cuisine">{{ cuisine }}</span>
+      </div>
+      <p class="restaraunt__address">
+        <span> Address: </span> {{ restaraunt.address }}
+      </p>
+      <p class="restaraunt__email" *ngIf="restaraunt.email">
+        <span> Email: </span>{{ restaraunt.email }}
+      </p>
+      <p class="restaraunt__phone" *ngIf="restaraunt.phone">
+        <span> Phone: </span>{{ restaraunt.phone }}
+      </p>
+      <a
+        class="restaraunt__website"
+        [href]="restaraunt.website"
+        target="_blank"
+        *ngIf="restaraunt.website"
+      >
+        Go to website
+        <img src="../../../../assets/images/worldwide.png" />
+      </a>
+    </div>
+  </div>
+  <a class="restaraunt__return-button" routerLink="/restaurants">Back to restaraunts</a>
+</div>

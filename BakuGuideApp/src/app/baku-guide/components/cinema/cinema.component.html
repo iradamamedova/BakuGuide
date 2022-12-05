@@ -2,16 +2,15 @@
   <img class="cinema__image" [src]="cinema.image" />
   <div class="cinema__content">
     <div class="cinema__name-loc">
-      <h3 class="cinema__name">{{ cinema.name }}</h3>
-      <h4 class="cinema__location">
-        <!-- <a [href]="restaraunt.link" target="_blank"> -->
+      <a [href]="cinema.link" target="_blank">
+        <h3 class="cinema__name">{{ cinema.name }}</h3>
+      </a>
+      <h4 class="cinema__location" *ngFor="let address of addresses; let i = index">
         <img
           class="cinema__loc"
           src="../../../../assets/images/location.png"
-          alt=""
         />
-        {{ cinema.address }}
-        <!-- </a> -->
+        <span class="cinema__address">{{ cinema.address[i] }}</span>
       </h4>
     </div>
   </div>
