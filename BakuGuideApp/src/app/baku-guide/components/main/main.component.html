@@ -32,18 +32,20 @@
     <div class="categories">
       <div class="category-list">
         <div class="category" [@pulse]="trigger" routerLink="/restaurants">
-          <img src="../../../../assets/images/foodanddrink.png" alt="" />
+          <img src="../../../../assets/images/foodanddrink.png" />
           Food & Drink
         </div>
         <div class="category" [@pulse]="trigger">
           <a class="category__a" href="#reasons-to-visit">
-            <img src="../../../../assets/images/stickers.png" alt="" />
+            <img src="../../../../assets/images/stickers.png" />
             Things to do
           </a>
         </div>
         <div class="category" [@pulse]="trigger">
-          <img src="../../../../assets/images/suitcase (1).png" alt="" />
-          Popular tours
+          <a href="" class="category__a" href="#map">
+            <img src="../../../../assets/images/map.png" />
+            Find a place
+          </a>
         </div>
       </div>
     </div>
@@ -71,28 +73,25 @@
           <hr />
         </h3>
         <div class="top__stuff" routerLink="/attractions">
-          <img src="../../../../assets/images/flameTowers.jpg" alt="" />
+          <img src="../../../../assets/images/flameTowers.jpg" />
           <p>Top attractions</p>
         </div>
-        <div class="top__stuff">
-          <img
-            src="../../../../assets/images/heydar-aliyev-centre.jpg"
-            alt=""
-          />
+        <div class="top__stuff" routerLink="/entertainment">
+          <img src="../../../../assets/images/heydar-aliyev-centre.jpg" />
           <p>Top museums</p>
         </div>
-        <div class="top__stuff">
-          <img src="../../../../assets/images/centralpark.jpg" alt="" />
+        <div class="top__stuff" routerLink="/outdoor">
+          <img src="../../../../assets/images/centralpark.jpg" />
           <p>Top parks</p>
         </div>
-        <div class="top__stuff">
-          <img src="../../../../assets/images/theatre.jpg" alt="" srcset="" />
+        <div class="top__stuff" routerLink="/entertainment">
+          <img src="../../../../assets/images/theatre.jpg" />
           <p>Top theatres</p>
         </div>
       </div>
     </div>
   </section>
-  <section class="map">
+  <section class="map" id="map">
     <h3 class="map__title">Welcome to Baku!</h3>
     <hr />
     <div class="map-div">

@@ -20,7 +20,9 @@ export class RestarauntsDataService {
             rating: restarauntJSON.rating,
             phone: restarauntJSON.phone,
             email: restarauntJSON.email,
-            website: restarauntJSON.website
+            website: restarauntJSON.website,
+            latitude: restarauntJSON.latitude,
+            longitude: restarauntJSON.longitude
           };
         });
       })

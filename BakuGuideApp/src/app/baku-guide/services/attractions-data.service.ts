@@ -10,15 +10,7 @@ export class AttractionsDataService {
   public getAttractions(): Observable<Attraction[]> {
     return this.http.get<Attraction[]>("assets/attractions.json").pipe(
       map((json: any) => {
-        return (json ? json : []).map((attractionJSON: any) => {
-          return {
-            name: attractionJSON.name,
-            location: attractionJSON.location,
-            desc: attractionJSON.desc,
-            image: attractionJSON.image,
-            link: attractionJSON.link,
-          };
-        });
+        return json || [];
       })
     );
   }
@@ -26,14 +18,7 @@ export class AttractionsDataService {
   public getAttractionsImages(): Observable<Object[]> {
     return this.http.get<Object[]>("assets/attractions-slider-images.json").pipe(
       map((json: any) => {
-        return (json ? json : {}).map((attractionImageJSON: any) => {
-          return {
-            image: attractionImageJSON.image,
-            thumbImage: attractionImageJSON.thumbImage,
-            alt: attractionImageJSON.alt,
-            title: attractionImageJSON.title
-          }
-        })
+        return json || {};
       })
     )
   }
@@ -41,14 +26,7 @@ export class AttractionsDataService {
   public getReasonsToVisitImages(): Observable<Object[]> {
     return this.http.get<Object[]>("assets/reasons-to-visit-images.json").pipe(
       map((json: any) => {
-        return (json ? json : {}).map((reasonsToVisitImageJSON: any) => {
-          return {
-            image: reasonsToVisitImageJSON.image,
-            thumbImage: reasonsToVisitImageJSON.thumbImage,
-            alt: reasonsToVisitImageJSON.alt,
-            title: reasonsToVisitImageJSON.title
-          }
-        })
+        return json || {};
       })
     )
   }

@@ -7,5 +7,7 @@ export interface Restaraunt{
   rating: string,
   phone: string,
   email: string,
-  website: string
+  website: string,
+  latitude: string,
+  longitude: string
 }

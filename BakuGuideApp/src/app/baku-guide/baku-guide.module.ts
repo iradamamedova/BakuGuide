@@ -57,7 +57,7 @@ import { RestarauntDetailedComponent } from './components/restaraunt-detailed/re
     CinemasComponent,
     OutdoorActivitiesComponent,
     CinemaComponent,
-    RestarauntDetailedComponent
+    RestarauntDetailedComponent,
   ],
   imports: [
     CommonModule,
@@ -80,7 +80,7 @@ import { RestarauntDetailedComponent } from './components/restaraunt-detailed/re
     CinemasDataService,
     MallsDataService,
     ParksDataService,
-    ParksService
+    ParksService,
   ],
   exports: [
     MainComponent,

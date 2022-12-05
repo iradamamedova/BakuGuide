@@ -22,7 +22,7 @@ import { combineLatest, Subject, takeUntil } from 'rxjs';
     ]),
   ],
 })
-export class RestarauntsComponent implements OnInit, AfterViewInit, OnDestroy {
+export class RestarauntsComponent implements OnInit, OnDestroy {
   private destroy$: Subject<void> = new Subject<void>();
   public titleState: string = 'start';
   public restaraunts: Restaraunt[];
@@ -106,11 +106,6 @@ export class RestarauntsComponent implements OnInit, AfterViewInit, OnDestroy {
           this.selectedRestaraunt = selectedRestaraunt;
         }
       });
-  }
-  ngAfterViewInit() {
-    console.log(
-      document.querySelector('.restaraunts__restaraunt-list')?.children
-    );
   }
 
   onCheckboxChange(e: any) {

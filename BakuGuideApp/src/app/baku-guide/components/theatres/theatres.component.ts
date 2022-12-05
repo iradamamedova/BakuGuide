@@ -9,10 +9,11 @@ import { TheatresDataService } from '../../services/theatres-data.service';
   styleUrls: ['./theatres.component.scss'],
 })
 export class TheatresComponent implements OnInit {
-
   public theatres: Theatre[] = [];
 
-  public theatres$: BehaviorSubject<Theatre[]> = new BehaviorSubject<Theatre[]>(this.theatres);
+  public theatres$: BehaviorSubject<Theatre[]> = new BehaviorSubject<Theatre[]>(
+    this.theatres
+  );
 
   constructor(private theatresDataService: TheatresDataService) {
     this.theatresDataService
@@ -24,6 +25,5 @@ export class TheatresComponent implements OnInit {
       });
   }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 }

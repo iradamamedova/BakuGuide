@@ -86,8 +86,10 @@
           "
         ></app-restaraunt>
       </div>
+      <p *ngIf="!(restaraunts.length > 0)">Sorry, no restaurant matches the selected categories, please select others</p>
     </div>
     <pagination-controls 
+      *ngIf="restaraunts.length > 0"
       class="restaraunts__pagination"
       (pageChange)="p = $event"
     ></pagination-controls>

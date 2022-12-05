@@ -10,33 +10,32 @@ import { RestarauntsComponent } from './baku-guide/components/restaraunts/restar
 const routes: Routes = [
   {
     path: '',
-    component: MainComponent
+    component: MainComponent,
   },
   {
     path: 'attractions',
-    component: AttractionsComponent
+    component: AttractionsComponent,
   },
   {
     path: 'restaurants',
-    component: RestarauntsComponent
+    component: RestarauntsComponent,
   },
   {
     path: 'restaurants/:id',
-    component: RestarauntsComponent
-  }, 
+    component: RestarauntsComponent,
+  },
   {
     path: 'entertainment',
-    component: EntertainmentComponent
+    component: EntertainmentComponent,
   },
   {
     path: 'outdoor',
-    component: OutdoorActivitiesComponent
+    component: OutdoorActivitiesComponent,
   },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-
-export class AppRoutingModule { }
+export class AppRoutingModule {}
