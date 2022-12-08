@@ -8,17 +8,9 @@ export class TheatresDataService {
   constructor(private http: HttpClient) {}
 
   public getTheatres(): Observable<Theatre[]> {
-    return this.http.get<Theatre[]>("assets/theatres.json").pipe(
+    return this.http.get<Theatre[]>('assets/theatres.json').pipe(
       map((json: any) => {
-        return (json ? json : []).map((theatreJSON: any) => {
-          return {
-            id: theatreJSON.id,
-            name: theatreJSON.name,
-            image: theatreJSON.image,
-            address: theatreJSON.address,
-            description: theatreJSON.description,
-          };
-        });
+        return json || [];
       })
     );
   }

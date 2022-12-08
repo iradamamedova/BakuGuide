@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { BehaviorSubject, take } from 'rxjs';
 import { Museum } from '../../models/museum';
-import { MuseumsDataService } from '../../services/museums-data.service';
+import { MuseumsService } from '../../services/museums.service';
 
 @Component({
   selector: 'app-museums',
@@ -9,21 +8,13 @@ import { MuseumsDataService } from '../../services/museums-data.service';
   styleUrls: ['./museums.component.scss'],
 })
 export class MuseumsComponent implements OnInit {
-
   public museums: Museum[] = [];
 
-  public museums$: BehaviorSubject<Museum[]> = new BehaviorSubject<Museum[]>(this.museums);
-
-  constructor(private museumsDataService: MuseumsDataService) {
-    this.museumsDataService
-      .getMuseums()
-      .pipe(take(1))
-      .subscribe((museums: Museum[]) => {
-        this.museums = museums;
-        this.museums$.next(this.museums);
-      });
+  constructor(private museumsService: MuseumsService) {
+    this.museumsService.museums$.subscribe((museums: Museum[]) => {
+      this.museums = museums;
+    });
   }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 }

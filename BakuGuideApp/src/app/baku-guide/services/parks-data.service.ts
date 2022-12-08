@@ -10,16 +10,7 @@ export class ParksDataService {
   public getParks(): Observable<Park[]> {
     return this.http.get<Park[]>('assets/parks.json').pipe(
       map((json: any) => {
-        return (json ? json : []).map((parkJSON: any) => {
-          return {
-            id: parkJSON.id,
-            name: parkJSON.name,
-            images: parkJSON.images,
-            location: parkJSON.location,
-            description: parkJSON.description,
-            link: parkJSON.link
-          };
-        });
+        return json || [];
       })
     );
   }

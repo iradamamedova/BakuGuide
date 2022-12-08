@@ -8,7 +8,7 @@ export class AttractionsDataService {
   constructor(private http: HttpClient) {}
 
   public getAttractions(): Observable<Attraction[]> {
-    return this.http.get<Attraction[]>("assets/attractions.json").pipe(
+    return this.http.get<Attraction[]>('assets/attractions.json').pipe(
       map((json: any) => {
         return json || [];
       })
@@ -16,18 +16,20 @@ export class AttractionsDataService {
   }
 
   public getAttractionsImages(): Observable<Object[]> {
-    return this.http.get<Object[]>("assets/attractions-slider-images.json").pipe(
-      map((json: any) => {
-        return json || {};
-      })
-    )
+    return this.http
+      .get<Object[]>('assets/attractions-slider-images.json')
+      .pipe(
+        map((json: any) => {
+          return json || {};
+        })
+      );
   }
 
   public getReasonsToVisitImages(): Observable<Object[]> {
-    return this.http.get<Object[]>("assets/reasons-to-visit-images.json").pipe(
+    return this.http.get<Object[]>('assets/reasons-to-visit-images.json').pipe(
       map((json: any) => {
         return json || {};
       })
-    )
+    );
   }
 }

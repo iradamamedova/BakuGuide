@@ -1,0 +1,61 @@
+<form class="form" [formGroup]="contactForm" (ngSubmit)="submit()">
+  <div class="form__flex-inputs">
+    <div class="form__name">
+      <label class="label" for="name">Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Name"
+        formControlName="name"
+      />
+      <div
+        class="form__invalid"
+        *ngIf="
+          contactForm.get('name')?.invalid && contactForm.get('name')?.touched
+        "
+      >
+        Please enter your name
+      </div>
+    </div>
+    <div class="form__email">
+      <label class="label" for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Email"
+        formControlName="email"
+      />
+      <div
+        class="form__invalid"
+        *ngIf="
+          contactForm.get('email')?.invalid && contactForm.get('email')?.touched
+        "
+      >
+        Please enter a valid email address
+      </div>
+    </div>
+  </div>
+  <div class="form__message">
+    <label class="label" for="textarea">Message</label>
+    <textarea
+      name="message"
+      id="textarea"
+      cols="30"
+      rows="5"
+      placeholder="Tell us your thoughts..."
+      formControlName="message"
+    ></textarea>
+    <div
+      class="form__invalid"
+      *ngIf="
+        contactForm.get('message')?.invalid &&
+        contactForm.get('message')?.touched
+      "
+    >
+      Please enter your message
+    </div>
+  </div>
+  <button type="submit" [disabled]="contactForm.invalid">send message</button>
+</form>

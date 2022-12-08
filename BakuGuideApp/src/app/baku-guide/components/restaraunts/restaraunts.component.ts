@@ -1,5 +1,5 @@
 import { state, style, trigger } from '@angular/animations';
-import { AfterViewInit, Component, OnDestroy, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Restaraunt } from '../../models/restaurant';
 import { RestarauntsService } from '../../services/restaraunts.service';
 import { FormBuilder, FormGroup, FormArray, FormControl } from '@angular/forms';

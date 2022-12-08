@@ -95,33 +95,11 @@
     <h3 class="map__title">Welcome to Baku!</h3>
     <hr />
     <div class="map-div">
-      <google-map width="100%" [center]="center" [zoom]="zoom"></google-map>
+      <google-map width="100%" [center]="{lat: 40.4093,lng: 49.8671}" [zoom]="11"></google-map>
     </div>
   </section>
   <section class="contact">
     <h3 class="contact__title">Keep in touch</h3>
-    <form class="contact__form" action="">
-      <div class="form__flex-inputs">
-        <div class="form__name">
-          <label class="label" for="name">Name</label>
-          <input type="text" name="name" id="name" placeholder="Name" />
-        </div>
-        <div class="form__email">
-          <label class="label" for="email">Email</label>
-          <input type="email" name="email" id="email" placeholder="Email" />
-        </div>
-      </div>
-      <div class="form__message">
-        <label class="label" for="textarea">Message</label>
-        <textarea
-          name="message"
-          id="textarea"
-          cols="30"
-          rows="5"
-          placeholder="Tell us your thoughts..."
-        ></textarea>
-      </div>
-      <button type="submit">send message</button>
-    </form>
+    <app-contact-form></app-contact-form>
   </section>
 </main>

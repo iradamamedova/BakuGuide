@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { BehaviorSubject, take } from 'rxjs';
 import { Cinema } from '../../models/cinema';
-import { CinemasDataService } from '../../services/cinemas-data.service';
+import { CinemasService } from '../../services/cinemas.service';
 
 @Component({
   selector: 'app-cinemas',
@@ -10,21 +9,14 @@ import { CinemasDataService } from '../../services/cinemas-data.service';
 })
 export class CinemasComponent implements OnInit {
   public cinemas: Cinema[] = [];
+  public addresses: any[];
 
-  public cinemas$: BehaviorSubject<Cinema[]> = new BehaviorSubject<Cinema[]>(
-    this.cinemas
-  );
 
-  public addresses: any = [];
-
-  constructor(private cinemasDataService: CinemasDataService) {
-    this.cinemasDataService
-      .getCinemas()
-      .pipe(take(1))
+  constructor(private cinemasService: CinemasService) {
+    this.cinemasService.cinemas$
       .subscribe((cinemas: Cinema[]) => {
         this.cinemas = cinemas;
         this.addresses = cinemas.map((c) => c.address);
-        this.cinemas$.next(this.cinemas);
       });
   }
 

@@ -24,7 +24,6 @@ import { RouterModule } from '@angular/router';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { RestarauntsDataService } from './services/restaraunts-data.service';
 import { RestarauntsService } from './services/restaraunts.service';
-import { MapComponent } from './components/map/map.component';
 import { EntertainmentComponent } from './components/entertainment/entertainment.component';
 import { CinemasComponent } from './components/cinemas/cinemas.component';
 import { OutdoorActivitiesComponent } from './components/outdoor-activities/outdoor-activities.component';
@@ -36,6 +35,11 @@ import { MallsDataService } from './services/malls-data.service';
 import { ParksDataService } from './services/parks-data.service';
 import { ParksService } from './services/parks.service';
 import { RestarauntDetailedComponent } from './components/restaraunt-detailed/restaraunt-detailed.component';
+import { TheatresService } from './services/theatres.service';
+import { CinemasService } from './services/cinemas.service';
+import { MallsService } from './services/malls.service';
+import { MuseumsService } from './services/museums.service';
+import { ContactFormComponent } from './components/contact-form/contact-form.component';
 
 @NgModule({
   declarations: [
@@ -52,12 +56,12 @@ import { RestarauntDetailedComponent } from './components/restaraunt-detailed/re
     TheatreComponent,
     AttractionsComponent,
     AttractionComponent,
-    MapComponent,
     EntertainmentComponent,
     CinemasComponent,
     OutdoorActivitiesComponent,
     CinemaComponent,
     RestarauntDetailedComponent,
+    ContactFormComponent,
   ],
   imports: [
     CommonModule,
@@ -69,6 +73,7 @@ import { RestarauntDetailedComponent } from './components/restaraunt-detailed/re
     BrowserAnimationsModule,
     RouterModule,
     NgxPaginationModule,
+    ReactiveFormsModule
   ],
   providers: [
     AttractionsDataService,
@@ -76,9 +81,13 @@ import { RestarauntDetailedComponent } from './components/restaraunt-detailed/re
     RestarauntsDataService,
     RestarauntsService,
     MuseumsDataService,
+    MuseumsService,
     TheatresDataService,
+    TheatresService,
     CinemasDataService,
+    CinemasService,
     MallsDataService,
+    MallsService,
     ParksDataService,
     ParksService,
   ],
