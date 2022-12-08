@@ -1,17 +1,15 @@
 <div class="attraction">
   <img class="attraction__image" [src]="attr.image" />
   <div class="attraction__content">
-    <div class="attraction__name-loc">
-      <h3 class="attraction__name">{{ attr.name }}</h3>
-      <h4 class="attraction__location">
-        <a [href]="attr.link" target="_blank">
-          <img src="../../../../assets/images/location.png" alt="" />
-          {{ attr.location }}
-        </a>
-      </h4>
-    </div>
+    <h3 class="attraction__name">{{ attr.name }}</h3>
+    <h4 class="attraction__location">
+      <a [href]="attr.link" target="_blank">
+        <img src="../../../../assets/images/location.png" alt="" />
+        {{ attr.location }}
+      </a>
+    </h4>
     <button class="attraction__details-button" (click)="details = !details">
-      {{ details ? "Show History" : "Hide"}}
+      {{ details ? "Show History" : "Hide" }}
     </button>
     <p class="attraction__description" *ngIf="!details">
       {{ attr.desc }}

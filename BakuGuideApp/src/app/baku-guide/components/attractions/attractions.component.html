@@ -3,12 +3,13 @@
     <app-navigation></app-navigation>
     <h1 class="header__title" [@title]="titleState">Attractions</h1>
   </div>
+  <div class="header__nav">
+    <span><a routerLink="/">Baku Guide</a></span>
+    <span>></span>
+    <span>Attractions</span>
+  </div>
 </header>
-<div class="attractions__nav">
-  <span><a routerLink="/">Baku Guide</a></span>
-  <span>></span>
-  <span><a routerLink="/attractions">Attractions</a></span>
-</div>
+
 <main class="main">
   <h1 class="top__attr">Top 10 must see places</h1>
   <div class="attractions__slider">
@@ -16,11 +17,14 @@
       [images]="imageObject"
       [infinite]="true"
       [imageSize]="{ width: '420px', height: '300px' }"
-      [autoSlide]="{interval: 2, stopOnHover: true}"
+      [autoSlide]="{ interval: 2, stopOnHover: true }"
       #nav
     ></ng-image-slider>
   </div>
   <h2 class="attractions__title">Associated Venues</h2>
-  <app-attraction [attr]="attr" *ngFor="let attr of attrs | paginate: { itemsPerPage: 5, currentPage: p }"></app-attraction>
+  <app-attraction
+    [attr]="attr"
+    *ngFor="let attr of attrs | paginate : { itemsPerPage: 5, currentPage: p }"
+  ></app-attraction>
   <pagination-controls (pageChange)="p = $event"></pagination-controls>
 </main>

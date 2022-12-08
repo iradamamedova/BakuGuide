@@ -47,13 +47,7 @@
       placeholder="Tell us your thoughts..."
       formControlName="message"
     ></textarea>
-    <div
-      class="form__invalid"
-      *ngIf="
-        contactForm.get('message')?.invalid &&
-        contactForm.get('message')?.touched
-      "
-    >
+    <div class="form__invalid" *ngIf="contactForm.get('message')?.invalid && contactForm.get('message')?.touched">
       Please enter your message
     </div>
   </div>

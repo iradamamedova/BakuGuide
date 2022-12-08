@@ -5,4 +5,5 @@ export interface Mall{
   address: string;
   hoursOpen: string;
   hoursClose: string;
+  link: string
 }

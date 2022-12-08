@@ -19,7 +19,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { AttractionsDataService } from './services/attractions-data.service';
 import { AttractionsService } from './services/attractions.service';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NavigationComponent } from './components/navigation/navigation.component';
 import { RouterModule } from '@angular/router';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { RestarauntsDataService } from './services/restaraunts-data.service';
@@ -39,71 +38,69 @@ import { TheatresService } from './services/theatres.service';
 import { CinemasService } from './services/cinemas.service';
 import { MallsService } from './services/malls.service';
 import { MuseumsService } from './services/museums.service';
-import { ContactFormComponent } from './components/contact-form/contact-form.component';
+import { SpreadModule } from "../spread/spread.module";
 
 @NgModule({
-  declarations: [
-    NavigationComponent,
-    MainComponent,
-    RestarauntsComponent,
-    TheatresComponent,
-    MuseumsComponent,
-    MallsComponent,
-    RestarauntComponent,
-    MallComponent,
-    MuseumComponent,
-    ParkComponent,
-    TheatreComponent,
-    AttractionsComponent,
-    AttractionComponent,
-    EntertainmentComponent,
-    CinemasComponent,
-    OutdoorActivitiesComponent,
-    CinemaComponent,
-    RestarauntDetailedComponent,
-    ContactFormComponent,
-  ],
-  imports: [
-    CommonModule,
-    FormsModule,
-    ReactiveFormsModule,
-    NgImageSliderModule,
-    GoogleMapsModule,
-    HttpClientModule,
-    BrowserAnimationsModule,
-    RouterModule,
-    NgxPaginationModule,
-    ReactiveFormsModule
-  ],
-  providers: [
-    AttractionsDataService,
-    AttractionsService,
-    RestarauntsDataService,
-    RestarauntsService,
-    MuseumsDataService,
-    MuseumsService,
-    TheatresDataService,
-    TheatresService,
-    CinemasDataService,
-    CinemasService,
-    MallsDataService,
-    MallsService,
-    ParksDataService,
-    ParksService,
-  ],
-  exports: [
-    MainComponent,
-    RestarauntsComponent,
-    TheatresComponent,
-    MuseumsComponent,
-    MallsComponent,
-    RestarauntComponent,
-    MallComponent,
-    MuseumComponent,
-    ParkComponent,
-    TheatreComponent,
-    AttractionsComponent,
-    AttractionComponent,
-  ],
+    declarations: [
+        MainComponent,
+        RestarauntsComponent,
+        TheatresComponent,
+        MuseumsComponent,
+        MallsComponent,
+        RestarauntComponent,
+        MallComponent,
+        MuseumComponent,
+        ParkComponent,
+        TheatreComponent,
+        AttractionsComponent,
+        AttractionComponent,
+        EntertainmentComponent,
+        CinemasComponent,
+        OutdoorActivitiesComponent,
+        CinemaComponent,
+        RestarauntDetailedComponent
+    ],
+    providers: [
+        AttractionsDataService,
+        AttractionsService,
+        RestarauntsDataService,
+        RestarauntsService,
+        MuseumsDataService,
+        MuseumsService,
+        TheatresDataService,
+        TheatresService,
+        CinemasDataService,
+        CinemasService,
+        MallsDataService,
+        MallsService,
+        ParksDataService,
+        ParksService,
+    ],
+    exports: [
+        MainComponent,
+        RestarauntsComponent,
+        TheatresComponent,
+        MuseumsComponent,
+        MallsComponent,
+        RestarauntComponent,
+        MallComponent,
+        MuseumComponent,
+        ParkComponent,
+        TheatreComponent,
+        AttractionsComponent,
+        AttractionComponent,
+    ],
+    imports: [
+        CommonModule,
+        FormsModule,
+        ReactiveFormsModule,
+        NgImageSliderModule,
+        GoogleMapsModule,
+        HttpClientModule,
+        BrowserAnimationsModule,
+        RouterModule,
+        NgxPaginationModule,
+        SpreadModule
+    ]
 })
 export class BakuGuideModule {}

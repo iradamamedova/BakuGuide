@@ -19,13 +19,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EntertainmentComponent implements OnInit {
   public titleState: string = 'start';
-  
+
   public museums: boolean = true;
   public theatres: boolean = false;
   public malls: boolean = false;
   public cinemas: boolean = false;
 
-  constructor() { }
+  constructor() {}
 
   public showMuseums() {
     this.museums = true;
@@ -52,7 +52,5 @@ export class EntertainmentComponent implements OnInit {
     this.malls = false;
   }
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

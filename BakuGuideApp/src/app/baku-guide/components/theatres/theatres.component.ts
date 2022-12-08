@@ -13,10 +13,8 @@ export class TheatresComponent implements OnInit {
   constructor(private theatresService: TheatresService) {}
 
   ngOnInit(): void {
-    this.theatresService.theatres$.subscribe(
-      (theatres: Theatre[]) => {
-        this.theatres = theatres;
-      }
-    );
+    this.theatresService.theatres$.subscribe((theatres: Theatre[]) => {
+      this.theatres = theatres;
+    });
   }
 }

@@ -5,7 +5,8 @@
     "image": "../../../../assets/images/port-baku-mall.jpg",
     "address": "9VG5+2VG, Baku",
     "hoursOpen": "10AM",
-    "hoursClose": "10PM"
+    "hoursClose": "10PM",
+    "link": "https://www.google.com/search?tbs=lf:1,lf_ui:10&tbm=lcl&q=port+baku+mall&rflfq=1&num=10&ved=2ahUKEwiHhMryner7AhW1RvEDHS47CIoQtgN6BAgTEAE#rlfi=hd:;si:3985939443883816844,l,Cg5wb3J0IGJha3UgbWFsbEiXpLr-vbmAgAhaGhAAEAIYABgBGAIiDnBvcnQgYmFrdSBtYWxskgEPc2hvcHBpbmdfY2VudGVymgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVF0Y21OcU5rOTNFQUWqATYQARoeEAEiGoXWUmxwCI2UC0SoYHUEFboRKg7exk6At2ubKhIiDnBvcnQgYmFrdSBtYWxsKAA,y,6k9fRrBsIno;mv:[[40.391775599999995,49.866155299999996],[40.356110699999995,49.8034489]]"
   },
   {
     "id": "7",
@@ -13,7 +14,8 @@
     "image": "../../../../assets/images/nargis-mall.jpg",
     "address": "9RCP+PXM, Baku 1005",
     "hoursOpen": "10AM",
-    "hoursClose": "10PM"
+    "hoursClose": "10PM",
+    "link": "https://www.google.com/maps/place/Nargiz+Shopping+Mall/@40.3718364,49.837436,15z/data=!4m2!3m1!1s0x0:0x531a61d0dbe0191c?sa=X&ved=2ahUKEwiL6ZqHnur7AhVrSvEDHUVDCKUQ_BJ6BAhiEAg"
   },
   {
     "id": "8",
@@ -21,7 +23,8 @@
     "image": "../../../../assets/images/amburan-mall.jpg",
     "address": "H3Q5+96G, Bilgah",
     "hoursOpen": "10AM",
-    "hoursClose": "10PM"
+    "hoursClose": "10PM",
+    "link": "https://www.google.com/maps/place/Amburan+Mall/@40.5884374,50.0580635,15z/data=!4m5!3m4!1s0x0:0x5aaa3c5fe5f01d96!8m2!3d40.5885018!4d50.0581213"
   },
   {
     "id": "1",
@@ -29,7 +32,8 @@
     "image": "../../../../assets/images/ganjlik-mall.jpg",
     "address": "14 Fatali Khan Khoyski, Baku",
     "hoursOpen": "10AM",
-    "hoursClose": "10PM"
+    "hoursClose": "10PM",
+    "link": "https://www.google.com/maps/place/Ganjlik+Mall/@40.4001309,49.8529446,15z/data=!4m2!3m1!1s0x0:0x5ede1cc1418ccc54?sa=X&ved=2ahUKEwiGyrqjnur7AhUXSPEDHbW2C9IQ_BJ6BAh3EAg"
   },
   {
     "id": "2",
@@ -37,7 +41,8 @@
     "image": "../../../../assets/images/park-bulvar-mall.jpg",
     "address": "9RCX+7VW, Neftçilər Prospekti, Baku",
     "hoursOpen": "10AM",
-    "hoursClose": "10PM"
+    "hoursClose": "10PM",
+    "link": "https://www.google.com/maps/place/Park+Bulvar+Mall/@40.3707404,49.8496994,15z/data=!4m5!3m4!1s0x0:0x2b88981f2bd87785!8m2!3d40.3707404!4d49.8496994"
   },
   {
     "id": "9",
@@ -45,7 +50,8 @@
     "image": "../../../../assets/images/deniz-mall.jpg",
     "address": "26a Neftchilar Ave, Baku",
     "hoursOpen": "10AM",
-    "hoursClose": "11PM"
+    "hoursClose": "11PM",
+    "link": "https://www.google.com/maps/place/D%C9%99niz+Mall/@40.3580491,49.837306,15z/data=!4m2!3m1!1s0x0:0x137483827cf83c8c?sa=X&ved=2ahUKEwjd9f-9nur7AhV3SfEDHaaWAekQ_BJ6BAhhEAg"
   },
   {
     "id": "5",
@@ -53,6 +59,7 @@
     "image": "../../../../assets/images/28_mall.jpg",
     "address": "1014, Azadlig avenu 15a/4 Baku AZ, Baku",
     "hoursOpen": "10AM",
-    "hoursClose": "10PM"
+    "hoursClose": "10PM",
+    "link": "https://www.google.com/maps/place/28+Mall/@40.3790625,49.8467654,15z/data=!4m2!3m1!1s0x0:0xd8897cf79ec36111?sa=X&ved=2ahUKEwiHpMPKnur7AhWTQvEDHfz9C8YQ_BJ6BAhxEAg"
   }
 ]

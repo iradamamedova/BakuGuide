@@ -45,7 +45,7 @@
     width: fit-content;
     &:hover {
       background: #ccc;
-      transition: .2s;
+      transition: 0.2s;
     }
     img {
       width: 30px;
@@ -60,6 +60,7 @@
     p {
       margin: 5px 0;
       font-size: 1.1em;
+      color: #555;
       span {
         font-weight: 700;
         margin-right: 10px;

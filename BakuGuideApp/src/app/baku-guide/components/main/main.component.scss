@@ -131,15 +131,16 @@ $white: #fff;
       padding: 8px;
       box-sizing: border-box;
     }
-  }
-  .top__stuff:hover {
-    p {
-      background-color: #000000be;
-      transition: 0.3s;
-      padding: 15px 8px;
+    &:hover {
+      p {
+        background-color: #000000be;
+        transition: 0.3s;
+        padding: 15px 8px;
+      }
     }
   }
 }
+
 .categories {
   margin-top: 100px;
   .category-list {

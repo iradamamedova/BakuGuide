@@ -1,18 +1,12 @@
 <div class="museum">
   <img class="museum__image" [src]="museum.image" />
   <div class="museum__content">
-    <div class="museum__name-loc">
-      <h3 class="museum__name">{{ museum.name }}</h3>
-      <h4 class="museum__location">
-        <!-- <a [href]="restaraunt.link" target="_blank"> -->
-        <img
-          class="museum__loc"
-          src="../../../../assets/images/location.png"
-          alt=""
-        />
-        <span class="museum__address">{{ museum.address }}</span> 
-        <!-- </a> -->
-      </h4>
-    </div>
+    <h3 class="museum__name">{{ museum.name }}</h3>
+    <h4 class="museum__location">
+      <!-- <a [href]="restaraunt.link" target="_blank"> -->
+      <img src="../../../../assets/images/location.png" />
+      <span class="museum__address">{{ museum.address }}</span>
+      <!-- </a> -->
+    </h4>
   </div>
 </div>

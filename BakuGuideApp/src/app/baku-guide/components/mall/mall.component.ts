@@ -4,16 +4,13 @@ import { Mall } from '../../models/mall';
 @Component({
   selector: 'app-mall',
   templateUrl: './mall.component.html',
-  styleUrls: ['./mall.component.scss']
+  styleUrls: ['./mall.component.scss'],
 })
 export class MallComponent implements OnInit {
-
   @Input()
   public mall: Mall;
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

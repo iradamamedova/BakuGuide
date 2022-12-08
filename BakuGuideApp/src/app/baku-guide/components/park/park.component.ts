@@ -5,15 +5,13 @@ import { ParksService } from '../../services/parks.service';
 @Component({
   selector: 'app-park',
   templateUrl: './park.component.html',
-  styleUrls: ['./park.component.scss']
+  styleUrls: ['./park.component.scss'],
 })
 export class ParkComponent implements OnInit {
-
   @Input()
   public park: Park;
 
-  constructor(private parksService: ParksService) { }
+  constructor(private parksService: ParksService) {}
 
   ngOnInit(): void {}
-
 }

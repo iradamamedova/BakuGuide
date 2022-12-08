@@ -3,13 +3,13 @@
     <app-navigation></app-navigation>
     <h1 class="header__title" [@title]="titleState">Entertainments</h1>
   </div>
+  <div class="header__nav">
+    <span><a routerLink="/">Baku Guide</a></span>
+    <span>></span>
+    <span>Entertainment</span>
+  </div>
 </header>
 
-<div class="entertainments__nav">
-  <span>Baku Guide</span>
-  <span>></span>
-  <span>Entertainments</span>
-</div>
 <main class="main">
   <div class="entertainment-list">
     <div class="entertainment museums" (click)="showMuseums()">
@@ -18,15 +18,15 @@
     </div>
     <div class="entertainment theatres" (click)="showTheatres()">
       <img src="../../../../assets/images/theater (1).png" />
-      <p>Theatres</p> 
+      <p>Theatres</p>
     </div>
     <div class="entertainment cinemas" (click)="showCinemas()">
       <img src="../../../../assets/images/cinema.png" />
-      <p>Cinemas</p> 
+      <p>Cinemas</p>
     </div>
     <div class="entertainment shopping-centres" (click)="showMalls()">
       <img src="../../../../assets/images/online-shopping.png" />
-      <p>Shopping centres</p> 
+      <p>Shopping centres</p>
     </div>
   </div>
   <app-museums *ngIf="museums"></app-museums>

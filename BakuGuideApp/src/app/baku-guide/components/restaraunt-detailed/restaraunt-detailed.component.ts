@@ -18,8 +18,6 @@ export class RestarauntDetailedComponent implements OnInit {
 
   markerOptions: google.maps.MarkerOptions = { draggable: false };
 
-  zoom = 16;
-
   constructor() {}
 
   openInfoWindow(marker: MapMarker) {

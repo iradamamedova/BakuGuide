@@ -1,21 +1,17 @@
 <div class="restaurant">
   <img class="restaurant__image" [src]="restaraunt.image" />
   <div class="restaurant__content">
-    <div class="restaurant__name-loc">
-      <a [routerLink]="['/restaurants', restaraunt.id]">
-        <h3 class="restaurant__name">{{ restaraunt.name }}</h3>
-      </a>
-      <h4 class="restaurant__location">
-        <!-- <a [href]="restaraunt.link" target="_blank"> -->
-        <img
-          class="restaurant__loc"
-          src="../../../../assets/images/location.png"
-          alt=""
-        />
-        {{ restaraunt.address }}
-        <!-- </a> -->
-      </h4>
-    </div>
+    <a [routerLink]="['/restaurants', restaraunt.id]">
+      <h3 class="restaurant__name">{{ restaraunt.name }}</h3>
+    </a>
+    <h4 class="restaurant__location">
+      <img
+        class="restaurant__loc"
+        src="../../../../assets/images/location.png"
+        alt=""
+      />
+      {{ restaraunt.address }}
+    </h4>
     <p class="restaraunt__rating">Rating: {{ restaraunt.rating }}</p>
   </div>
 </div>

@@ -1,7 +1,5 @@
 import { state, style, trigger } from '@angular/animations';
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-import { Subscription } from 'rxjs';
 import { Park } from '../../models/park';
 import { ParksService } from '../../services/parks.service';
 

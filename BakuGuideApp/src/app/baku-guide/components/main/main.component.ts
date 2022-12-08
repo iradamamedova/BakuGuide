@@ -80,9 +80,8 @@ export class MainComponent implements OnInit {
   getReasonsToVisitImages() {
     this.attractionsService.reasonsToVisitImages$.subscribe(
       (reasonsToVisitImages: Object[]) => {
-        this.imageObject = reasonsToVisitImages
+        this.imageObject = reasonsToVisitImages;
       }
-    )
+    );
   }
-
 }

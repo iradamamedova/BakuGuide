@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { BehaviorSubject, take } from 'rxjs';
 import { Mall } from '../../models/mall';
 import { MallsService } from '../../services/malls.service';
 

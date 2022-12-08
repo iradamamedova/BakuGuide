@@ -1,9 +1,9 @@
 <div class="museums">
   <h3 class="museums__title">Museums in Baku</h3>
   <div class="museum-list">
-    <ng-container *ngFor="let museum of museums;">
+    <ng-container *ngFor="let museum of museums">
       <div class="museum" *ngIf="museum">
-        <app-museum [museum]="museum" ></app-museum>
+        <app-museum [museum]="museum"></app-museum>
       </div>
     </ng-container>
   </div>

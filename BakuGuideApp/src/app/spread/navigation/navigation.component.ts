@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-navigation',
@@ -7,7 +6,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./navigation.component.scss'],
 })
 export class NavigationComponent implements OnInit {
-  constructor(private router: Router) {
+  constructor() {
     document.onscroll = function () {
       document.documentElement.scrollTop > 300
         ? document.getElementById('navigation')?.classList.add('sticky')

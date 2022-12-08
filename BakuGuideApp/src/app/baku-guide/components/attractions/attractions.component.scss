@@ -1,7 +1,7 @@
 .header {
   width: 100%;
   height: 50vh;
-  background: url('../../../../assets/images/about.jpg') top;
+  background: url("../../../../assets/images/about.jpg") top;
   background-size: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -16,19 +16,12 @@
     transform: translate(-100%, 0);
     transition: all 0.8s ease 0s;
   }
-  .filter {
-    width: 100%;
-    height: 100%;
-    background-color: #01010182;
-  }
-}
-.attractions {
   &__nav {
     width: 100%;
     height: 25px;
     padding: 2px 50px;
     box-sizing: border-box;
-    font-size: .9em;
+    font-size: 0.9em;
     background-color: #72ba58;
     color: #fff;
     span {
@@ -39,6 +32,13 @@
       }
     }
   }
+  .filter {
+    width: 100%;
+    height: 100%;
+    background-color: #01010182;
+  }
+}
+.attractions {
   &__title {
     text-align: left;
     color: #21bf5b;
@@ -61,5 +61,4 @@
   .page {
     margin: 5px;
   }
-  
 }

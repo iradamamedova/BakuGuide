@@ -3,14 +3,15 @@
     <app-navigation></app-navigation>
     <h1 class="header__title" [@title]="titleState">Restaurants</h1>
   </div>
+  <div class="header__nav">
+    <span>Baku Guide</span>
+    <span>></span>
+    <span>Food and Drink</span>
+    <span>></span>
+    <span>Restaurants</span>
+  </div>
 </header>
-<div class="restaurants__nav">
-  <span>Baku Guide</span>
-  <span>></span>
-  <span>Food and Drink</span>
-  <span>></span>
-  <span>Restaurants</span>
-</div>
+
 <main class="main">
   <div class="restaraunt-detailed" *ngIf="selectedRestaraunt">
     <app-restaraunt-detailed
@@ -86,9 +87,12 @@
           "
         ></app-restaraunt>
       </div>
-      <p *ngIf="!(restaraunts.length > 0)">Sorry, no restaurant matches the selected categories, please select others</p>
+      <p *ngIf="!(restaraunts.length > 0)">
+        Sorry, no restaurant matches the selected categories, please select
+        others
+      </p>
     </div>
-    <pagination-controls 
+    <pagination-controls
       *ngIf="restaraunts.length > 0"
       class="restaraunts__pagination"
       (pageChange)="p = $event"

@@ -4,16 +4,13 @@ import { Museum } from '../../models/museum';
 @Component({
   selector: 'app-museum',
   templateUrl: './museum.component.html',
-  styleUrls: ['./museum.component.scss']
+  styleUrls: ['./museum.component.scss'],
 })
 export class MuseumComponent implements OnInit {
-
   @Input()
   public museum: Museum;
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

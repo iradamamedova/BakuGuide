@@ -42,7 +42,7 @@
           </a>
         </div>
         <div class="category" [@pulse]="trigger">
-          <a href="" class="category__a" href="#map">
+          <a class="category__a" href="#map">
             <img src="../../../../assets/images/map.png" />
             Find a place
           </a>
@@ -95,7 +95,11 @@
     <h3 class="map__title">Welcome to Baku!</h3>
     <hr />
     <div class="map-div">
-      <google-map width="100%" [center]="{lat: 40.4093,lng: 49.8671}" [zoom]="11"></google-map>
+      <google-map
+        width="100%"
+        [center]="{ lat: 40.4093, lng: 49.8671 }"
+        [zoom]="11"
+      ></google-map>
     </div>
   </section>
   <section class="contact">

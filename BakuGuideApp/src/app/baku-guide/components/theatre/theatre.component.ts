@@ -4,16 +4,13 @@ import { Theatre } from '../../models/theatre';
 @Component({
   selector: 'app-theatre',
   templateUrl: './theatre.component.html',
-  styleUrls: ['./theatre.component.scss']
+  styleUrls: ['./theatre.component.scss'],
 })
 export class TheatreComponent implements OnInit {
-
   @Input()
   public theatre: Theatre;
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

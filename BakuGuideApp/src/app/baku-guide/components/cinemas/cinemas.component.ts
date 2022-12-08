@@ -11,13 +11,11 @@ export class CinemasComponent implements OnInit {
   public cinemas: Cinema[] = [];
   public addresses: any[];
 
-
   constructor(private cinemasService: CinemasService) {
-    this.cinemasService.cinemas$
-      .subscribe((cinemas: Cinema[]) => {
-        this.cinemas = cinemas;
-        this.addresses = cinemas.map((c) => c.address);
-      });
+    this.cinemasService.cinemas$.subscribe((cinemas: Cinema[]) => {
+      this.cinemas = cinemas;
+      this.addresses = cinemas.map((c) => c.address);
+    });
   }
 
   ngOnInit(): void {}
