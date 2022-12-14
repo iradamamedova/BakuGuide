@@ -34,7 +34,6 @@ import { CinemasService } from './services/cinemas.service';
 import { MallsService } from './services/malls.service';
 import { MuseumsService } from './services/museums.service';
 import { SharedModule } from '../shared/shared.module';
-import { ToursComponent } from './tours/tours.component';
 
 @NgModule({
     declarations: [
@@ -49,8 +48,7 @@ import { ToursComponent } from './tours/tours.component';
         CinemasComponent,
         OutdoorActivitiesComponent,
         CinemaComponent,
-        RestarauntDetailedComponent,
-        ToursComponent
+        RestarauntDetailedComponent
     ],
     providers: [
         AttractionsDataService,
