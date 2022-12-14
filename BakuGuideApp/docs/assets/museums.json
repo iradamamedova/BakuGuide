@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "name": "Heydar Aliyev Centre",
+    "image": "../../../../assets/images/heydar-aliyev-centre.jpg",
+    "address": "1 Heydar Aliyev Ave, Baku 1033",
+    "decription": "Cultural center in Baku",
+    "link": "https://www.google.com/maps/place/Heydar+Aliyev+Centre/@40.3958984,49.8678151,15z/data=!4m5!3m4!1s0x0:0xa8c2cbf267a83fbd!8m2!3d40.3958984!4d49.8678151"
+  },
+  {
+    "id": "2",
+    "name": "Azerbaijan Carpet Museum",
+    "image": "../../../../assets/images/carpet-museum.jpg",
+    "address": "Mikayil Huseynov Street 28, Baku",
+    "decription": "Museum in Baku",
+    "link": "https://www.google.com/maps/place/Azerbaijan+Carpet+Museum/@40.3599298,49.8358238,15z/data=!4m5!3m4!1s0x0:0x6e716d363b395896!8m2!3d40.3599298!4d49.8358238"
+  },
+  {
+    "id": "3",
+    "name": "National Museum of History of Azerbaijan",
+    "image": "../../../../assets/images/Azerbaijani-Museum-of-History.jpg",
+    "address": "4 Haji Zeynalabdin Taghiyev St, Baku 1005",
+    "decription": "Museum in Baku",
+    "link": "https://www.google.com/maps/place/National+Museum+of+History+of+Azerbaijan/@40.3694979,49.8401199,15z/data=!4m5!3m4!1s0x0:0x422bf77e1d71975e!8m2!3d40.3694979!4d49.8401199"
+  },
+  {
+    "id": "4",
+    "name": "Nizami Museum of Azerbaijan Literature",
+    "image": "../../../../assets/images/literature-museum.jpg",
+    "address": "53 Istiglaliyyat, Baku 1005",
+    "decription": "Museum in Baku",
+    "link": "https://www.google.com/maps/place/Nizami+Museum+of+Azerbaijan+Literature/@40.3698521,49.8362405,15z/data=!4m2!3m1!1s0x0:0xf0a78b5d6556503?sa=X&ved=2ahUKEwiW28Cilvf7AhXcS_EDHWvhD7wQ_BJ6BAh1EAg"
+  },
+  {
+    "id": "5",
+    "name": "Azerbaijan State Museum of Art",
+    "image": "../../../../assets/images/national_art_museum_of_azerbaijan.jpg",
+    "address": "Niyazi Street 9/11",
+    "decription": "Museum in Baku",
+    "link": "https://www.google.com/maps/place/Azerbaijan+State+Museum+of+Art/@40.3631683,49.8317364,15z/data=!4m5!3m4!1s0x0:0x7edab26ba2e350e9!8m2!3d40.3631987!4d49.8317567"
+  },
+  {
+    "id": "6",
+    "name": "Museum of Modern Art",
+    "image": "../../../../assets/images/modern-art-museum.jpg",
+    "address": "5 Yusuph Safarov, Bakı 1025",
+    "decription": "Museum in Baku",
+    "link": "https://www.google.com/maps/place/Museum+of+Modern+Art/@40.3780237,49.8646596,15z/data=!4m2!3m1!1s0x0:0xbb7b3b147f0700ab?sa=X&ved=2ahUKEwib-Z7Tlvf7AhViSvEDHfA5BWcQ_BJ6BAh7EAg"
+  },
+  {
+    "id": "7",
+    "name": "Museum of Miniature Books",
+    "image": "../../../../assets/images/mini-books-museum.jpg",
+    "address": "9R8M+G2M, Baku 1000",
+    "decription": "Museum in Baku",
+    "link": "https://www.google.com/maps/place/Museum+of+Miniature+Books/@40.3663494,49.8325413,15z/data=!4m2!3m1!1s0x0:0x7078d012b23ef1d1?sa=X&ved=2ahUKEwjSuZjflvf7AhUFXvEDHRhwDNoQ_BJ6BAhxEAg"
+  },
+  {
+    "id": "8",
+    "name": "Independence Museum of Azerbaijan",
+    "image": "../../../../assets/images/independency-museum.jpg",
+    "address": "The Museum Center, 49 Neftchilar Ave, Baku",
+    "decription": "Museum in Baku",
+    "link": "https://www.google.com/maps/place/Independence+Museum+of+Azerbaijan/@40.3696862,49.8425042,15z/data=!4m5!3m4!1s0x0:0x260abf7a5eb708cf!8m2!3d40.3696862!4d49.8425042"
+  },
+  {
+    "id": "9",
+    "name": "Stone Chronicle Museum",
+    "image": "../../../../assets/images/chronicle-museum.jpg",
+    "address": "8RRR+3F7, Baku",
+    "decription": "Museum in Baku",
+    "link": "https://www.google.com/maps/place/Stone+Chronicle+Museum/@40.3401602,49.8411566,15z/data=!4m2!3m1!1s0x0:0xd85f7d1f61ec1bf6?sa=X&ved=2ahUKEwi5-9X9lvf7AhXkQvEDHbZKDnsQ_BJ6BAhPEAg"
+  },
+  {
+    "id": "10",
+    "name": "State Museum of Musical Culture of Azerbaijan",
+    "image": "../../../../assets/images/musical-culture-museum.jpg",
+    "address": "49 Neftchilar Ave, Baku",
+    "decription": "Museum in Baku",
+    "link": "https://www.google.com/maps/place/State+Museum+of+Musical+Culture+of+Azerbaijan/@40.3697786,49.8425946,15z/data=!4m2!3m1!1s0x0:0xda2c48b42394f4eb?sa=X&ved=2ahUKEwjnlt2Pl_f7AhW4SvEDHY9xDzAQ_BJ6BAhQEAg"
+  },
+  {
+    "id": "11",
+    "name": "Museum of Archaeology and Ethnography",
+    "image": "../../../../assets/images/archaeology-museum.jpg",
+    "address": "Icherisheher",
+    "decription": "Museum in Baku",
+    "link": "https://www.google.com/maps/place/Museum+of+Archaeology+and+Ethnography/@40.3676593,49.8366264,15z/data=!4m2!3m1!1s0x0:0x188b60f9dc562f15?sa=X&ved=2ahUKEwiTr-Kgl_f7AhWMS_EDHbxuD1MQ_BJ6BAhyEAg"
+  },
+  {
+    "id": "12",
+    "name": "Vagif Mustafazadeh House-Museum",
+    "image": "../../../../assets/images/vagif-mustafazadeh-house-museum.jpg",
+    "address": "9R8M+2W7, Baku 1000",
+    "decription": "Museum in Baku",
+    "link": "https://www.google.com/maps/place/Vagif+Mustafazadeh+House-Museum/@40.3650355,49.8347822,15z/data=!4m2!3m1!1s0x0:0x2dc442b5d7c26b84?sa=X&ved=2ahUKEwiz1K6tl_f7AhUESPEDHZ4cDDcQ_BJ6BAhLEAg"
+  },
+  {
+    "id": "13",
+    "name": "House-Museum of Samad Vurgun",
+    "image": "../../../../assets/images/samad_Vurgun's_house_museum.jpg",
+    "address": "9R9Q+7W7, Tarlan Aliyarbeyov St, Baku",
+    "decription": "Museum in Baku",
+    "link": "https://www.google.com/maps/place/House-Museum+of+Samad+Vurgun/@40.3681542,49.8398117,15z/data=!4m5!3m4!1s0x0:0xb3bf1d1246c16795!8m2!3d40.3681552!4d49.8398134"
+  },
+  {
+    "id": "14",
+    "name": "House-Museum of Tahir Salahov",
+    "image": "../../../../assets/images/tahir-salahov-house-museum.jpg",
+    "address": "st. Ilyas Efendiyev , 55 / 3rd lane Ilyas Efendiyev, Bakı",
+    "decription": "Museum in Baku",
+    "link": "https://www.google.com/maps/place/Tahir+Salahov's+home-museum/@40.4092684,49.8671077,15z/data=!4m2!3m1!1s0x0:0x5b4cd05e8c648c83?sa=X&ved=2ahUKEwikuK3Ml_f7AhXUSvEDHUdGBqIQ_BJ6BAhOEAg"
+  },
+  {
+    "id": "15",
+    "name": "Azerbaijan Museum of Geology",
+    "image": "../../../../assets/images/geologiya-museum.jpg",
+    "address": " 95 Ismayil Kutkashenli St, Baku",
+    "decription": "Museum in Baku",
+    "link": "https://www.google.com/maps/place/Azerbaijan+Geological+Museum/@40.3729753,49.8202553,15z/data=!4m5!3m4!1s0x0:0x7a7072d0d3fc8ae!8m2!3d40.3729757!4d49.8202604"
+  }
+]

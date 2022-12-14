@@ -1,0 +1,32 @@
+[
+  {
+    "image": "../../../../assets/images/palaceofshi.jpg",
+    "thumbImage": "../../../../assets/images/palaceofshi.jpg",
+    "alt": "The UNESCO-Listed Historic Center",
+    "title": "The UNESCO-Listed Historic Center"
+  },
+  {
+    "image": "../../../../assets/images/caspiancoast.jpg",
+    "thumbImage": "../../../../assets/images/caspiancoast.jpg",
+    "alt": "The Caspian Coast",
+    "title": "The Caspian Coast"
+  },
+  {
+    "image": "../../../../assets/images/absheron-peninsula.jpg",
+    "thumbImage": "../../../../assets/images/absheron-peninsula.jpg",
+    "alt": "Visit the Absheron Peninsula",
+    "title": "Visit the Absheron Peninsula"
+  },
+  {
+    "image": "../../../../assets/images/kebabs.jpg",
+    "thumbImage": "../../../../assets/images/kebabs.jpg",
+    "alt": "World-Class Kebabs",
+    "title": "World-Class Kebabs"
+  },
+  {
+    "image": "../../../../assets/images/carpet-museum.jpg",
+    "thumbImage": "../../../../assets/images/carpet-museum.jpg",
+    "alt": "Plenty of Museums to Explore",
+    "title": "Plenty of Museums to Explore"
+  }
+]
