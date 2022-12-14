@@ -1,0 +1,30 @@
+<div [class]="type + ' reveal'">
+  <div [class]="type + '__image-box'">
+    <a [href]="image" target="_blank">
+      <img [class]="type + '__image'" [src]="image" *ngIf="image"
+    /></a>
+  </div>
+  <div [class]="type + '__slider'" *ngIf="images">
+    <ng-image-slider
+      [images]="images"
+      [imageSize]="{ width: '100%', height: '250px', space: 0 }"
+      [autoSlide]="{ interval: 2, stopOnHover: true }"
+      #nav
+    ></ng-image-slider>
+  </div>
+  <div [class]="type + '__content'">
+    <h3 [class]="type + '__name'">{{ title }}</h3>
+    <h4 [class]="type + '__location'">
+      <a [href]="link" target="_blank">
+        <img src="../../../../assets/images/location.png" />
+        {{ location }}
+      </a>
+    </h4>
+    <p [class]="type + '__description'" *ngIf="description">
+      {{ description }}
+    </p>
+    <p class="mall__hours" *ngIf="hoursOpen && hoursClose">
+      hours: {{ hoursOpen }} -- {{ hoursClose }}
+    </p>
+  </div>
+</div>

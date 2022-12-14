@@ -1,26 +1,26 @@
-<header class="header">
-  <div class="filter">
-    <app-navigation></app-navigation>
-    <h1 class="header__title" [@title]="titleState">
-      Outdoor Activities in Baku
-    </h1>
-  </div>
-  <div class="header__nav">
-    <span>Baku Guide</span>
-    <span>></span>
-    <span>Outdoor Activities</span>
-  </div>
-</header>
+<app-header
+  [pageName]="'Outdoor Activities'"
+  [image]="'../../../../assets/images/outdoor.jpg'"
+></app-header>
 
 <main class="main">
-  <h2 class="main__title">Parks in Baku</h2>
-  <div class="main__parks">
-    <app-park
-      *ngFor="
-        let park of parks | paginate : { itemsPerPage: 5, currentPage: p }
-      "
-      [park]="park"
-    ></app-park>
-    <pagination-controls (pageChange)="p = $event"></pagination-controls>
+  <h2 class="main__title">
+    Parks in Baku
+    <app-thin-line></app-thin-line>
+  </h2>
+  <div
+    class="main__parks"
+    *ngFor="let park of parks | paginate : { itemsPerPage: 5, currentPage: p }"
+  >
+    <app-card
+      [type] = "'card-1'"
+      [title]="park.name"
+      [description]="park.description"
+      [images]="park.images"
+      [link]="park.link"
+      [location]="park.location"
+    ></app-card>
+    <hr />
   </div>
+  <pagination-controls (pageChange)="p = $event"></pagination-controls>
 </main>

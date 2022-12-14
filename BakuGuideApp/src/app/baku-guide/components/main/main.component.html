@@ -1,102 +1,116 @@
 <header class="header">
   <div class="header__filter"></div>
   <app-navigation></app-navigation>
-  <div class="header__title">
-    <div class="title__content">
-      <h1 class="title__h1" [@title]="titleState">baku guide</h1>
-      <p class="title__p">Baku Tourism | Baku Guide</p>
-      <p class="title__quote" [@quote]="quoteState">
-        <span>&#10077;</span>
-        The fire of true enthusiasm is like the fires of Baku, which no water
-        can ever quench…
-        <span>&#10078;</span>
-      </p>
-    </div>
+  <div class="header__title title">
+    <h1 class="title__h1" [@title]="titleState">baku guide</h1>
+    <p class="title__p">Baku Tourism | Baku Guide</p>
+    <p class="title__quote" [@quote]="quoteState">
+      <span>&#10077;</span>
+      The fire of true enthusiasm is like the fires of Baku, which no water can
+      ever quench…
+      <span>&#10078;</span>
+    </p>
   </div>
 </header>
 <main>
   <section class="about">
-    <h3 class="about__title">About Us</h3>
-    <p class="about__text">
+    <h3 class="about__title">
+      About Us
+      <app-thin-line></app-thin-line>
+    </h3>
+    <p class="about__text reveal">
       Planning to visit Baku? Discover what are the best attractions in the
       city, what you can do there, where you can hang out, where to eat and
       more, in the best guide to Baku, from Baku Guide.
     </p>
-    <p class="about__text">
+    <p class="about__text reveal">
       On the fault line between East and West, Baku is unlike anywhere else on
       earth. Azerbaijan's capital offers a fascinating Soviet legacy, soaring
       towers that could have been transplanted from Shanghai, along with a
       beautiful ancient center. Contradictory it may be, but Baku is always a
       delight.
     </p>
-    <div class="categories">
-      <div class="category-list">
-        <div class="category" [@pulse]="trigger" routerLink="/restaurants">
-          <img src="../../../../assets/images/foodanddrink.png" />
-          Food & Drink
-        </div>
-        <div class="category" [@pulse]="trigger">
-          <a class="category__a" href="#reasons-to-visit">
-            <img src="../../../../assets/images/stickers.png" />
-            Things to do
-          </a>
-        </div>
-        <div class="category" [@pulse]="trigger">
-          <a class="category__a" href="#map">
-            <img src="../../../../assets/images/map.png" />
-            Find a place
-          </a>
-        </div>
+    <div class="nav-btns">
+      <div class="nav-btns__list">
+        <app-nav-btn
+          [text]="'Food & Drink'"
+          [image]="'../../../../assets/images/foodanddrink.png'"
+          [link]="'/restaurants'"
+        ></app-nav-btn>
+        <app-nav-btn
+          [text]="'Things to do'"
+          [image]="'../../../../assets/images/stickers.png'"
+          [hrefLink]="'#reasons-to-visit'"
+        ></app-nav-btn>
+        <app-nav-btn
+          [text]="'Find a place'"
+          [image]="'../../../../assets/images/map.png'"
+          [hrefLink]="'#map'"
+        ></app-nav-btn>
       </div>
     </div>
   </section>
-  <section class="reasons-to-visit" id="reasons-to-visit">
-    <div class="reasons-to-visit__flex">
-      <div class="reasons-to-visit__slider">
-        <h3 class="reasons-to-visit__title">
+  <section class="explore" id="reasons-to-visit">
+    <div class="explore__content">
+      <div class="explore__card">
+        <h3 class="explore__title">
           Explore Baku
           <hr />
         </h3>
         <div class="slider">
           <ng-image-slider
+            class="ng-slider"
             [images]="imageObject"
             [infinite]="true"
-            [imageSize]="{ width: '500px', height: '300px' }"
+            [imageSize]="{ width: '500', height: '300' }"
             [autoSlide]="{ interval: 1, stopOnHover: true }"
             #nav
           ></ng-image-slider>
         </div>
       </div>
-      <div class="reasons-to-visit__top">
-        <h3 class="reasons-to-visit__title">
+      <div class="explore__card">
+        <h3 class="explore__title">
           Things To See In Baku
           <hr />
         </h3>
-        <div class="top__stuff" routerLink="/attractions">
-          <img src="../../../../assets/images/flameTowers.jpg" />
-          <p>Top attractions</p>
-        </div>
-        <div class="top__stuff" routerLink="/entertainment">
-          <img src="../../../../assets/images/heydar-aliyev-centre.jpg" />
-          <p>Top museums</p>
-        </div>
-        <div class="top__stuff" routerLink="/outdoor">
-          <img src="../../../../assets/images/centralpark.jpg" />
-          <p>Top parks</p>
-        </div>
-        <div class="top__stuff" routerLink="/entertainment">
-          <img src="../../../../assets/images/theatre.jpg" />
-          <p>Top theatres</p>
-        </div>
+        <app-small-card
+          [link]="'/attractions'"
+          [image]="'../../../../assets/images/flameTowers.jpg'"
+          [title]="'Top attractions'"
+        ></app-small-card>
+        <app-small-card
+          [link]="'/entertainment'"
+          [image]="'../../../../assets/images/heydar-aliyev-centre.jpg'"
+          [title]="'Top museums'"
+        ></app-small-card>
+        <app-small-card
+          [link]="'/outdoor'"
+          [image]="'../../../../assets/images/centralpark.jpg'"
+          [title]="'Top parks'"
+        ></app-small-card>
+        <app-small-card
+          [link]="'/entertainment'"
+          [image]="
+            '../../../../assets/images/Azerbaijan_State_Academic_Opera_and_Ballet_Theatre.jpg'
+          "
+          [title]="'Top theatres'"
+        ></app-small-card>
       </div>
     </div>
   </section>
   <section class="map" id="map">
     <h3 class="map__title">Welcome to Baku!</h3>
     <hr />
-    <div class="map-div">
+    <p class="map__text reveal">
+      Baku is located 28 metres below sea level, which makes it the
+      lowest lying national capital in the world and also the largest city in
+      the world located below sea level. <br/> Baku lies on the southern shore of the
+      Absheron Peninsula, alongside the Bay of Baku.
+    </p>
+    <div class="map__div">
       <google-map
         width="100%"
+        height="60vh"
         [center]="{ lat: 40.4093, lng: 49.8671 }"
         [zoom]="11"
       ></google-map>

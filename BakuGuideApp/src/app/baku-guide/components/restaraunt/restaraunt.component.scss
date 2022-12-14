@@ -1,20 +1,33 @@
+@use '../../../shared/styles/colors.scss' as color;
+@use '../../../shared/styles/mixins.scss' as *;
 .restaurant {
   display: flex;
   margin-bottom: 20px;
   text-align: left;
-  background-color: #fff;
+  background-color: color.$white;
   border-radius: 3px;
   padding: 20px;
   &:hover {
-    box-shadow: 0 0 10px #cdcdcd;
-    transition: all linear .5s;
+    box-shadow: 0 0 10px color.$light-grey;
+    transition: all linear 0.3s;
+    img {
+      scale: (1.1);
+      transition: .3s ease-out;
+    }
   }
   a {
     text-decoration: none;
   }
+  &__image-box {
+    overflow: hidden;
+    width: 250px;
+    height: 200px;
+    margin: 0 30px 0 0;
+  }
   &__image {
     width: 250px;
-    margin: 0 30px 0 0;
+    height: 200px;
+    object-fit: cover;
   }
   &__content {
     display: flex;
@@ -23,20 +36,17 @@
     width: 50%;
   }
   &__name {
-    font-size: 1.5em;
-    font-weight: 300;
-    color: #ec7c21;
+    @include fontSize(1.5em, 300);
+    color: color.$orange;
   }
   &__rating {
-    font-size: 0.9em;
-    font-weight: 600;
+    @include fontSize(.9em, 600);
     line-height: 23px;
-    color: #666;
+    color: color.$mid-light-grey;
   }
   &__location {
-    font-weight: 300;
-    color: #999;
-    font-size: 0.9em;
+    @include fontSize(.9em, 300);
+    color: color.$light-grey;
     margin: 30px 0;
   }
   &__loc {
@@ -45,7 +55,28 @@
 }
 hr {
   border: none;
-  border-top: 1px #ccc solid;
+  border-top: 1px color.$light-grey solid;
   width: 80%;
   margin: unset;
+}
+@media screen and (max-width: 992px) {
+  .restaurant {
+    display: block;
+    width: 70%;
+    margin: 0 auto 20px auto;
+    &__image,
+    &__content {
+      width: 100%;
+    }
+  }
+}
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
 }

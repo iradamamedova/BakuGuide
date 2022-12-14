@@ -1,15 +1,11 @@
+@use "../../../shared/styles/colors.scss" as color;
+@use "../../../shared/styles/mixins.scss" as *;
 .restaraunt {
-  hr {
-    border: none;
-    border-top: 1px solid #aaa;
-    margin-bottom: 50px;
-    width: 500px;
-  }
   &__name {
     text-align: center;
-    color: #555;
-    font-weight: 300;
-    font-size: 2em;
+    color: color.$mid-light-grey;
+    margin-bottom: 30px;
+    @include fontSize(2em, 300);
   }
   &__content {
     display: flex;
@@ -28,24 +24,25 @@
     display: inline-block;
     padding: 10px;
     margin: 0 10px 10px 0;
-    background-color: #999;
-    color: #fff;
+    background-color: color.$green;
+    color: color.$white;
     font-weight: 200 !important;
     border-radius: 5px;
   }
   &__website {
     text-decoration: none;
-    color: #555;
+    color: color.$dark-grey;
     padding: 10px;
     border-radius: 5px;
-    background: #ddd;
-    box-shadow: 0 0 10px #ddd;
+    background: color.$light-grey;
+    box-shadow: 0 0 10px color.$light-grey;
     display: inline-block;
-    font-weight: 700;
+    font-weight: 600;
     width: fit-content;
+    margin-top: 10px;
     &:hover {
-      background: #ccc;
-      transition: 0.2s;
+      background: color.$light-transparent-black;
+      transition: 0.3s;
     }
     img {
       width: 30px;
@@ -60,7 +57,7 @@
     p {
       margin: 5px 0;
       font-size: 1.1em;
-      color: #555;
+      color: color.$mid-light-grey;
       span {
         font-weight: 700;
         margin-right: 10px;
@@ -72,12 +69,50 @@
     width: 100%;
     margin-top: 100px;
     text-align: center;
-    color: #555;
+    color: color.$mid-light-grey;
   }
   &__map {
     width: 100%;
     display: inline-block;
     text-align: center;
     margin: auto;
+  }
+}
+@media screen and (max-width: 992px) {
+  .restaraunt {
+    &__name {
+      font-size: 1.8em;
+    }
+    &__cuisine {
+      padding: 5px 8px;
+    }
+    &__details p,
+    &__website,
+    &__cuisine {
+      font-size: 0.9em !important;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .restaraunt {
+    &__name {
+      font-size: 1.5em;
+    }
+    &__content {
+      display: block;
+      div {
+        width: 85%;
+        margin: auto;
+      }
+    }
+    &__image {
+      margin-bottom: 20px;
+    }
+    &__cuisines {
+      text-align: center;
+    }
+    &__website {
+      margin: 20px auto;
+    }
   }
 }

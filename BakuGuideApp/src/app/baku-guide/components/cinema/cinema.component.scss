@@ -1,20 +1,22 @@
+@use "../../../shared/styles/colors.scss" as color;
+@use "../../../shared/styles/mixins.scss" as *;
 .cinema {
   width: 250px;
   height: 350px;
   text-align: left;
-  background: #fff;
+  background: color.$white;
   margin: 10px;
-  border: 1px solid #e7e7e7;
+  border: 1px solid color.$light-grey;
   &:hover {
-    box-shadow: 0 0 10px #e7e7e7;
+    box-shadow: 0 0 10px color.$light-grey;
     h3,
     h4 {
-      color: #111;
+      color: color.$black-background;
     }
   }
   a {
     text-decoration: none;
-    color: #444;
+    color: color.$dark-grey;
   }
   &__content {
     padding: 15px;
@@ -24,19 +26,24 @@
     height: auto;
   }
   &__name {
-    font-size: 1.5em;
-    font-weight: 300;
-    color: #666;
+    @include fontSize(1.5em, 300);
+    color: color.$mid-light-grey;
     text-align: center;
   }
   &__location {
+    @include fontSize(0.9em, 400);
     margin: 5px 0;
-    font-weight: 400;
-    font-size: 0.9em;
-    color: #999;
+    color: color.$mid-light-grey;
     img {
       width: 15px;
       margin-right: 5px;
     }
+  }
+}
+@media screen and (max-width: 768px) {
+  .cinema {
+    width: 70%;
+    height: auto;
+    margin: 20px auto;
   }
 }

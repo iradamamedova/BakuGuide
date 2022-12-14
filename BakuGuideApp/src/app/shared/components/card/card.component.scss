@@ -1,0 +1,180 @@
+@use "../../styles/colors.scss" as color;
+@use "../../styles/mixins.scss" as *;
+
+.card-1 {
+  display: flex;
+  margin: 20px 0;
+  text-align: left;
+  &__image {
+    width: 400px;
+    height: 250px;
+    margin: 0 30px 0 0;
+  }
+  &__slider {
+    width: 400px;
+    margin-right: 20px;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 55%;
+  }
+  &__name {
+    @include fontSize(1.6em, 300);
+    color: color.$green;
+  }
+  &__description {
+    @include fontSize(0.9em, 500);
+    line-height: 23px;
+    color: color.$mid-light-grey;
+  }
+  &__location {
+    a {
+      font-weight: 600;
+      text-decoration: none;
+      color: color.$dark-grey;
+    }
+    img {
+      width: 15px;
+      margin-right: 5px;
+      vertical-align: middle;
+    }
+  }
+}
+.card-2 {
+  margin: 10px;
+  background: color.$white;
+  width: 350px;
+  height: 340px;
+  border: 1px solid color.$light-grey;
+  &:hover {
+    box-shadow: 0 0 10px color.$light-grey;
+    h4,
+    p {
+      color: color.$dark-grey;
+    }
+    img {
+      scale: (1.1);
+      transition: 0.3s ease-out;
+    }
+  }
+  &__image-box {
+    overflow: hidden;
+    width: 100%;
+    height: 230px;
+  }
+  &__image {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+  }
+  &__hours {
+    font-weight: 400;
+    color: color.$light-grey;
+  }
+  &__location {
+    @include fontSize(1em, 200);
+    color: color.$mid-light-grey;
+  }
+  &__content {
+    padding: 5px 15px;
+  }
+  &__name {
+    @include fontSize(1.2em, 300);
+    color: color.$mid-light-grey;
+  }
+  &__location {
+    img {
+      width: 15px;
+      margin-right: 5px;
+    }
+    a {
+      text-decoration: none;
+      color: color.$mid-light-grey;
+    }
+  }
+}
+@media screen and (max-width: 992px) {
+  .card-2 {
+    margin: 10px 5px;
+  }
+}
+@media screen and (max-width: 790px) {
+  .card-2 {
+    width: 80%;
+    margin: 20px auto;
+  }
+}
+
+hr {
+  border: none;
+  border-top: 1px color.$light-grey solid;
+  width: 80%;
+  margin: unset;
+}
+@media screen and (max-width: 1180px) {
+  .card-1 {
+    &__name {
+      font-size: 1.2em;
+    }
+    &__description {
+      font-size: 0.8em;
+    }
+    &__location {
+      font-size: 0.9em;
+    }
+  }
+}
+@media screen and (max-width: 1080px) {
+  .card-1 {
+    &__image {
+      width: 350px;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .card-1 {
+    display: block;
+    text-align: center;
+    div,
+    &__image {
+      width: 80%;
+      margin: auto;
+    }
+    &__name {
+      font-size: 1.5em;
+    }
+    &__location {
+      margin-bottom: 10px;
+      color: color.$mid-light-grey;
+    }
+    &__description {
+      text-align: left;
+    }
+  }
+}
+@media screen and (max-width: 540px) {
+  .card-1 {
+    div,
+    &__image {
+      width: 100%;
+      margin: auto;
+    }
+    &__name {
+      font-size: 1.3em;
+    }
+  }
+}
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}

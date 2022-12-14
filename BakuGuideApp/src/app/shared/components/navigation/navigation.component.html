@@ -1,0 +1,34 @@
+<div id="navigation" class="z-index">
+  <h1 class="nav__title">
+    <a routerLink="/">
+      <img
+        class="nav__icon"
+        src="/assets/images/travel-guide.png"
+        alt="guideicon"
+      />
+      BakuGuide
+    </a>
+  </h1>
+  <div class="nav__menu-burger" (click)="toggleMenu(a)">&#9776;</div>
+  <div class="nav__menu-list">
+    <a
+      class="nav__link"
+      routerLink="/"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      >Home</a
+    >
+    <a class="nav__link" routerLink="/attractions" routerLinkActive="active"
+      >Attractions</a
+    >
+    <a class="nav__link" routerLink="/restaurants" routerLinkActive="active"
+      >Food and Drink</a
+    >
+    <a class="nav__link" routerLink="/entertainment" routerLinkActive="active"
+      >Entertainment</a
+    >
+    <a class="nav__link" routerLink="/outdoor" routerLinkActive="active"
+      >Outdoor activities</a
+    >
+  </div>
+</div>

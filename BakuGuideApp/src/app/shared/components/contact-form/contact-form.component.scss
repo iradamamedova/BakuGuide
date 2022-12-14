@@ -1,0 +1,139 @@
+@use "../../styles/colors.scss" as color;
+.form {
+  position: absolute;
+  right: 50%;
+  bottom: 50%;
+  transform: translate(50%, 50%);
+  width: 45%;
+  transition: all 0.3s linear;
+  &__flex-inputs {
+    display: flex;
+    justify-content: space-between;
+    div {
+      width: 320px;
+      text-align: left;
+    }
+  }
+  &__message {
+    text-align: left;
+  }
+  &__name {
+    input {
+      background-image: url("../../../../assets/images/icon.png");
+    }
+  }
+  &__email {
+    input {
+      background-image: url("../../../../assets/images/envelope.png");
+    }
+  }
+  &__invalid {
+    color: color.$active-btn-orange;
+    font-size: 0.8em;
+    margin-top: -10px;
+  }
+  input {
+    width: 100%;
+    border: 1px solid color.$light-grey;
+    border-radius: 5px;
+    margin: 10px 0 15px 0;
+    font-size: 1em;
+    padding: 10px 12px 10px 50px;
+    box-sizing: border-box;
+    background-size: 20px;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    outline: none;
+    &:focus {
+      border: 1px solid color.$mid-light-grey;
+      transition: all 0.4s linear;
+    }
+    &::placeholder {
+      color: color.$light-grey;
+    }
+  }
+  button {
+    padding: 15px 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: color.$orange;
+    text-transform: uppercase;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: color.$white;
+    margin-top: 20px;
+    cursor: pointer;
+    &:disabled {
+      background-color: color.$orange;
+      box-shadow: none;
+    }
+    &:hover {
+      background-color: color.$hover-btn-orange;
+      transition: all 0.2s linear;
+    }
+    &:active:enabled {
+      box-shadow: 0 0 10px color.$dark-transparent-black;
+      background-color: color.$active-btn-orange;
+    }
+  }
+  textarea {
+    font-size: 1em;
+    width: 100%;
+    max-height: 215px;
+    padding: 12px;
+    border: 1px solid color.$light-grey;
+    border-radius: 5px;
+    resize: vertical;
+    margin: 10px 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Manrope", sans-serif;
+    &:focus {
+      border: 1px solid color.$mid-light-grey;
+      transition: all 0.4s linear;
+    }
+    &::placeholder {
+      color: color.$mid-light-grey;
+    }
+  }
+}
+@media screen and (max-width: 1290px) {
+  .form {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 1118px) {
+  .form {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .form {
+    width: 80%;
+    &__flex-inputs {
+      div {
+        width: 300px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .form {
+    &__flex-inputs {
+      div {
+        width: 45%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 540px) {
+  .form {
+    &__flex-inputs {
+      display: block;
+      div {
+        width: 100%;
+      }
+    }
+  }
+}

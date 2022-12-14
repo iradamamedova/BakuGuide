@@ -6,8 +6,8 @@
     "title": "Nizami Street"
   },
   {
-    "image": "./assets/images/oldcity.jpg",
-    "thumbImage": "./assets/images/oldcity.jpg",
+    "image": "./assets/images/icheri-sheher.jpg",
+    "thumbImage": "./assets/images/icheri-sheher.jpg",
     "alt": "Icheri Sheher",
     "title": "Icheri Sheher"
   },
@@ -57,6 +57,6 @@
     "image": "./assets/images/yanardag.jpg",
     "thumbImage": "./assets/images/yanardag.jpg",
     "alt": "Yanardag",
-    "titel": "Yanardag"
+    "title": "Yanardag"
   }
 ]

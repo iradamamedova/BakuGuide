@@ -8,9 +8,9 @@ export class RestarauntsDataService {
   constructor(private http: HttpClient) {}
 
   public getRestaraunts(): Observable<Restaraunt[]> {
-    return this.http.get<Restaraunt[]>("assets/restaraunts.json").pipe(
+    return this.http.get<Restaraunt[]>('assets/restaraunts.json').pipe(
       map((json: any) => {
-        return (json ? json : []).map((restarauntJSON: any) => {
+        return (json || []).map((restarauntJSON: any) => {
           return {
             id: restarauntJSON.id,
             name: restarauntJSON.name,
@@ -22,9 +22,17 @@ export class RestarauntsDataService {
             email: restarauntJSON.email,
             website: restarauntJSON.website,
             latitude: restarauntJSON.latitude,
-            longitude: restarauntJSON.longitude
+            longitude: restarauntJSON.longitude,
           };
         });
+      })
+    );
+  }
+
+  public getDataForFiltration(): Observable<any[]> {
+    return this.http.get<any[]>('assets/restaraunts-filtration-data.json').pipe(
+      map((json: any) => {
+        return json || [];
       })
     );
   }

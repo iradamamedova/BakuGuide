@@ -1,17 +1,12 @@
-<header class="header">
-  <div class="filter">
-    <app-navigation></app-navigation>
-    <h1 class="header__title" [@title]="titleState">Attractions</h1>
-  </div>
-  <div class="header__nav">
-    <span><a routerLink="/">Baku Guide</a></span>
-    <span>></span>
-    <span>Attractions</span>
-  </div>
-</header>
-
+<app-header
+  [pageName]="'Attractions'"
+  [image]="'../../../../../assets/images/icheri-sheher.jpg'"
+></app-header>
 <main class="main">
-  <h1 class="top__attr">Top 10 must see places</h1>
+  <h1 class="attractions__title">
+    Top attractions in Baku
+    <app-thin-line></app-thin-line>
+  </h1>
   <div class="attractions__slider">
     <ng-image-slider
       [images]="imageObject"
@@ -21,10 +16,19 @@
       #nav
     ></ng-image-slider>
   </div>
-  <h2 class="attractions__title">Associated Venues</h2>
-  <app-attraction
-    [attr]="attr"
+  <div
+    class="attraction"
     *ngFor="let attr of attrs | paginate : { itemsPerPage: 5, currentPage: p }"
-  ></app-attraction>
+  >
+    <app-card
+      [type] = "'card-1'"
+      [title]="attr.name"
+      [description]="attr.desc"
+      [image]="attr.image"
+      [link]="attr.link"
+      [location]="attr.location"
+    ></app-card>
+    <hr />
+  </div>
   <pagination-controls (pageChange)="p = $event"></pagination-controls>
 </main>

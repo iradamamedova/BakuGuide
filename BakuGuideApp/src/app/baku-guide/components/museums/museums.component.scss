@@ -1,11 +1,10 @@
+@use "../../../shared/styles/mixins.scss" as *;
 .museums {
   &__title {
+    @include fontSize(2.5em, 200);
     text-align: center;
-    font-size: 2.5em;
-    font-weight: 200;
   }
 }
-
 .museum-list {
   width: 100%;
   padding: 50px 150px;
@@ -13,4 +12,24 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+@media screen and (max-width: 1118px) {
+  .museum-list {
+    padding: 50px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .museum-list {
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 790px) {
+  .museum-list {
+    display: block;
+  }
+  .museums {
+    &__title {
+      font-size: 1.5em;
+    }
+  }
 }

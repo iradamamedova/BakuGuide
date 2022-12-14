@@ -1,9 +1,12 @@
-<div class="restaurant">
-  <img class="restaurant__image" [src]="restaraunt.image" />
+<div class="restaurant reveal" [routerLink]="['/restaurants', restaraunt.id]">
+  <div class="restaurant__image-box">
+    <a [href]="restaraunt.image" target="_blank">
+      <img class="restaurant__image" [src]="restaraunt.image"
+    /></a>
+  </div>
   <div class="restaurant__content">
-    <a [routerLink]="['/restaurants', restaraunt.id]">
-      <h3 class="restaurant__name">{{ restaraunt.name }}</h3>
-    </a>
+    <h3 class="restaurant__name">{{ restaraunt.name }}</h3>
+
     <h4 class="restaurant__location">
       <img
         class="restaurant__loc"

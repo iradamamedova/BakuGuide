@@ -1,49 +1,26 @@
-.header {
-  width: 100%;
-  height: 50vh;
-  background: url("../../../../assets/images/outdoor-activities.jpg") bottom;
-  background-size: 100%;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  position: relative;
-  &__title {
-    color: #fff;
-    margin: 10px 50px;
-    font-size: 3em;
-    font-weight: 600;
-    position: absolute;
-    bottom: 0;
-    transform: translate(-100%, 0);
-    transition: all 0.8s ease 0s;
-  }
-  &__nav {
-    width: 100%;
-    height: 25px;
-    padding: 2px 50px;
-    box-sizing: border-box;
-    font-size: 0.9em;
-    background-color: #72ba58;
-    color: #fff;
-    span {
-      margin: 0 20px;
-    }
-  }
-  .filter {
-    width: 100%;
-    height: 100%;
-    background-color: #2222224a;
-  }
-}
+@use '../../../shared/styles/colors.scss' as color;
+@use '../../../shared/styles/mixins.scss' as *;
 .main {
   padding: 50px 150px;
+  text-align: center;
   &__title {
-    text-align: center;
-    color: #555;
-    font-weight: 700;
+    @include fontSize(2em, 400);
+    color: color.$dark-grey;
     margin-bottom: 30px;
-    font-size: 2em;
   }
-  &__parks {
-    text-align: center;
+  hr {
+    border: 0;
+    border-top: 1px solid color.$light-grey;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main {
+    padding: 50px 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main__title {
+    font-size: 1.5em;
   }
 }

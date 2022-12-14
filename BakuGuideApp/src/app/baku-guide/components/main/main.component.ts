@@ -1,12 +1,6 @@
-import {
-  animate,
-  keyframes,
-  state,
-  style,
-  transition,
-  trigger,
-} from '@angular/animations';
+import { state, style, trigger } from '@angular/animations';
 import { Component, OnInit } from '@angular/core';
+import { RevealService } from 'src/app/shared/services/reveal.service';
 import { AttractionsService } from '../../services/attractions.service';
 
 @Component({
@@ -32,54 +26,26 @@ import { AttractionsService } from '../../services/attractions.service';
         })
       ),
     ]),
-    trigger('pulse', [
-      transition('* => *', [
-        animate(
-          1000,
-          keyframes([
-            style({
-              transform: 'scale(1)',
-              boxShadow: '0 0 2px #666',
-              offset: 0,
-            }),
-            style({
-              transform: 'scale(1.009)',
-              boxShadow: '0 0 10px #666',
-              offset: 0.33,
-            }),
-            style({
-              transform: 'scale(1)',
-              boxShadow: '0 0 2px #666',
-              offset: 0.66,
-            }),
-            style({
-              transform: 'scale(1.009)',
-              boxShadow: '0 0 10px #666',
-              offset: 1.0,
-            }),
-          ])
-        ),
-      ]),
-    ]),
   ],
 })
 export class MainComponent implements OnInit {
   public titleState: string = 'start';
   public quoteState: string = 'start';
-  public pulseState: string = 'start';
-  public trigger: boolean;
-  public imageObject: Array<object>;
+  public imageObject: Array<any>;
 
-  constructor(private attractionsService: AttractionsService) {}
+  constructor(
+    private attractionsService: AttractionsService,
+    private revealService: RevealService
+  ) {}
 
   ngOnInit(): void {
-    const pulse = setInterval(() => (this.trigger = !this.trigger), 1000);
     this.getReasonsToVisitImages();
+    this.revealService.reveal();
   }
 
   getReasonsToVisitImages() {
     this.attractionsService.reasonsToVisitImages$.subscribe(
-      (reasonsToVisitImages: Object[]) => {
+      (reasonsToVisitImages: any[]) => {
         this.imageObject = reasonsToVisitImages;
       }
     );

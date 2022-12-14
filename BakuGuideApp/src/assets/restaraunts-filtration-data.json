@@ -1,0 +1,47 @@
+[
+  {
+    "cuisine": [
+      { "name": "Azerbaijani", "value": "Azerbaijani" },
+      { "name": "Turkish", "value": "Turkish" },
+      { "name": "Russian", "value": "Russian" },
+      { "name": "Georgian", "value": "Georgian" },
+      { "name": "Arabic", "value": "Arabic" },
+      { "name": "Mediterranean", "value": "Mediterranean" },
+      { "name": "Middle Eastern", "value": "Middle Eastern" },
+      { "name": "Uzbek", "value": "Uzbek" },
+      { "name": "Indian", "value": "Indian" },
+      { "name": "Japanese", "value": "Japanese" },
+      { "name": "Chinese", "value": "Chinese" },
+      { "name": "Italian", "value": "Italian" },
+      { "name": "Spanish", "value": "Spanish" },
+      { "name": "European", "value": "European" },
+      { "name": "German", "value": "German" },
+      { "name": "French", "value": "French" },
+      { "name": "American", "value": "American" },
+      { "name": "Central European", "value": "Central European" },
+      { "name": "Eastern European", "value": "Eastern European" },
+      { "name": "Asian", "value": "Asian" },
+      { "name": "Moroccan", "value": "Moroccan" }
+    ],
+    "menu": [
+      { "name": "Seafood", "value": "Seafood" },
+      { "name": "Sushi", "value": "Sushi" },
+      { "name": "Vegeterian", "value": "Vegetarian Friendly" },
+      { "name": "Vegan Options", "value": "Vegan Options" },
+      { "name": "Gluten Free", "value": "Gluten Free Options" },
+      { "name": "Halal", "value": "Halal" },
+      { "name": "Healthy", "value": "Healthy" },
+      { "name": "Grill", "value": "Grill" },
+      { "name": "Barbecue", "value": "Barbecue" },
+      { "name": "Soups", "value": "Soups" }
+    ],
+    "type": [
+      { "name": "Cafe", "value": "Cafe" },
+      { "name": "Bar", "value": "Bar" },
+      { "name": "Wine Bar", "value": "Wine Bar" },
+      { "name": "Pub", "value": "Pub" },
+      { "name": "Fast Food", "value": "Fast Food" },
+      { "name": "Steakhouse", "value": "Steakhouse" }
+    ]
+  }
+]

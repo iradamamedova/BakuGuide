@@ -1,7 +1,7 @@
 export interface Park{
   id: string,
   name: string,
-  images: object[],
+  images: any[],
   location: string,
   description: string,
   link: string

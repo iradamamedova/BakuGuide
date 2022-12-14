@@ -3,5 +3,6 @@ export interface Museum{
   name: string,
   image: string,
   address: string,
-  description: string
+  description: string,
+  link: string
 }

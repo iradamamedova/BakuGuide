@@ -1,0 +1,11 @@
+<header class="header" [ngStyle]="{ 'background-image': 'url(' + image + ')' }">
+  <div class="filter">
+    <app-navigation></app-navigation>
+    <h1 class="header__title" [@title]="titleState">{{ pageName }}</h1>
+  </div>
+  <div class="header__nav">
+    <span><a routerLink="/">Baku Guide</a></span>
+    <span>></span>
+    <span>{{ pageName }}</span>
+  </div>
+</header>

@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { RevealService } from 'src/app/shared/services/reveal.service';
 import { Restaraunt } from '../../models/restaurant';
 
 @Component({
@@ -10,7 +11,9 @@ export class RestarauntComponent implements OnInit {
   @Input()
   public restaraunt: Restaraunt;
 
-  constructor() {}
+  constructor(private revealService: RevealService) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.revealService.reveal();
+  }
 }

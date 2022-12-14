@@ -9,6 +9,7 @@ import { TheatresService } from '../../services/theatres.service';
 })
 export class TheatresComponent implements OnInit {
   public theatres: Theatre[];
+  public p: number = 1;
 
   constructor(private theatresService: TheatresService) {}
 

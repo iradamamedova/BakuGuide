@@ -1,0 +1,10 @@
+<div class="nav-btn" [@pulse]="trigger" [routerLink]="link"  [title]="text">
+  <a [href]="hrefLink" *ngIf="hrefLink">
+    <img [src]="image" />
+    <span class="nav-btn__text">{{ text }}</span>
+  </a>
+  <div *ngIf="link">
+    <img [src]="image" />
+    <span class="nav-btn__text">{{ text }}</span> 
+  </div>
+</div>

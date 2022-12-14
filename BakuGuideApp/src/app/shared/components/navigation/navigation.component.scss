@@ -1,0 +1,172 @@
+@use "../../styles/colors.scss" as color;
+@use "../../styles/mixins" as *;
+#navigation {
+  overflow: hidden;
+  text-align: center;
+  padding: 10px 100px;
+  margin-bottom: 20px;
+  max-height: 60px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: -webkit-fill-available;
+}
+.z-index {
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  left: 0;
+}
+.sticky {
+  position: fixed;
+  opacity: 1;
+  z-index: 999;
+  animation: example 0.3s ease-in-out;
+  background-color: color.$white;
+  box-shadow: 0 6px 10px -4px color.$light-transparent-black;
+  a {
+    color: color.$dark-grey;
+    cursor: pointer;
+    &:hover {
+      color: color.$green;
+    }
+  }
+  .nav {
+    &__title {
+      a {
+        color: color.$dark-grey;
+      }
+    }
+    &__menu-burger {
+      color: color.$light-grey;
+    }
+  }
+}
+@keyframes example {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.nav {
+  &__link {
+    @include fontSize(0.9em, 500);
+    color: color.$white;
+    margin-left: 70px;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover {
+      color: color.$green;
+      transition: 0.3s;
+    }
+    &.active {
+      color: color.$green !important;
+    }
+  }
+  &__title {
+    @include fontSize(2em, 600);
+    a {
+      text-decoration: none;
+      color: color.$white;
+    }
+  }
+  &__icon {
+    width: 50px;
+    vertical-align: middle;
+  }
+  &__menu-burger {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1296px) {
+  .nav {
+    &__menu-list {
+      a {
+        margin-left: 30px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1118px) {
+  .nav {
+    &__title {
+      font-size: 1.5em;
+    }
+    &__icon {
+      width: 40px;
+    }
+  }
+}
+@media screen and (max-width: 992px) {
+  #navigation {
+    padding: 10px 50px;
+  }
+  .nav {
+    &__title {
+      font-size: 1.2em;
+    }
+  }
+}
+@media screen and (max-width: 847px) {
+  #navigation {
+    max-height: fit-content;
+    display: block;
+    padding: 10px 30px 0 30px;
+  }
+  .nav {
+    &__title {
+      float: left;
+    }
+    &__menu-list {
+      font-size: 1.2em;
+      width: 100%;
+      max-height: 0;
+      transition: max-height 0.5s;
+      overflow: hidden;
+      margin-top: 50px;
+      background-color: color.$dark-transparent-black;
+    }
+    &__menu-burger {
+      display: block;
+      float: right;
+      font-size: 1.5em;
+      cursor: pointer;
+    }
+    &__link {
+      display: block;
+      padding: 15px 0;
+      width: 100%;
+      margin-left: 0 !important;
+      &:not(:last-child) {
+        border-bottom: 1px solid color.$dark-grey;
+      }
+      &:hover {
+        background-color: color.$mid-transparent-black;
+      }
+    }
+  }
+  .sticky {
+    .nav {
+      &__menu-list {
+        background: none;
+      }
+      &__link {
+        &:not(:last-child) {
+          border-bottom: 1px solid color.$light-grey;
+        }
+        &:hover {
+          background: color.$green;
+          color: color.$white !important;
+        }
+      }
+    }
+  }
+}
+.show {
+  display: block;
+  max-height: 500px;
+  transition: max-height 1s;
+}

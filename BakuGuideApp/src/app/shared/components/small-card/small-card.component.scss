@@ -1,0 +1,49 @@
+@use "../../styles/colors.scss" as color;
+@use "../../styles/mixins.scss" as *;
+.small-card {
+  display: inline-block;
+  width: 250px;
+  height: 140px;
+  background: color.$light-grey;
+  margin: 0 15px 15px 0;
+  position: relative;
+  cursor: pointer;
+  img {
+    width: 250px;
+    height: 140px;
+  }
+  p {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    margin: 0;
+    color: color.$white;
+    @include fontSize(1.3em, 500);
+    background-color: color.$mid-transparent-black;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  &:hover {
+    p {
+      background-color: color.$dark-transparent-black;
+      transition: 0.3s;
+      padding: 15px 8px;
+    }
+  }
+}
+@media screen and (max-width: 1118px) {
+  .small-card {
+    margin: 20px;
+  }
+}
+@media screen and (max-width: 625px) {
+  .small-card {
+    width: 70%;
+    height: auto;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

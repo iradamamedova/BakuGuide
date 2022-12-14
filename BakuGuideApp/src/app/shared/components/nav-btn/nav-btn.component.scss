@@ -1,0 +1,43 @@
+@use '../../styles/colors.scss' as color;
+.nav-btn {
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: color.$orange;
+  padding: 20px 35px;
+  margin: 20px;
+  a {
+    text-decoration: none;
+    color: color.$white;
+    width: 100%;
+  }
+  img {
+    width: 40px;
+    vertical-align: middle;
+    margin: 0 7px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .nav-btn {
+    padding: 15px 30px;
+    margin: 10px;
+    img {
+      width: 30px;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .nav-btn {
+    &__text {
+      display: none;
+    }
+  }
+}
+@media screen and (max-width: 540px) {
+  .nav-btn {
+    margin: 10px auto;
+    width: 70%;
+    &__text {
+      display: inline-block;
+    }
+  }
+}

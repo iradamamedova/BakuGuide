@@ -1,10 +1,34 @@
+@use '../../../shared/styles/colors.scss' as color;
+@use '../../../shared/styles/mixins.scss' as *;
 .theatres__title {
+  @include fontSize(2.5em, 200);
   text-align: center;
-  font-size: 2.5em;
-  font-weight: 200;
 }
-.theatre-list {
-  width: 100%;
-  padding: 50px 150px;
-  box-sizing: border-box;
+.theatre {
+  background-color: color.$white;
+  padding: 5px 20px;
+  border: 1px solid color.$light-grey;
+  margin-bottom: 10px;
+  &:hover {
+    box-shadow: 0 0 10px color.$light-grey;
+    transition: all 0.3s linear;
+  }
+  &__list {
+    width: 100%;
+    padding: 50px 150px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1118px) {
+  .theatre {
+    &__list {
+      padding: 20px;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .theatres__title {
+    font-size: 1.5em;
+  }
 }

@@ -1,42 +1,8 @@
-.header {
-  width: 100%;
-  height: 50vh;
-  background: url("../../../../assets/images/restaurant-header.jpg") bottom;
-  background-size: 100%;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  position: relative;
-  &__title {
-    color: #fff;
-    margin: 10px 50px;
-    font-size: 3em;
-    font-weight: 600;
-    position: absolute;
-    bottom: 0;
-    transform: translate(-100%, 0);
-    transition: all 0.8s ease 0s;
-  }
-  &__nav {
-    width: 100%;
-    height: 25px;
-    padding: 2px 50px;
-    box-sizing: border-box;
-    font-size: 0.9em;
-    background-color: #72ba58;
-    color: #fff;
-    span {
-      margin: 0 20px;
-    }
-  }
-  .filter {
-    width: 100%;
-    height: 100%;
-    background-color: #00000096;
-  }
-}
+@use "../../../shared/styles/colors.scss" as color;
+@use "../../../shared/styles/mixins.scss" as *;
 .main {
   padding: 50px 120px;
-  background-color: #eee;
+  background-color: color.$grey-background;
   .restaraunts {
     &__content {
       display: flex;
@@ -48,9 +14,10 @@
     &__filtration {
       width: 250px;
       height: fit-content;
-      background-color: #fff;
+      background-color: color.$white;
       border-radius: 3px;
       padding: 20px;
+      box-sizing: border-box;
       .chbox {
         width: 16px;
         height: 16px;
@@ -59,13 +26,13 @@
       }
       hr {
         border: none;
-        border-top: 1px #ddd solid;
+        border-top: 1px color.$light-grey solid;
         width: 80%;
         margin-bottom: 20px;
       }
       &__title {
         text-align: center;
-        color: #ec7c21;
+        color: color.$orange;
         font-weight: 700;
         text-transform: uppercase;
       }
@@ -73,15 +40,15 @@
         margin: 5px 0;
       }
       &__category {
-        color: #555;
+        color: color.$mid-light-grey;
         margin-top: 10px;
       }
       &__button {
         text-align: center;
         margin-top: 10px;
         input {
-          color: #fff;
-          background-color: #ec7c21;
+          color: color.$white;
+          background-color: color.$orange;
           font-weight: 600;
           text-transform: uppercase;
           padding: 10px 20px;
@@ -89,19 +56,73 @@
           border: none;
           outline: none;
           &:hover {
-            background-color: #ec5a21;
+            box-shadow: 0 0 5px color.$dark-transparent-black;
+            background-color: color.$hover-btn-orange;
             transition: all 0.2s linear;
           }
           &:active {
-            box-shadow: 0 0 10px #020107c2;
-            background-color: #ec3521;
+            box-shadow: 0 0 10px color.$dark-transparent-black;
+            background-color: color.$active-btn-orange;
           }
         }
       }
       .value {
-        font-size: 0.9em;
-        color: #666;
-        font-weight: 300;
+        @include fontSize(0.9em, 300);
+        color: color.$mid-light-grey;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1290px) {
+  .main {
+    padding: 50px;
+    .restaraunts {
+      &__filtration {
+        width: 25%;
+      }
+      &__restaraunt-list {
+        width: 60%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 992px) {
+  .main {
+    padding: 50px 30px;
+    .restaraunts {
+      &__filtration {
+        width: 30%;
+      }
+      &__restaraunt-list {
+        width: 65%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .main {
+    padding: 50px 20px;
+    .restaraunts {
+      &__content {
+        display: block;
+      }
+      &__filtration {
+        margin-bottom: 30px;
+        width: 100%;
+        &__values {
+          display: inline-block;
+          margin: 5px 10px 0 0;
+          background-color: color.$grey-background;
+          padding: 5px 7px;
+          border-radius: 3px;
+          &:hover {
+            background-color: color.$light-grey;
+            transition: 0.8s;
+          }
+        }
+      }
+      &__restaraunt-list {
+        width: 100%;
       }
     }
   }

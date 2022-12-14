@@ -1,21 +1,22 @@
+@use "./shared/styles/colors.scss" as color;
 .app {
   margin: auto;
   font-family: "Manrope", sans-serif;
-  color: #222;
+  color: color.$dark-grey;
   &__footer {
     padding: 20px 100px;
-    color: #aaa;
+    color: color.$light-grey;
     font-size: 0.9em;
     display: flex;
     justify-content: space-between;
     a {
-      color: #aaa;
+      color: color.$light-grey;
       margin-right: 30px;
       i {
         font-size: 1.2em;
       }
       i:hover {
-        color: #ec7c21;
+        color: color.$orange;
         transition: all 0.2s linear;
       }
     }
@@ -39,6 +40,18 @@
             width: 10px;
           }
         }
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .app {
+    &__footer {
+      padding: 20px;
+      display: block;
+      text-align: center;
+      div {
+        margin-bottom: 15px;
       }
     }
   }

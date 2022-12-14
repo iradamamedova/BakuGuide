@@ -1,64 +1,69 @@
-.header {
-  width: 100%;
-  height: 50vh;
-  background: url("../../../../assets/images/about.jpg") top;
-  background-size: 100%;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  position: relative;
-  &__title {
-    color: #fff;
-    margin: 10px 50px;
-    font-size: 3em;
-    font-weight: 600;
-    position: absolute;
-    bottom: 0;
-    transform: translate(-100%, 0);
-    transition: all 0.8s ease 0s;
-  }
-  &__nav {
-    width: 100%;
-    height: 25px;
-    padding: 2px 50px;
-    box-sizing: border-box;
-    font-size: 0.9em;
-    background-color: #72ba58;
-    color: #fff;
-    span {
-      margin: 0 20px;
-      a {
-        text-decoration: none;
-        color: #fff;
-      }
-    }
-  }
-  .filter {
-    width: 100%;
-    height: 100%;
-    background-color: #01010182;
-  }
-}
-.attractions {
-  &__title {
-    text-align: left;
-    color: #21bf5b;
-    font-size: 1.6em;
-    font-weight: 600;
-    margin: 40px 0 10px 0;
-  }
-}
+@use "../../../shared/styles/colors.scss" as color;
+@use "../../../shared/styles/mixins.scss" as *;
 
 .main {
   padding: 0 120px 50px 120px;
   text-align: center;
-  .top__attr {
-    text-align: center;
-    font-size: 2em;
-    font-weight: 400;
-    color: #333;
-    padding: 40px 0 10px 0;
+  .attractions {
+    &__title {
+      @include fontSize(2em, 400);
+      text-align: center;
+      color: color.$dark-grey;
+      margin: 50px 0 30px 0;
+    }
+    &__slider {
+      margin-bottom: 50px;
+    }
   }
-  .page {
-    margin: 5px;
+}
+hr {
+  border: none;
+  border-top: 1px solid color.$light-grey;
+  width: 80%;
+  margin: 0;
+}
+@media screen and (max-width: 1290px) {
+  .main {
+    padding: 20px 100px;
+    .attractions {
+      &__slider {
+        width: 850px;
+        margin: 30px auto;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1180px) {
+  .main {
+    padding: 20px 70px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main {
+    padding: 20px 30px;
+    .attractions {
+      &__slider {
+        width: 425px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  hr {
+    margin: auto;
+    width: 60%;
+  }
+}
+@media screen and (max-width: 540px) {
+  .main {
+    padding: 20px;
+    .attractions {
+      &__title {
+        font-size: 1.5em;
+      }
+      &__slider {
+        display: none;
+      }
+    }
   }
 }

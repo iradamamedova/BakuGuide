@@ -1,4 +1,3 @@
-import { state, style, trigger } from '@angular/animations';
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Restaraunt } from '../../models/restaurant';
 import { RestarauntsService } from '../../services/restaraunts.service';
@@ -9,73 +8,19 @@ import { combineLatest, Subject, takeUntil } from 'rxjs';
 @Component({
   selector: 'app-restaraunts',
   templateUrl: './restaraunts.component.html',
-  styleUrls: ['./restaraunts.component.scss'],
-  animations: [
-    trigger('title', [
-      state(
-        'start',
-        style({
-          transform: 'translate(0px, 0px)',
-          opacity: '1',
-        })
-      ),
-    ]),
-  ],
+  styleUrls: ['./restaraunts.component.scss']
 })
 export class RestarauntsComponent implements OnInit, OnDestroy {
   private destroy$: Subject<void> = new Subject<void>();
-  public titleState: string = 'start';
   public restaraunts: Restaraunt[];
   public p: number = 1;
   public form: FormGroup;
   public cuisines: string;
   public selectedRestaraunt: Restaraunt;
 
-  Cuisine: Array<any> = [
-    { name: 'Azerbaijani', value: 'Azerbaijani' },
-    { name: 'Turkish', value: 'Turkish' },
-    { name: 'Russian', value: 'Russian' },
-    { name: 'Georgian', value: 'Georgian' },
-    { name: 'Arabic', value: 'Arabic' },
-    { name: 'Mediterranean', value: 'Mediterranean' },
-    { name: 'Middle Eastern', value: 'Middle Eastern' },
-    { name: 'Uzbek', value: 'Uzbek' },
-    { name: 'Indian', value: 'Indian' },
-    { name: 'Japanese', value: 'Japanese' },
-    { name: 'Chinese', value: 'Chinese' },
-    { name: 'Italian', value: 'Italian' },
-    { name: 'Spanish', value: 'Spanish' },
-    { name: 'European', value: 'European' },
-    { name: 'German', value: 'German' },
-    { name: 'French', value: 'French' },
-    { name: 'American', value: 'American' },
-    { name: 'Central European', value: 'Central European' },
-    { name: 'Eastern European', value: 'Eastern European' },
-    { name: 'Asian', value: 'Asian' },
-    { name: 'Moroccan', value: 'Moroccan' },
-  ];
-
-  Menu: Array<any> = [
-    { name: 'Seafood', value: 'Seafood' },
-    { name: 'Sushi', value: 'Sushi' },
-    { name: 'Vegeterian', value: 'Vegetarian Friendly' },
-    { name: 'Vegan Options', value: 'Vegan Options' },
-    { name: 'Gluten Free', value: 'Gluten Free Options' },
-    { name: 'Halal', value: 'Halal' },
-    { name: 'Healthy', value: 'Healthy' },
-    { name: 'Grill', value: 'Grill' },
-    { name: 'Barbecue', value: 'Barbecue' },
-    { name: 'Soups', value: 'Soups' },
-  ];
-
-  Type: Array<any> = [
-    { name: 'Cafe', value: 'Cafe' },
-    { name: 'Bar', value: 'Bar' },
-    { name: 'Wine Bar', value: 'Wine Bar' },
-    { name: 'Pub', value: 'Pub' },
-    { name: 'Fast Food', value: 'Fast Food' },
-    { name: 'Steakhouse', value: 'Steakhouse' },
-  ];
+  public cuisine: any[] = [];
+  public menu: any[] = [];
+  public type: any[] = [];
 
   constructor(
     private restarauntsService: RestarauntsService,
@@ -105,6 +50,13 @@ export class RestarauntsComponent implements OnInit, OnDestroy {
         if (selectedRestaraunt) {
           this.selectedRestaraunt = selectedRestaraunt;
         }
+      });
+    this.restarauntsService.filtrationData$
+      .pipe(takeUntil(this.destroy$))
+      .subscribe((filtrationData: any[]) => {
+        this.cuisine = filtrationData[0].cuisine;
+        this.menu = filtrationData[0].menu;
+        this.type = filtrationData[0].type;
       });
   }
 

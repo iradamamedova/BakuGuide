@@ -1,16 +1,7 @@
-<header class="header">
-  <div class="filter">
-    <app-navigation></app-navigation>
-    <h1 class="header__title" [@title]="titleState">Restaurants</h1>
-  </div>
-  <div class="header__nav">
-    <span>Baku Guide</span>
-    <span>></span>
-    <span>Food and Drink</span>
-    <span>></span>
-    <span>Restaurants</span>
-  </div>
-</header>
+<app-header
+  [pageName]="'Food & Drink'"
+  [image]="'../../../../assets/images/foodanddrink.jpg'"
+></app-header>
 
 <main class="main">
   <div class="restaraunt-detailed" *ngIf="selectedRestaraunt">
@@ -21,13 +12,15 @@
   <div class="restaraunts" *ngIf="!selectedRestaraunt">
     <div class="restaraunts__content">
       <div class="restaraunts__filtration">
-        <h3 class="restaraunts__filtration__title">Filter By</h3>
-        <hr />
+        <h3 class="restaraunts__filtration__title">
+          Filter By
+          <app-thin-line></app-thin-line>
+        </h3>
         <h4 class="restaraunts__filtration__category">Cuisine</h4>
         <form [formGroup]="form" (ngSubmit)="submitForm()">
           <div
             class="restaraunts__filtration__values"
-            *ngFor="let data of Cuisine; let i = index"
+            *ngFor="let data of cuisine; let i = index"
           >
             <label class="value">
               <input
@@ -44,7 +37,7 @@
         <form [formGroup]="form" (ngSubmit)="submitForm()">
           <div
             class="restaraunts__filtration__values"
-            *ngFor="let data of Menu; let i = index"
+            *ngFor="let data of menu; let i = index"
           >
             <label class="value">
               <input
@@ -61,7 +54,7 @@
         <form [formGroup]="form" (ngSubmit)="submitForm()">
           <div
             class="restaraunts__filtration__values"
-            *ngFor="let data of Type; let i = index"
+            *ngFor="let data of type; let i = index"
           >
             <label class="value">
               <input

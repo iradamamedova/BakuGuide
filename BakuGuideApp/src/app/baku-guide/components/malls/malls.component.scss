@@ -1,4 +1,6 @@
+@use "../../../shared/styles/mixins.scss" as *;
 .malls__title {
+  @include fontSize(2.5em, 200);
   text-align: center;
   font-size: 2.5em;
   font-weight: 200;
@@ -10,4 +12,14 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+@media screen and (max-width: 1118px) {
+  .mall-list {
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .malls__title {
+    font-size: 1.5em;
+  }
 }

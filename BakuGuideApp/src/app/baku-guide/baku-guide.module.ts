@@ -7,13 +7,8 @@ import { TheatresComponent } from './components/theatres/theatres.component';
 import { MuseumsComponent } from './components/museums/museums.component';
 import { MallsComponent } from './components/malls/malls.component';
 import { RestarauntComponent } from './components/restaraunt/restaraunt.component';
-import { MallComponent } from './components/mall/mall.component';
-import { MuseumComponent } from './components/museum/museum.component';
-import { ParkComponent } from './components/park/park.component';
-import { TheatreComponent } from './components/theatre/theatre.component';
 import { AttractionsComponent } from './components/attractions/attractions.component';
 import { NgImageSliderModule } from 'ng-image-slider';
-import { AttractionComponent } from './components/attraction/attraction.component';
 import { GoogleMapsModule } from '@angular/google-maps';
 import { HttpClientModule } from '@angular/common/http';
 import { AttractionsDataService } from './services/attractions-data.service';
@@ -38,7 +33,8 @@ import { TheatresService } from './services/theatres.service';
 import { CinemasService } from './services/cinemas.service';
 import { MallsService } from './services/malls.service';
 import { MuseumsService } from './services/museums.service';
-import { SpreadModule } from "../spread/spread.module";
+import { SharedModule } from '../shared/shared.module';
+import { ToursComponent } from './tours/tours.component';
 
 @NgModule({
     declarations: [
@@ -48,17 +44,13 @@ import { SpreadModule } from "../spread/spread.module";
         MuseumsComponent,
         MallsComponent,
         RestarauntComponent,
-        MallComponent,
-        MuseumComponent,
-        ParkComponent,
-        TheatreComponent,
         AttractionsComponent,
-        AttractionComponent,
         EntertainmentComponent,
         CinemasComponent,
         OutdoorActivitiesComponent,
         CinemaComponent,
-        RestarauntDetailedComponent
+        RestarauntDetailedComponent,
+        ToursComponent
     ],
     providers: [
         AttractionsDataService,
@@ -83,12 +75,7 @@ import { SpreadModule } from "../spread/spread.module";
         MuseumsComponent,
         MallsComponent,
         RestarauntComponent,
-        MallComponent,
-        MuseumComponent,
-        ParkComponent,
-        TheatreComponent,
         AttractionsComponent,
-        AttractionComponent,
     ],
     imports: [
         CommonModule,
@@ -100,7 +87,7 @@ import { SpreadModule } from "../spread/spread.module";
         BrowserAnimationsModule,
         RouterModule,
         NgxPaginationModule,
-        SpreadModule
+        SharedModule
     ]
 })
 export class BakuGuideModule {}

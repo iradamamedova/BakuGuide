@@ -1,7 +1,5 @@
-$grey: #333;
-$light-grey: #666;
-$beige: #f1f1f1;
-$white: #fff;
+@use "../../../shared/styles/colors.scss" as color;
+@use "../../../shared/styles/mixins" as *;
 %halfWidth {
   display: inline-block;
   width: 50%;
@@ -16,16 +14,11 @@ $white: #fff;
   bottom: 50%;
   transform: translate(50%, 50%);
 }
-@mixin fontSize($size, $weight) {
-  font-size: $size;
-  font-weight: $weight;
-}
-
 .header {
   width: 100%;
   height: 100vh;
   position: relative;
-  color: $white;
+  color: color.$white;
   text-align: center;
   background: url("../../../../assets/images/baku_flametowers.jpg") center/cover;
   overflow: hidden;
@@ -35,26 +28,22 @@ $white: #fff;
     background: url("../../../../assets/images/stars.gif");
     opacity: 0.1;
   }
-  &__title {
+  .title {
     @extend %position-center;
-    .title {
-      &__content {
-        width: 100%;
-      }
-      &__h1 {
-        text-transform: capitalize;
-        @include fontSize(5em, 700);
-        transform: translate(-100%, 0);
-        transition: all 0.8s ease 0s;
-      }
-      &__quote {
-        @include fontSize(0.9em, 500);
-        font-style: italic;
-        margin-top: 10px;
-        color: #d1d1d1;
-        transform: translate(100%, 0);
-        transition: all 0.8s ease 0s;
-      }
+    width: 100%;
+    &__h1 {
+      @include fontSize(5em, 700);
+      text-transform: capitalize;
+      transform: translate(-100%, 0);
+      transition: all 0.8s ease 0s;
+    }
+    &__quote {
+      @include fontSize(0.9em, 500);
+      font-style: italic;
+      margin-top: 10px;
+      color: color.$light-grey;
+      transform: translate(100%, 0);
+      transition: all 0.8s ease 0s;
     }
   }
 }
@@ -62,133 +51,90 @@ $white: #fff;
   padding: 50px;
   height: 80vh;
   text-align: center;
-  background-color: #f1f1f1;
+  background-color: color.$grey-background;
   &__title {
-    @include fontSize(2.5em, 200);
-    color: #444;
+    @include fontSize(2.5em, 300);
+    color: color.$dark-grey;
     margin: 20px 0;
   }
   &__text {
-    @include fontSize(1.2em, 200);
+    @include fontSize(1.2em, 300);
     letter-spacing: 1px;
-    color: #888;
+    color: color.$mid-light-grey;
     width: 60%;
     margin: auto;
     padding: 10px 0;
   }
+  .nav-btns {
+    margin-top: 100px;
+    &__list {
+      display: flex;
+      justify-content: center;
+      color: color.$white;
+      @include fontSize(1em, 600);
+    }
+  }
 }
-
-.reasons-to-visit {
-  color: #666;
+.explore {
+  color: color.$mid-light-grey;
   height: 65vh;
   padding: 50px 200px;
-  &__flex {
+  &__content {
     display: flex;
     justify-content: space-between;
     div {
       width: 50%;
       height: 65vh;
     }
+    .slider {
+      width: 500px;
+      font-weight: bold;
+      font-size: 1.5em;
+    }
   }
   &__title {
     @include fontSize(2.4em, 200);
     hr {
       border: 0;
-      border-top: 1px solid #ddd;
+      border-top: 1px solid color.$light-grey;
       width: 80%;
       float: left;
       margin-bottom: 50px;
     }
   }
-  .slider {
-    width: 500px;
-    font-weight: bold;
-    font-size: 1.5em;
-  }
-  .top__stuff {
-    display: inline-block;
-    width: 250px;
-    height: 140px;
-    background: #d1d1d1;
-    margin: 0 15px 15px 0;
-    position: relative;
-    cursor: pointer;
-    img {
-      width: 250px;
-      height: 140px;
-      position: absolute;
-      z-index: 0;
-    }
-    p {
-      position: absolute;
-      z-index: 1;
-      bottom: 0;
-      margin: 0;
-      color: #fff;
-      @include fontSize(1.3em, 500);
-      background-color: #00000064;
-      width: 100%;
-      padding: 8px;
-      box-sizing: border-box;
-    }
-    &:hover {
-      p {
-        background-color: #000000be;
-        transition: 0.3s;
-        padding: 15px 8px;
-      }
-    }
-  }
-}
-
-.categories {
-  margin-top: 100px;
-  .category-list {
-    display: flex;
-    justify-content: center;
-    .category {
-      @include fontSize(1em, 600);
-      cursor: pointer;
-      border-radius: 10px;
-      background-color: #ec7c21;
-      color: #fff;
-      padding: 20px 35px;
-      margin: 20px;
-      a {
-        text-decoration: none;
-        color: #fff;
-        width: 100%;
-        display: inline-block;
-      }
-      img {
-        width: 40px;
-        vertical-align: middle;
-        margin: 0 7px;
-      }
-    }
-  }
 }
 .map {
-  display: inline-block;
-  background-color: #0f0f13;
+  background-color: color.$black-background;
   width: 100%;
   text-align: center;
   padding: 40px 0;
-  .map-div {
+  &__div {
     display: inline-block;
     width: 70%;
-    height: 70vh;
+    box-shadow: 0 0 15px color.$mid-light-grey;
+    transition: all 0.5s linear;
+    &:hover {
+      box-shadow: 0 0 20px color.$light-grey;
+    }
   }
   &__title {
     display: block;
-    color: #fff;
-    @include fontSize(2.4em, 200);
+    color: color.$white;
+    @include fontSize(2.3em, 600);
+  }
+  &__text {
+    width: 50%;
+    margin: auto;
+    padding-bottom: 30px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    color: color.$white;
+    @include fontSize(1.1em, 200);
   }
   hr {
     border: 0;
-    border-top: 1px solid #444;
-    width: 60%;
-    margin-bottom: 50px;
+    border-top: 1px solid color.$mid-light-grey;
+    width: 30%;
   }
 }
 .contact {
@@ -199,14 +145,163 @@ $white: #fff;
   text-align: center;
   &__title {
     @include fontSize(2.4em, 200);
-    color: #666;
+    color: color.$mid-light-grey;
     letter-spacing: 1px;
     text-align: center;
   }
 }
 
 @media screen and (max-width: 1290px) {
-  .reasons-to-visit {
+  .explore {
     padding: 50px;
   }
+  .map {
+    &__text {
+      width: 70%;
+    }
+  }
+}
+@media screen and (max-width: 1180px) {
+  .explore {
+    padding: 50px 20px;
+  }
+}
+@media screen and (max-width: 1118px) {
+  .explore {
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+    &__content {
+      display: block;
+      hr {
+        float: none;
+        width: 500px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+      }
+      div {
+        width: 70%;
+        height: auto;
+        margin: 30px auto;
+      }
+    }
+    &__title {
+      font-size: 1.8em;
+    }
+  }
+}
+@media screen and (max-width: 992px) {
+  .header {
+    .title {
+      &__h1 {
+        font-size: 3em;
+      }
+    }
+  }
+  .about {
+    padding: 50px 20px;
+    height: auto;
+    &__title {
+      font-size: 2em;
+    }
+    &__text {
+      font-size: 1em;
+      width: 70%;
+    }
+    .nav-btns {
+      margin-top: 50px;
+    }
+  }
+  .explore {
+    &__content {
+      div {
+        width: 90%;
+      }
+    }
+  }
+  .map {
+    &__title {
+      font-size: 2em;
+    }
+    &__text {
+      width: 80%;
+      font-size: 1em;
+    }
+    &__div {
+      width: 80%;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .header {
+    .title {
+      &__h1 {
+        font-size: 1.8em;
+      }
+    }
+  }
+  .explore {
+    padding: 50px 10px;
+    &__content {
+      div {
+        width: 100%;
+      }
+    }
+    &__title {
+      font-size: 1.5em;
+      hr {
+        width: 300px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 540px) {
+  .about {
+    padding: 30px 15px;
+    &__title {
+      font-size: 1.6em;
+    }
+    &__text {
+      font-size: 1em;
+      width: 90%;
+    }
+    .nav-btns {
+      &__list {
+        display: block;
+      }
+    }
+  }
+  .explore {
+    &__content div:first-child {
+      display: none;
+    }
+  }
+  .map {
+    &__title {
+      font-size: 1.8em;
+    }
+    &__text {
+      width: 95%;
+    }
+    &__div {
+      width: 90%;
+    }
+  }
+  .contact {
+    &__title {
+      font-size: 1.3em;
+    }
+  }
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
 }

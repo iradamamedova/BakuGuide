@@ -1,8 +1,22 @@
-<h3 class="malls__title">Malls in Baku</h3>
+<h3 class="malls__title">
+  Malls in Baku
+  <img
+    src="../../../../assets/images/hr.png"
+    style="width: 350px; margin: auto; display: block; height: 15px"
+  />
+</h3>
 <div class="mall-list">
   <ng-container *ngFor="let mall of malls; let i = index">
     <div class="mall" *ngIf="mall">
-      <app-mall [mall]="mall"></app-mall>
+      <app-card
+          [type]="'card-2'"
+          [title]="mall.name"
+          [image]="mall.image"
+          [location]="mall.address"
+          [link]="mall.link"
+          [hoursOpen]="mall.hoursOpen"
+          [hoursClose]="mall.hoursClose"
+        ></app-card>
     </div>
   </ng-container>
 </div>

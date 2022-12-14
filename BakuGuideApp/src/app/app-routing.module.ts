@@ -4,8 +4,8 @@ import { AttractionsComponent } from './baku-guide/components/attractions/attrac
 import { EntertainmentComponent } from './baku-guide/components/entertainment/entertainment.component';
 import { MainComponent } from './baku-guide/components/main/main.component';
 import { OutdoorActivitiesComponent } from './baku-guide/components/outdoor-activities/outdoor-activities.component';
-import { RestarauntDetailedComponent } from './baku-guide/components/restaraunt-detailed/restaraunt-detailed.component';
 import { RestarauntsComponent } from './baku-guide/components/restaraunts/restaraunts.component';
+import { ToursComponent } from './baku-guide/tours/tours.component';
 
 const routes: Routes = [
   {
@@ -31,6 +31,10 @@ const routes: Routes = [
   {
     path: 'outdoor',
     component: OutdoorActivitiesComponent,
+  },
+  {
+    path: 'tours',
+    component: ToursComponent,
   },
 ];
 

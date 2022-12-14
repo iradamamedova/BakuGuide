@@ -1,8 +1,21 @@
-<h3 class="theatres__title">Theatres in Baku</h3>
-<div class="theatre-list">
-  <ng-container *ngFor="let theatre of theatres; let i = index">
+<h3 class="theatres__title">
+  Theatres in Baku
+  <app-thin-line></app-thin-line>
+</h3>
+<div class="theatre__list">
+  <ng-container
+    *ngFor="let theatre of theatres | paginate : { itemsPerPage: 5, currentPage: p };"
+  >
     <div class="theatre" *ngIf="theatre">
-      <app-theatre [theatre]="theatre"></app-theatre>
+      <app-card
+        [type] = "'card-1'"
+        [title]="theatre.name"
+        [description]="theatre.description"
+        [image]="theatre.image"
+        [link]="theatre.link"
+        [location]="theatre.address"
+      ></app-card>
     </div>
   </ng-container>
+  <pagination-controls (pageChange)="p = $event"></pagination-controls>
 </div>

@@ -3,8 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BakuGuideModule } from './baku-guide/baku-guide.module';
-import { NgImageSliderModule } from 'ng-image-slider';
-import { HttpClientModule } from '@angular/common/http';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -12,8 +11,7 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     AppRoutingModule,
     BakuGuideModule,
-    NgImageSliderModule,
-    HttpClientModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent],
